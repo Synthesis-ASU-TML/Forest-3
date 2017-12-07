@@ -2,7 +2,7 @@
 	"name" : "f3-effects",
 	"version" : 1,
 	"creationdate" : -700852038,
-	"modificationdate" : -699639394,
+	"modificationdate" : -699464014,
 	"viewrect" : [ 19.0, 45.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -19,11 +19,6 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
-			}
-,
-			"f3.barycentric.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
 			}
 ,
 			"f3.in.roi.maxpat" : 			{
@@ -46,7 +41,17 @@
 				"local" : 1
 			}
 ,
+			"f3.barycentric.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"f3.fx.fluid.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"f3.height.scale.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -73,7 +78,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Downloads/fluid_gpu_0.3",
-					"projectrelativepath" : "../../../../Downloads/fluid_gpu_0.3"
+					"projectrelativepath" : "../../../../../../Downloads/fluid_gpu_0.3"
 				}
 
 			}
