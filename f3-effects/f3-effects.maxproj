@@ -2,7 +2,7 @@
 	"name" : "f3-effects",
 	"version" : 1,
 	"creationdate" : -700852038,
-	"modificationdate" : -699463246,
+	"modificationdate" : -699458605,
 	"viewrect" : [ 19.0, 45.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -63,10 +63,6 @@
 
 		}
 ,
-		"media" : 		{
-
-		}
-,
 		"code" : 		{
 			"f3.fxcombine.genjit" : 			{
 				"kind" : "genjit",
@@ -80,12 +76,7 @@
 ,
 			"ab.hsflow.jxs" : 			{
 				"kind" : "shader",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Downloads/fluid_gpu_0.3",
-					"projectrelativepath" : "../../../../../../Downloads/fluid_gpu_0.3"
-				}
-
+				"local" : 1
 			}
 
 		}
