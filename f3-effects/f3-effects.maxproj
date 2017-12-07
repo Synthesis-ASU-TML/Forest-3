@@ -2,7 +2,7 @@
 	"name" : "f3-effects",
 	"version" : 1,
 	"creationdate" : -700852038,
-	"modificationdate" : -699464014,
+	"modificationdate" : -699463246,
 	"viewrect" : [ 19.0, 45.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -52,6 +52,11 @@
 			}
 ,
 			"f3.height.scale.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"f3.vidplayer.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

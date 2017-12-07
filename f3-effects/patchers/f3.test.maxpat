@@ -38,6 +38,27 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-12",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "f3.vidplayer.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 179.0, 970.0, 223.0, 140.0 ],
+					"varname" : "f3.vidplayer",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "jit.pwindow",
 					"numinlets" : 1,
@@ -389,7 +410,7 @@
 			}
 , 			{
 				"box" : 				{
-					"cols" : 21,
+					"cols" : 20,
 					"colwidth" : 125,
 					"fontface" : 0,
 					"fontname" : "Arial",
@@ -457,19 +478,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-121",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 136.5, 1053.0, 36.0, 22.0 ],
-					"style" : "",
-					"text" : "vol 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-99",
 					"maxclass" : "jit.pwindow",
 					"numinlets" : 1,
@@ -516,58 +524,6 @@
 			}
 , 			{
 				"box" : 				{
-					"data" : 					{
-						"clips" : [ 							{
-								"filename" : "bball.mov",
-								"filekind" : "moviefile",
-								"loop" : 1,
-								"content_state" : 								{
-									"outputmode" : [ 1 ],
-									"out_name" : [ "u750000881" ],
-									"dim" : [ 1, 1 ],
-									"usesrcrect" : [ 0 ],
-									"position" : [ 0.0 ],
-									"output_texture" : [ 0 ],
-									"looppoints" : [ 0, 0 ],
-									"vol" : [ 0 ],
-									"automatic" : [ 0 ],
-									"loopreport" : [ 0 ],
-									"unique" : [ 0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
-									"framereport" : [ 0 ],
-									"time_secs" : [ 0.0 ],
-									"loopend" : [ 0 ],
-									"autostart" : [ 1 ],
-									"time" : [ 0 ],
-									"usedstrect" : [ 0 ],
-									"texture_name" : [ "u178000879" ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"adapt" : [ 1 ],
-									"interp" : [ 0 ],
-									"rate" : [ 1.0 ],
-									"colormode" : [ "argb" ],
-									"loopstart" : [ 0 ],
-									"engine" : [ "avf" ],
-									"drawto" : [ "" ],
-									"moviefile" : [ "" ]
-								}
-
-							}
- ]
-					}
-,
-					"id" : "obj-95",
-					"maxclass" : "jit.playlist",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "jit_matrix", "", "dictionary" ],
-					"patching_rect" : [ 136.5, 1084.0, 150.0, 30.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-93",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -587,7 +543,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 405.0, 1133.0, 106.0, 22.0 ],
+					"patching_rect" : [ 405.0, 1147.0, 106.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend point_loc"
 				}
@@ -601,7 +557,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 335.0, 1098.0, 24.0, 24.0 ],
+					"patching_rect" : [ 335.0, 1112.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -613,7 +569,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 335.0, 1133.0, 57.0, 22.0 ],
+					"patching_rect" : [ 335.0, 1147.0, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "invert $1"
 				}
@@ -1982,8 +1938,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-95", 0 ],
-					"source" : [ "obj-121", 0 ]
+					"destination" : [ "obj-93", 2 ],
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -2224,15 +2180,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
-					"order" : 3,
-					"source" : [ "obj-42", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-49", 0 ],
+					"destination" : [ "obj-12", 1 ],
 					"order" : 1,
 					"source" : [ "obj-42", 1 ]
 				}
@@ -2240,8 +2188,24 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-61", 0 ],
+					"destination" : [ "obj-47", 0 ],
+					"order" : 4,
+					"source" : [ "obj-42", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
 					"order" : 2,
+					"source" : [ "obj-42", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"order" : 3,
 					"source" : [ "obj-42", 1 ]
 				}
 
@@ -2489,13 +2453,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-93", 2 ],
-					"source" : [ "obj-95", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-127", 0 ],
 					"order" : 0,
 					"source" : [ "obj-98", 0 ]
@@ -2511,6 +2468,10 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-12::obj-10" : [ "loop-range", "loop-range", 0 ]
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "f3.in.units.maxpat",
 				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
@@ -2547,12 +2508,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bball.mov",
-				"bootpath" : "C74:/media/jitter",
-				"type" : "MooV",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "f3.fx.height-color_combine.genjit",
 				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/code",
 				"patcherrelativepath" : "../code",
@@ -2570,6 +2525,13 @@
 				"name" : "f3.height.scale.maxpat",
 				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/code",
 				"patcherrelativepath" : "../code",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.vidplayer.maxpat",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
