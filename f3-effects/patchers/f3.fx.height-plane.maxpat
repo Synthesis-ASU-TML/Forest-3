@@ -63,7 +63,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 109.0, 101.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.875, 4.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 0.875, 2.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "f3.fx.height-plane"
 				}
@@ -744,7 +744,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 306.0, 37.0, 235.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 27.0, 294.0, 22.0 ],
+					"presentation_rect" : [ 5.0, 25.0, 294.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -763,7 +763,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 102.208336, 32.0, 51.0, 51.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.875, 4.0, 303.125, 20.0 ],
+					"presentation_rect" : [ 0.875, 2.0, 303.125, 20.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : ""
@@ -784,7 +784,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 155.208344, 32.0, 51.0, 51.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.875, 4.0, 303.125, 48.0 ],
+					"presentation_rect" : [ 0.875, 2.0, 303.125, 48.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : ""
@@ -861,8 +861,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "f3.fxcombine.genjit",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects",
-				"patcherrelativepath" : "..",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/code",
+				"patcherrelativepath" : "../code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
