@@ -2,7 +2,7 @@
 	"name" : "f3-effects",
 	"version" : 1,
 	"creationdate" : -700852038,
-	"modificationdate" : -696364095,
+	"modificationdate" : -696360417,
 	"viewrect" : [ 27.0, 45.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -100,6 +100,11 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"f3.artnet.out.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -116,6 +121,14 @@
 ,
 			"ab.hsflow.jxs" : 			{
 				"kind" : "shader",
+				"local" : 1
+			}
+
+		}
+,
+		"data" : 		{
+			"Grid.txt" : 			{
+				"kind" : "textfile",
 				"local" : 1
 			}
 
