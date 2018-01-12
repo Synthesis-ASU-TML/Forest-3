@@ -2,7 +2,7 @@
 	"name" : "f3-effects",
 	"version" : 1,
 	"creationdate" : -700852038,
-	"modificationdate" : -699112504,
+	"modificationdate" : -696364095,
 	"viewrect" : [ 27.0, 45.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -17,8 +17,7 @@
 ,
 			"f3.test.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
+				"local" : 1
 			}
 ,
 			"f3.in.roi.maxpat" : 			{
@@ -78,7 +77,8 @@
 ,
 			"f3.main.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"toplevel" : 1
 			}
 ,
 			"f3.in.stream.maxpat" : 			{
@@ -87,6 +87,16 @@
 			}
 ,
 			"f3.fx.black.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"f3.fx.height-wave.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"f3.cal.file.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
