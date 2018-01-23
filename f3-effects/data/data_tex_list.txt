@@ -1,0 +1,7 @@
+blackout
+height-spot
+height-plane
+height-greyscale
+color-video
+cnoise
+color-displace
