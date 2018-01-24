@@ -2,8 +2,8 @@
 	"name" : "f3-effects",
 	"version" : 1,
 	"creationdate" : -700852038,
-	"modificationdate" : -695404535,
-	"viewrect" : [ 29.0, 184.0, 300.0, 500.0 ],
+	"modificationdate" : -695330664,
+	"viewrect" : [ -3.0, 67.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -190,6 +190,11 @@
 			}
 ,
 			"f3.fx.height-color_combine.genjit" : 			{
+				"kind" : "genjit",
+				"local" : 1
+			}
+,
+			"cnoise3.genjit" : 			{
 				"kind" : "genjit",
 				"local" : 1
 			}
