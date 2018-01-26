@@ -1,4 +1,5 @@
 blackout
+whiteout
 height-spot
 height-plane
 height-greyscale

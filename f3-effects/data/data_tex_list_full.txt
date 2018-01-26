@@ -1,10 +1,11 @@
 blackout
+whiteout
 height-spot
 height-plane
 height-greyscale
 color-video
 cnoise
-color-displace-preview
+color-displace
 mix-1
 mix-2
 mix-3

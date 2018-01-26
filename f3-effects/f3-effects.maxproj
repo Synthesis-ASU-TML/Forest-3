@@ -2,8 +2,8 @@
 	"name" : "f3-effects",
 	"version" : 1,
 	"creationdate" : -700852038,
-	"modificationdate" : -695330664,
-	"viewrect" : [ -3.0, 67.0, 300.0, 500.0 ],
+	"modificationdate" : -695229163,
+	"viewrect" : [ 0.0, 67.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -156,12 +156,17 @@
 				"local" : 1
 			}
 ,
-			"f3.prev.vis.maxpat" : 			{
+			"f3.fx.color-displace.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"f3.lights.calibrate.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"f3.prev.vis.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -175,9 +180,12 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+
+		}
 ,
-			"f3.fx.color-displace.maxpat" : 			{
-				"kind" : "patcher",
+		"media" : 		{
+			"vis_arrow.png" : 			{
+				"kind" : "imagefile",
 				"local" : 1
 			}
 

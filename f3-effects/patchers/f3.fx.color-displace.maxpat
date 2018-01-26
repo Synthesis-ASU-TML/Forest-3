@@ -122,18 +122,19 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-22",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 390.0, 280.0, 296.0, 22.0 ],
+					"patching_rect" : [ 390.0, 280.0, 228.0, 35.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ "signed-noise" ],
+						"initial" : [ "inverse-signed-noise" ],
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr tex_name @bindto tex-edit @initial signed-noise",
+					"text" : "pattr tex_name @bindto tex-edit @initial inverse-signed-noise",
 					"varname" : "tex_name"
 				}
 
@@ -230,14 +231,14 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-13",
-									"linecount" : 4,
+									"linecount" : 5,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 100.0, 50.0, 22.0 ],
 									"style" : "",
-									"text" : "jit_gl_texture signed-noise"
+									"text" : "jit_gl_texture inverse-signed-noise"
 								}
 
 							}
@@ -363,7 +364,7 @@
 					"presentation_rect" : [ 72.0, 30.0, 174.0, 20.0 ],
 					"rounded" : 0.0,
 					"style" : "",
-					"text" : "signed-noise",
+					"text" : "inverse-signed-noise",
 					"varname" : "tex-edit"
 				}
 
