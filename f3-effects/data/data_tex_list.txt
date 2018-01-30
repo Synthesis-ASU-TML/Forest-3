@@ -6,3 +6,4 @@ height-greyscale
 color-video
 cnoise
 color-displace
+wave

@@ -6,6 +6,7 @@ height-greyscale
 color-video
 cnoise
 color-displace
+wave
 mix-1
 mix-2
 mix-3

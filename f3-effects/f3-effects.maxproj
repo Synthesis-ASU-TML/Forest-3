@@ -2,7 +2,7 @@
 	"name" : "f3-effects",
 	"version" : 1,
 	"creationdate" : -700852038,
-	"modificationdate" : -695229163,
+	"modificationdate" : -694850541,
 	"viewrect" : [ 0.0, 67.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -241,6 +241,11 @@
 			}
 ,
 			"Grid_5x6.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"Grid_5x6_invert.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}

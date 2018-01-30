@@ -13,6 +13,8 @@ height-greyscale-preview
 color-video-preview
 cnoise-preview
 color-displace-preview
+wave-preview
+wave-invert-preview
 mix-1
 mix-2
 mix-3
