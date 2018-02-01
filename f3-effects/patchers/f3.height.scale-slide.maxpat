@@ -477,14 +477,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 323.0, 16.5, 253.0, 35.0 ],
+					"patching_rect" : [ 323.0, 16.5, 240.0, 35.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 0.25, 0.75 ],
+						"initial" : [ 0.0, 0.75 ],
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr height_scale @initial 0.25 0.75 @bindto scale-pix::height_scale",
+					"text" : "pattr height_scale @initial 0. 0.75 @bindto scale-pix::height_scale",
 					"varname" : "height_scale"
 				}
 
@@ -493,7 +493,7 @@
 				"box" : 				{
 					"comment" : "Height Texture Out",
 					"id" : "obj-5",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -506,11 +506,11 @@
 				"box" : 				{
 					"comment" : "Height Texture In",
 					"id" : "obj-4",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_gl_texture" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 282.0, 19.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -884,7 +884,7 @@
 				"box" : 				{
 					"comment" : "Pattr Messages In",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1122,7 +1122,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }

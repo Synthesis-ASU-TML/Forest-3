@@ -3,7 +3,8 @@ whiteout
 height-spot
 height-plane
 height-greyscale
-color-video
 cnoise
-color-displace
 wave
+color-video
+color-brcosa
+color-displace

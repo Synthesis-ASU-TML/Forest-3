@@ -2,8 +2,8 @@
 	"name" : "f3-effects",
 	"version" : 1,
 	"creationdate" : -700852038,
-	"modificationdate" : -694850541,
-	"viewrect" : [ 0.0, 67.0, 300.0, 500.0 ],
+	"modificationdate" : -694643513,
+	"viewrect" : [ 0.0, 62.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -177,6 +177,11 @@
 			}
 ,
 			"Unit_Grid_Generator.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"f3.fx.color-brcosa.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

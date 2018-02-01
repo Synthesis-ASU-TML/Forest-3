@@ -3,9 +3,11 @@ whiteout
 height-spot
 height-plane
 height-greyscale
-color-video
 cnoise
+color-video
+color-brcosa
 color-displace
+wave
 visualizer
 height-spot-preview
 height-plane-preview
@@ -15,6 +17,7 @@ cnoise-preview
 color-displace-preview
 wave-preview
 wave-invert-preview
+color-brcosa-preview
 mix-1
 mix-2
 mix-3
