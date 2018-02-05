@@ -8,6 +8,7 @@ color-video
 color-brcosa
 color-displace
 wave
+manual-board
 visualizer
 height-spot-preview
 height-plane-preview

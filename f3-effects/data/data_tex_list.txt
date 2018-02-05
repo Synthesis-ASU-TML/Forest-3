@@ -8,3 +8,4 @@ wave
 color-video
 color-brcosa
 color-displace
+manual-board
