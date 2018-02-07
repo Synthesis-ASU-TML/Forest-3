@@ -2,7 +2,7 @@
 	"name" : "f3-effects",
 	"version" : 1,
 	"creationdate" : -700852038,
-	"modificationdate" : -694277309,
+	"modificationdate" : -694195084,
 	"viewrect" : [ 51.0, 62.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -192,6 +192,11 @@
 			}
 ,
 			"f3.manual.board.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"f3.preset.menu.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

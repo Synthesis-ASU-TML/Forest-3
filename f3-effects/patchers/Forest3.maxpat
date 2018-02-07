@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 316.0, 144.0, 805.0, 697.0 ],
+		"rect" : [ 289.0, 112.0, 805.0, 697.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,53 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-122",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 932.0, 160.0, 91.0, 22.0 ],
+					"style" : "",
+					"text" : "storagewindow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-119",
+					"maxclass" : "preset",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "preset", "int", "preset", "int" ],
+					"patching_rect" : [ 861.0, 222.0, 100.0, 40.0 ],
+					"pattrstorage" : "Forest3",
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-118",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "f3.preset.menu.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 834.0, 273.0, 298.0, 267.0 ],
+					"varname" : "f3.preset.menu",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-120",
 					"maxclass" : "newobj",
@@ -137,7 +184,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1033.0, 402.0, 88.0, 22.0 ],
+					"patching_rect" : [ 1057.0, 672.0, 88.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.pix Forest"
 				}
@@ -150,7 +197,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1212.0, 315.0, 113.0, 22.0 ],
+					"patching_rect" : [ 1236.0, 585.0, 113.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend unit_count"
 				}
@@ -163,7 +210,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1212.0, 286.0, 76.0, 22.0 ],
+					"patching_rect" : [ 1236.0, 556.0, 76.0, 22.0 ],
 					"style" : "",
 					"text" : "r matrix-size"
 				}
@@ -176,7 +223,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 1033.0, 451.0, 232.0, 22.0 ],
+					"patching_rect" : [ 1057.0, 721.0, 232.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.texture Forest @name manual-board"
 				}
@@ -189,7 +236,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "front" ],
-					"patching_rect" : [ 1044.0, 315.0, 41.0, 22.0 ],
+					"patching_rect" : [ 1068.0, 585.0, 41.0, 22.0 ],
 					"style" : "",
 					"text" : "t front"
 				}
@@ -203,7 +250,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1044.0, 286.0, 149.0, 21.0 ],
+					"patching_rect" : [ 1068.0, 556.0, 149.0, 21.0 ],
 					"style" : "",
 					"text" : "Open Manual Board"
 				}
@@ -216,7 +263,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 944.0, 285.0, 97.0, 22.0 ],
+					"patching_rect" : [ 968.0, 555.0, 97.0, 22.0 ],
 					"style" : "",
 					"text" : "r #0-renderbang"
 				}
@@ -229,7 +276,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 1033.0, 360.0, 97.0, 22.0 ],
+					"patching_rect" : [ 1057.0, 630.0, 97.0, 22.0 ],
 					"style" : "",
 					"text" : "f3.manual.board",
 					"varname" : "f3.manual.board"
@@ -3628,9 +3675,9 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 609.5, 194.0, 119.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 0, 285, 657, 867 ],
+						"client_rect" : [ 227, 189, 884, 771 ],
 						"parameter_enable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 583, 69, 1030, 875 ]
 					}
 ,
 					"style" : "",
@@ -3852,6 +3899,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-118", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-118", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-12", 0 ]
 				}
@@ -3861,6 +3922,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-112", 0 ],
 					"source" : [ "obj-120", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-122", 0 ]
 				}
 
 			}
@@ -4555,6 +4623,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-118", 0 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-84", 0 ],
 					"source" : [ "obj-80", 0 ]
 				}
@@ -4693,8 +4768,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-42::obj-10" : [ "loop-range", "loop-range", 0 ],
-			"obj-81::obj-34" : [ "live.tab", "live.tab", 0 ]
+			"obj-81::obj-34" : [ "live.tab", "live.tab", 0 ],
+			"obj-42::obj-10" : [ "loop-range", "loop-range", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -4887,6 +4962,13 @@
 			}
 , 			{
 				"name" : "f3.unit.manual.maxpat",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.preset.menu.maxpat",
 				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
