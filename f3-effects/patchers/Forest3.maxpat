@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 475.0, 93.0, 805.0, 697.0 ],
+		"rect" : [ 394.0, 89.0, 805.0, 697.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,28 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"args" : [ "Forest" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-163",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "f3.fx.height-wave.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "jit_gl_texture", "jit_gl_texture" ],
+					"patching_rect" : [ 1285.0, 1143.0, 220.0, 197.0 ],
+					"varname" : "f3.fx.height-wave[1]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-158",
 					"maxclass" : "newobj",
@@ -727,7 +749,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 1390.0, 1337.0, 265.0, 22.0 ],
+					"patching_rect" : [ 1427.0, 1509.0, 265.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.texture Forest @name wave-invert-preview"
 				}
@@ -854,7 +876,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1505.0, 1261.0, 88.0, 22.0 ],
+					"patching_rect" : [ 1542.0, 1433.0, 88.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.pix Forest"
 				}
@@ -867,7 +889,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 1405.0, 1224.0, 231.0, 22.0 ],
+					"patching_rect" : [ 1442.0, 1396.0, 231.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.texture Forest @name wave-preview"
 				}
@@ -893,7 +915,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1285.0, 1152.0, 68.0, 22.0 ],
+					"patching_rect" : [ 1285.0, 1114.0, 68.0, 22.0 ],
 					"style" : "",
 					"text" : "calculate 1"
 				}
@@ -906,23 +928,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 1285.0, 1261.0, 186.0, 22.0 ],
+					"patching_rect" : [ 1322.0, 1433.0, 186.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.texture Forest @name wave"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-85",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_gl_texture", "jit_gl_texture" ],
-					"patching_rect" : [ 1285.0, 1189.0, 139.0, 22.0 ],
-					"style" : "",
-					"text" : "f3.fx.height-wave Forest",
-					"varname" : "f3.fx.height-wave"
 				}
 
 			}
@@ -4468,6 +4476,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-102", 0 ],
+					"order" : 1,
+					"source" : [ "obj-163", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-103", 0 ],
+					"order" : 0,
+					"source" : [ "obj-163", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-86", 0 ],
+					"source" : [ "obj-163", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-17", 0 ]
 				}
@@ -4615,6 +4646,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-163", 1 ],
+					"order" : 5,
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-33", 1 ],
 					"order" : 6,
 					"source" : [ "obj-29", 0 ]
@@ -4624,7 +4663,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-37", 1 ],
-					"order" : 4,
+					"order" : 3,
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -4632,7 +4671,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 1 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -4640,7 +4679,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-44", 1 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -4664,15 +4703,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-72", 1 ],
-					"order" : 5,
-					"source" : [ "obj-29", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-85", 1 ],
-					"order" : 0,
+					"order" : 4,
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -4680,7 +4711,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-93", 0 ],
-					"order" : 3,
+					"order" : 2,
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -5075,29 +5106,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-102", 0 ],
-					"order" : 1,
-					"source" : [ "obj-85", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-103", 0 ],
-					"order" : 0,
-					"source" : [ "obj-85", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-86", 0 ],
-					"source" : [ "obj-85", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-88", 0 ],
 					"midpoints" : [ 1076.5, 1984.5, 907.5, 1984.5 ],
 					"source" : [ "obj-87", 0 ]
@@ -5171,7 +5179,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-85", 0 ],
+					"destination" : [ "obj-163", 0 ],
 					"source" : [ "obj-96", 0 ]
 				}
 
@@ -5371,13 +5379,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "f3.fx.height-wave.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "f3.fx.color-brcosa.maxpat",
 				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
@@ -5400,6 +5401,13 @@
 			}
 , 			{
 				"name" : "f3.preset.menu.maxpat",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.fx.height-wave.maxpat",
 				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
