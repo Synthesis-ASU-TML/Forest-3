@@ -93,18 +93,19 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-34",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 423.0, 58.0, 349.0, 22.0 ],
+					"patching_rect" : [ 423.0, 58.0, 352.0, 35.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 1.0, 1.0 ],
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr bottom-right @initial 1. 1. @bindto scale-gen::bottom_right",
+					"text" : "pattr bottom-right @initial 1. 1. @bindto scale-gen::bottom_right @invisible 1",
 					"varname" : "bottom-right"
 				}
 
@@ -112,18 +113,19 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-33",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 423.0, 27.0, 294.0, 22.0 ],
+					"patching_rect" : [ 423.0, 21.0, 297.0, 35.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0.0, 0.0 ],
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr top-left @initial 0. 0. @bindto scale-gen::top_left",
+					"text" : "pattr top-left @initial 0. 0. @bindto scale-gen::top_left @invisible 1",
 					"varname" : "top-left"
 				}
 
@@ -145,7 +147,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-31",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -340,7 +342,7 @@
 				"box" : 				{
 					"comment" : "Pattr Commands & Messages In",
 					"id" : "obj-15",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -354,7 +356,7 @@
 				"box" : 				{
 					"comment" : "3D Tracking Data In",
 					"id" : "obj-13",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1347,7 +1349,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }
