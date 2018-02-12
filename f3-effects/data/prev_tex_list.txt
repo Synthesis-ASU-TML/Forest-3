@@ -19,6 +19,7 @@ color-displace-preview
 wave-preview
 wave-invert-preview
 color-brcosa-preview
+brownian-preview
 mix-1
 mix-2
 mix-3

@@ -8,4 +8,5 @@ wave
 color-video
 color-brcosa
 color-displace
+brownian
 manual-board

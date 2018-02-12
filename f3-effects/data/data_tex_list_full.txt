@@ -8,6 +8,8 @@ cnoise
 color-displace
 wave
 manual-board
+color-brcosa
+brownian
 mix-1
 mix-2
 mix-3

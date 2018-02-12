@@ -2,7 +2,7 @@
 	"name" : "f3-effects",
 	"version" : 1,
 	"creationdate" : -700852038,
-	"modificationdate" : -693849521,
+	"modificationdate" : -693753288,
 	"viewrect" : [ 63.0, 145.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -202,6 +202,11 @@
 			}
 ,
 			"f3.angles.scale.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"f3.fx.brownian.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
