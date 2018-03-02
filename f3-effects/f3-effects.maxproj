@@ -2,7 +2,7 @@
 	"name" : "f3-effects",
 	"version" : 1,
 	"creationdate" : -700852038,
-	"modificationdate" : -693753288,
+	"modificationdate" : -693495707,
 	"viewrect" : [ 63.0, 145.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -191,6 +191,16 @@
 				"local" : 1
 			}
 ,
+			"f3.angles.scale.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"f3.fx.brownian.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"f3.fx.height-surfce.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -201,12 +211,7 @@
 				"local" : 1
 			}
 ,
-			"f3.angles.scale.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"f3.fx.brownian.maxpat" : 			{
+			"f3.fx.entity.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
