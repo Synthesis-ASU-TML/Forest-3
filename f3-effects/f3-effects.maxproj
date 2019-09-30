@@ -1,9 +1,9 @@
 {
 	"name" : "f3-effects",
 	"version" : 1,
-	"creationdate" : -700852038,
-	"modificationdate" : -693495707,
-	"viewrect" : [ 63.0, 145.0, 300.0, 500.0 ],
+	"creationdate" : 2082819356,
+	"modificationdate" : 3652688888,
+	"viewrect" : [ 60.0, 224.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -60,11 +60,6 @@
 				"local" : 1
 			}
 ,
-			"f3.barycentric.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"f3.fx.fluid.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -116,6 +111,11 @@
 				"toplevel" : 1
 			}
 ,
+			"f3.lights.calibrate.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"f3.prev.plane.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -129,6 +129,10 @@
 			"f3.fx.cnoise.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
+			}
+,
+			"thru.maxpat" : 			{
+				"kind" : "patcher"
 			}
 ,
 			"f3.pozyx.serial.maxpat" : 			{
@@ -161,14 +165,19 @@
 				"local" : 1
 			}
 ,
-			"f3.lights.calibrate.maxpat" : 			{
+			"f3.prev.vis.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"f3.prev.vis.maxpat" : 			{
+			"f3.fx.trigradient.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/ODO/TriGradient/patchers",
+					"projectrelativepath" : "../../../../ODO/TriGradient/patchers"
+				}
+
 			}
 ,
 			"f3.fx.color-brcosa.maxpat" : 			{
@@ -201,17 +210,35 @@
 				"local" : 1
 			}
 ,
+			"sc.texture.syphon.input.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"f3.fx.syphon.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"sc.texture.roi.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"f3.gyrosc.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"sc.matrix.camera.simple.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"f3.fx.height-surfce.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"Unit_Grid_Generator.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"f3.fx.entity.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -251,10 +278,20 @@
 				"kind" : "shader",
 				"local" : 1
 			}
+,
+			"cwjr.trigradient.genjit" : 			{
+				"kind" : "genjit",
+				"local" : 1
+			}
 
 		}
 ,
 		"data" : 		{
+			"Forest3.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
 			"Grid.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
@@ -284,6 +321,11 @@
 				"kind" : "textfile",
 				"local" : 1
 			}
+,
+			"Grid_15iStage.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
 
 		}
 ,
@@ -306,5 +348,6 @@
 	"readonly" : 0,
 	"devpathtype" : 0,
 	"devpath" : ".",
-	"sortmode" : 0
+	"sortmode" : 0,
+	"viewmode" : 0
 }

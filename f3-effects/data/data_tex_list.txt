@@ -9,4 +9,7 @@ color-video
 color-brcosa
 color-displace
 brownian
+syphon-height
+syphon-color
+triGradient
 manual-board
