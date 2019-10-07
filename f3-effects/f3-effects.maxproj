@@ -1,8 +1,8 @@
 {
 	"name" : "f3-effects",
 	"version" : 1,
-	"creationdate" : 2082819356,
-	"modificationdate" : 3652688888,
+	"creationdate" : 2082819235,
+	"modificationdate" : 3652702591,
 	"viewrect" : [ 60.0, 224.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -170,16 +170,6 @@
 				"local" : 1
 			}
 ,
-			"f3.fx.trigradient.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/ODO/TriGradient/patchers",
-					"projectrelativepath" : "../../../../ODO/TriGradient/patchers"
-				}
-
-			}
-,
 			"f3.fx.color-brcosa.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -228,6 +218,11 @@
 				"local" : 1
 			}
 ,
+			"f3.fx.trigradient.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"sc.matrix.camera.simple.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -269,6 +264,11 @@
 				"local" : 1
 			}
 ,
+			"cwjr.trigradient.genjit" : 			{
+				"kind" : "genjit",
+				"local" : 1
+			}
+,
 			"f3.mix.ops.genjit" : 			{
 				"kind" : "genjit",
 				"local" : 1
@@ -276,11 +276,6 @@
 ,
 			"ab.hsflow.jxs" : 			{
 				"kind" : "shader",
-				"local" : 1
-			}
-,
-			"cwjr.trigradient.genjit" : 			{
-				"kind" : "genjit",
 				"local" : 1
 			}
 
