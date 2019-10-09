@@ -12,4 +12,5 @@ brownian
 syphon-height
 syphon-color
 triGradient
+landscape
 manual-board

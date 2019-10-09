@@ -12,6 +12,7 @@ color-brcosa
 brownian
 syphon-height
 syphon-color
+landscape
 triGradient
 mix-1
 mix-2

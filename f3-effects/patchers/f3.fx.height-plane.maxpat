@@ -45,7 +45,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 236.875, 4.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 114.875, 2.0, 44.0, 20.0 ],
+					"presentation_rect" : [ 115.875, 2.0, 44.0, 20.0 ],
 					"text" : "x yaw"
 				}
 
@@ -58,7 +58,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 176.875, 4.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 176.875, 2.0, 48.0, 20.0 ],
+					"presentation_rect" : [ 177.875, 2.0, 48.0, 20.0 ],
 					"text" : "y pitch"
 				}
 
@@ -71,7 +71,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 124.0, 116.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 236.875, 2.0, 38.0, 20.0 ],
+					"presentation_rect" : [ 237.875, 2.0, 38.0, 20.0 ],
 					"text" : "z roll"
 				}
 
@@ -114,7 +114,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 109.0, 101.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.875, 2.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 1.875, 2.0, 150.0, 20.0 ],
 					"text" : "f3.fx.height-plane"
 				}
 
@@ -745,7 +745,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 306.0, 37.0, 235.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 25.0, 288.0, 22.0 ]
+					"presentation_rect" : [ 6.0, 25.0, 288.0, 22.0 ]
 				}
 
 			}
@@ -763,7 +763,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 102.208336000000003, 32.0, 51.0, 51.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.875, 2.0, 292.125, 20.0 ],
+					"presentation_rect" : [ 1.875, 2.0, 292.125, 20.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0
 				}
@@ -783,7 +783,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 155.208344000000011, 32.0, 51.0, 51.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -93.125, 2.0, 390.125, 45.0 ],
+					"presentation_rect" : [ 1.875, 2.0, 292.125, 49.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0
 				}

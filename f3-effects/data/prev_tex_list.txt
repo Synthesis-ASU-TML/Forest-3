@@ -26,6 +26,7 @@ brownian-preview
 syphon-preview
 syphon-color-preview
 syphon-height-preview
+landscape-preview
 triGradient-preview
 mix-1
 mix-2

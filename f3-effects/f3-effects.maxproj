@@ -1,9 +1,9 @@
 {
 	"name" : "f3-effects",
 	"version" : 1,
-	"creationdate" : 2082819235,
-	"modificationdate" : 3652702591,
-	"viewrect" : [ 60.0, 224.0, 300.0, 500.0 ],
+	"creationdate" : 2082819114,
+	"modificationdate" : 3653391615,
+	"viewrect" : [ 130.0, 455.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -237,6 +237,11 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"f3.fx.landscape.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -249,6 +254,21 @@
 		}
 ,
 		"code" : 		{
+			"f3.landscape.avg.jxs" : 			{
+				"kind" : "shader",
+				"local" : 1
+			}
+,
+			"f3.landscape.max.jxs" : 			{
+				"kind" : "shader",
+				"local" : 1
+			}
+,
+			"f3.landscape.sum.jxs" : 			{
+				"kind" : "shader",
+				"local" : 1
+			}
+,
 			"f3.fxcombine.genjit" : 			{
 				"kind" : "genjit",
 				"local" : 1

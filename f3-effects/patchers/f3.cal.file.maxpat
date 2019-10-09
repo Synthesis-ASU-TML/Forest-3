@@ -2,14 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 4,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 1,
+			"revision" : 0,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 244.0, 640.0, 480.0 ],
+		"classnamespace" : "box",
+		"rect" : [ 34.0, 244.0, 955.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -44,7 +45,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 374.0, 283.0, 29.5, 22.0 ],
-					"style" : "",
 					"text" : "- 1"
 				}
 
@@ -57,7 +57,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 374.0, 315.0, 111.0, 22.0 ],
-					"style" : "",
 					"text" : "prepend unit-count"
 				}
 
@@ -70,8 +69,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 374.0, 351.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 374.0, 351.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -83,7 +81,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 505.0, 55.0, 93.0, 22.0 ],
-					"style" : "",
 					"text" : "routepass clear"
 				}
 
@@ -97,7 +94,6 @@
 					"patching_rect" : [ 14.0, 128.0, 67.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 4.5, 150.0, 20.0 ],
-					"style" : "",
 					"text" : "f3.cal.file"
 				}
 
@@ -110,8 +106,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 158.0, 315.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 158.0, 315.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -126,7 +121,6 @@
 					"patching_rect" : [ 158.0, 36.0, 169.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 55.0, 169.0, 22.0 ],
-					"style" : "",
 					"text" : "Read Calibration From File"
 				}
 
@@ -134,16 +128,16 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-23",
-					"items" : "<empty>",
+					"items" : "Grid_15iStage.txt",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 203.0, 74.0, 100.0, 22.0 ],
+					"prefix" : "chrispobo2:/Users/cz/Documents/Max 8/Projects/Forest-3/f3-effects/data/matrix/",
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 31.0, 169.0, 22.0 ],
-					"style" : ""
+					"presentation_rect" : [ 7.0, 31.0, 169.0, 22.0 ]
 				}
 
 			}
@@ -155,7 +149,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 203.0, 111.0, 51.0, 22.0 ],
-					"style" : "",
 					"text" : "read $1"
 				}
 
@@ -171,7 +164,6 @@
 					"patching_rect" : [ 560.0, 82.0, 165.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 79.0, 169.0, 22.0 ],
-					"style" : "",
 					"text" : "Write Current Settings To File"
 				}
 
@@ -184,7 +176,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 425.0, 113.0, 64.0, 22.0 ],
-					"style" : "",
 					"text" : "append cr"
 				}
 
@@ -197,7 +188,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 425.0, 85.0, 57.0, 22.0 ],
-					"style" : "",
 					"text" : "zl slice 3"
 				}
 
@@ -210,7 +200,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 425.0, 55.0, 68.0, 22.0 ],
-					"style" : "",
 					"text" : "route node"
 				}
 
@@ -224,8 +213,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 463.0, 10.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 463.0, 10.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -237,7 +225,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 560.0, 109.0, 36.0, 22.0 ],
-					"style" : "",
 					"text" : "write"
 				}
 
@@ -250,7 +237,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "int" ],
 					"patching_rect" : [ 425.0, 146.0, 103.0, 22.0 ],
-					"style" : "",
 					"text" : "text @precision 6"
 				}
 
@@ -263,7 +249,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 158.0, 111.0, 35.0, 22.0 ],
-					"style" : "",
 					"text" : "read"
 				}
 
@@ -276,7 +261,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 158.0, 192.0, 57.0, 22.0 ],
-					"style" : "",
 					"text" : "route set"
 				}
 
@@ -289,7 +273,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 353.0, 253.0, 46.0, 22.0 ],
-					"style" : "",
 					"text" : "line $1"
 				}
 
@@ -302,7 +285,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "int", "int" ],
 					"patching_rect" : [ 332.0, 192.0, 61.0, 22.0 ],
-					"style" : "",
 					"text" : "t b i i"
 				}
 
@@ -315,7 +297,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "int" ],
 					"patching_rect" : [ 332.0, 221.0, 40.0, 22.0 ],
-					"style" : "",
 					"text" : "uzi"
 				}
 
@@ -328,7 +309,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "query" ],
 					"patching_rect" : [ 245.0, 192.0, 47.0, 22.0 ],
-					"style" : "",
 					"text" : "t query"
 				}
 
@@ -341,7 +321,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "int" ],
 					"patching_rect" : [ 158.0, 155.0, 193.0, 22.0 ],
-					"style" : "",
 					"text" : "text"
 				}
 
@@ -362,8 +341,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 2.0, 177.0, 25.0 ],
 					"proportion" : 0.39,
-					"rounded" : 0,
-					"style" : ""
+					"rounded" : 0
 				}
 
 			}
@@ -383,8 +361,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 2.0, 177.0, 103.0 ],
 					"proportion" : 0.39,
-					"rounded" : 0,
-					"style" : ""
+					"rounded" : 0
 				}
 
 			}
