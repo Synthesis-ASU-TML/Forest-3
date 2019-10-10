@@ -24,7 +24,7 @@
 					"f3.vidplayer::rate" : [ 1.0 ],
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
-					"f3.fx.color-videoSample::u272009183" : [  ],
+					"f3.fx.color-videoSample::u868003975" : [  ],
 					"f3.prev.plane::prev" : [ "visualizer" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.587, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
@@ -275,7 +275,8 @@
 					"f3.fx.landscape::invert" : [  ],
 					"f3.fx.landscape::variance" : [  ],
 					"f3.fx.landscape::max_iter" : [  ],
-					"f3.fx.landscape::mode" : [  ]
+					"f3.fx.landscape::mode" : [  ],
+					"sc.avg.running[1]::alpha" : [  ]
 				}
 
 			}
@@ -302,7 +303,7 @@
 					"f3.vidplayer::rate" : [ 1.0 ],
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
-					"f3.fx.color-videoSample::u272009183" : [  ],
+					"f3.fx.color-videoSample::u868003975" : [  ],
 					"f3.prev.plane::prev" : [ "visualizer" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.587, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
@@ -553,7 +554,8 @@
 					"f3.fx.landscape::invert" : [  ],
 					"f3.fx.landscape::variance" : [  ],
 					"f3.fx.landscape::max_iter" : [  ],
-					"f3.fx.landscape::mode" : [  ]
+					"f3.fx.landscape::mode" : [  ],
+					"sc.avg.running[1]::alpha" : [  ]
 				}
 
 			}
@@ -580,7 +582,7 @@
 					"f3.vidplayer::rate" : [ 1.0 ],
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
-					"f3.fx.color-videoSample::u272009183" : [  ],
+					"f3.fx.color-videoSample::u868003975" : [  ],
 					"f3.prev.plane::prev" : [ "height-spot-preview" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.587, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
@@ -831,7 +833,8 @@
 					"f3.fx.landscape::invert" : [  ],
 					"f3.fx.landscape::variance" : [  ],
 					"f3.fx.landscape::max_iter" : [  ],
-					"f3.fx.landscape::mode" : [  ]
+					"f3.fx.landscape::mode" : [  ],
+					"sc.avg.running[1]::alpha" : [  ]
 				}
 
 			}
@@ -858,7 +861,7 @@
 					"f3.vidplayer::rate" : [ 1.0 ],
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
-					"f3.fx.color-videoSample::u272009183" : [  ],
+					"f3.fx.color-videoSample::u868003975" : [  ],
 					"f3.prev.plane::prev" : [ "visualizer" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.587, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
@@ -1109,7 +1112,8 @@
 					"f3.fx.landscape::invert" : [  ],
 					"f3.fx.landscape::variance" : [  ],
 					"f3.fx.landscape::max_iter" : [  ],
-					"f3.fx.landscape::mode" : [  ]
+					"f3.fx.landscape::mode" : [  ],
+					"sc.avg.running[1]::alpha" : [  ]
 				}
 
 			}
@@ -1136,7 +1140,7 @@
 					"f3.vidplayer::rate" : [ 1.0 ],
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
-					"f3.fx.color-videoSample::u272009183" : [  ],
+					"f3.fx.color-videoSample::u868003975" : [  ],
 					"f3.prev.plane::prev" : [ "visualizer" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.587, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
@@ -1387,7 +1391,8 @@
 					"f3.fx.landscape::invert" : [  ],
 					"f3.fx.landscape::variance" : [  ],
 					"f3.fx.landscape::max_iter" : [  ],
-					"f3.fx.landscape::mode" : [  ]
+					"f3.fx.landscape::mode" : [  ],
+					"sc.avg.running[1]::alpha" : [  ]
 				}
 
 			}
@@ -1414,7 +1419,7 @@
 					"f3.vidplayer::rate" : [ 1.0 ],
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
-					"f3.fx.color-videoSample::u272009183" : [  ],
+					"f3.fx.color-videoSample::u868003975" : [  ],
 					"f3.prev.plane::prev" : [ "visualizer" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.587, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
@@ -1665,7 +1670,8 @@
 					"f3.fx.landscape::invert" : [  ],
 					"f3.fx.landscape::variance" : [  ],
 					"f3.fx.landscape::max_iter" : [  ],
-					"f3.fx.landscape::mode" : [  ]
+					"f3.fx.landscape::mode" : [  ],
+					"sc.avg.running[1]::alpha" : [  ]
 				}
 
 			}
@@ -1692,7 +1698,7 @@
 					"f3.vidplayer::rate" : [ 1.0 ],
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
-					"f3.fx.color-videoSample::u272009183" : [  ],
+					"f3.fx.color-videoSample::u868003975" : [  ],
 					"f3.prev.plane::prev" : [ "visualizer" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.587, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
@@ -1943,7 +1949,8 @@
 					"f3.fx.landscape::invert" : [  ],
 					"f3.fx.landscape::variance" : [  ],
 					"f3.fx.landscape::max_iter" : [  ],
-					"f3.fx.landscape::mode" : [  ]
+					"f3.fx.landscape::mode" : [  ],
+					"sc.avg.running[1]::alpha" : [  ]
 				}
 
 			}
@@ -1970,7 +1977,7 @@
 					"f3.vidplayer::rate" : [ 1.0 ],
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
-					"f3.fx.color-videoSample::u272009183" : [  ],
+					"f3.fx.color-videoSample::u868003975" : [  ],
 					"f3.prev.plane::prev" : [ "wave-preview" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.587, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
@@ -2221,7 +2228,8 @@
 					"f3.fx.landscape::invert" : [  ],
 					"f3.fx.landscape::variance" : [  ],
 					"f3.fx.landscape::max_iter" : [  ],
-					"f3.fx.landscape::mode" : [  ]
+					"f3.fx.landscape::mode" : [  ],
+					"sc.avg.running[1]::alpha" : [  ]
 				}
 
 			}
@@ -2230,7 +2238,7 @@
 				"id" : 9,
 				"name" : "triGradient",
 				"data" : 				{
-					"tag_coordinates" : [ -1.0, -1.0, -1.0 ],
+					"tag_coordinates" : [ 0.926999986171722, 0.24099999666214, 0.00000006472257 ],
 					"tag_raw_coordinates" : [ 544, 2435, 1345 ],
 					"spot_enabled" : [ 0 ],
 					"plane_enabled" : [ 0 ],
@@ -2248,13 +2256,13 @@
 					"f3.vidplayer::rate" : [ 1.0 ],
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
-					"f3.fx.color-videoSample::u272009183" : [  ],
+					"f3.fx.color-videoSample::u868003975" : [ 0 ],
 					"f3.prev.plane::prev" : [ "visualizer" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.587, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
 					"f3.fx.cnoise::dim" : [ 100, 100, 0 ],
 					"f3.fx.cnoise::offset" : [ 0.0, 0.0 ],
-					"f3.fx.cnoise::z" : [ 747.464999999392717 ],
+					"f3.fx.cnoise::z" : [ 1760.280000015212636 ],
 					"f3.fx.cnoise::timestep" : [ 0.005 ],
 					"f3.pozyx.serial::serial_device" : [ "usbmodem1421" ],
 					"f3.pozyx.serial::tag_id" : [ "6E17" ],
@@ -2323,17 +2331,17 @@
 					"Texture Mixing::f3.mix.textures[8]::r_op" : [ 3 ],
 					"Texture Mixing::f3.mix.textures[8]::g_op" : [ 3 ],
 					"Texture Mixing::f3.mix.textures[8]::b_op" : [ 3 ],
-					"Texture Mixing::f3.mix.textures[8]::h_op" : [ 8 ],
+					"Texture Mixing::f3.mix.textures[8]::h_op" : [ 0 ],
 					"Texture Mixing::f3.mix.textures[8]::r_xfade" : [ 0.0 ],
 					"Texture Mixing::f3.mix.textures[8]::g_xfade" : [ 0.0 ],
 					"Texture Mixing::f3.mix.textures[8]::b_xfade" : [ 0.0 ],
-					"Texture Mixing::f3.mix.textures[8]::h_xfade" : [ 0.0 ],
-					"Texture Mixing::f3.mix.textures[7]::left_tex" : [ "blackout" ],
-					"Texture Mixing::f3.mix.textures[7]::right_tex" : [ "blackout" ],
+					"Texture Mixing::f3.mix.textures[8]::h_xfade" : [ 5.541311719460737 ],
+					"Texture Mixing::f3.mix.textures[7]::left_tex" : [ "whiteout" ],
+					"Texture Mixing::f3.mix.textures[7]::right_tex" : [ "triGradient" ],
 					"Texture Mixing::f3.mix.textures[7]::r_op" : [ 8 ],
 					"Texture Mixing::f3.mix.textures[7]::g_op" : [ 8 ],
 					"Texture Mixing::f3.mix.textures[7]::b_op" : [ 8 ],
-					"Texture Mixing::f3.mix.textures[7]::h_op" : [ 8 ],
+					"Texture Mixing::f3.mix.textures[7]::h_op" : [ 3 ],
 					"Texture Mixing::f3.mix.textures[7]::r_xfade" : [ 0.0 ],
 					"Texture Mixing::f3.mix.textures[7]::g_xfade" : [ 0.0 ],
 					"Texture Mixing::f3.mix.textures[7]::b_xfade" : [ 0.0 ],
@@ -2348,7 +2356,7 @@
 					"Texture Mixing::f3.mix.textures[6]::g_xfade" : [ 0.0 ],
 					"Texture Mixing::f3.mix.textures[6]::b_xfade" : [ 0.0 ],
 					"Texture Mixing::f3.mix.textures[6]::h_xfade" : [ 0.0 ],
-					"f3.mix.final::left_tex" : [ "triGradient" ],
+					"f3.mix.final::left_tex" : [ "mix-8" ],
 					"f3.mix.final::right_tex" : [ "mix-7" ],
 					"f3.mix.final::r_op" : [ 1 ],
 					"f3.mix.final::g_op" : [ 1 ],
@@ -2463,10 +2471,10 @@
 					"f3.manual.board::f3.unit.manual[15]::unit_num" : [ 30 ],
 					"f3.manual.board::f3.unit.manual[15]::color" : [ 0.0, 1.0, 0.0, 1.0, 0.333333, 1.0, 0.501961 ],
 					"f3.manual.board::f3.unit.manual[15]::height" : [ 1000.0 ],
-					"f3.fx.height-wave[1]::angle" : [ 3.14159 ],
-					"f3.fx.height-wave[1]::amp" : [ 0.5 ],
-					"f3.fx.height-wave[1]::thresh" : [ 0.15 ],
-					"f3.fx.height-wave[1]::timestep" : [ 0.5 ],
+					"f3.fx.height-wave[1]::angle" : [ -0.879708476654053 ],
+					"f3.fx.height-wave[1]::amp" : [ 0.226270822967802 ],
+					"f3.fx.height-wave[1]::thresh" : [ 0.226270822967802 ],
+					"f3.fx.height-wave[1]::timestep" : [ 0.045248312717676 ],
 					"f3.fx.height-wave[1]::pos" : [ 0.5, 0.5 ],
 					"f3.fx.height-wave[1]::period" : [ 1.0 ],
 					"f3.angles.scale::max_val" : [ 180.0, 90.0, 180.0 ],
@@ -2487,9 +2495,9 @@
 					"f3.fx.syphon::sc.texture.roi[1]::start_pos" : [ 0.5, 0.0 ],
 					"f3.fx.syphon::sc.texture.roi[1]::src_dim" : [ 0.5, 1.0 ],
 					"f3.fx.syphon::sc.texture.roi[1]::drawto" : [ "Forest" ],
-					"f3.fx.trigradient::sc.texture.trigradient::p0" : [ 0.0, 0.0, 0.6 ],
-					"f3.fx.trigradient::sc.texture.trigradient::p1" : [ 1.0, 0.0, 0.8 ],
-					"f3.fx.trigradient::sc.texture.trigradient::p2" : [ 1.0, 1.0, 0.8 ],
+					"f3.fx.trigradient::sc.texture.trigradient::p0" : [ 0.926999986171722, 0.24099999666214, 0.00000006472257 ],
+					"f3.fx.trigradient::sc.texture.trigradient::p1" : [ 0.300000011920929, 0.800000011920929, 0.300000011920929 ],
+					"f3.fx.trigradient::sc.texture.trigradient::p2" : [ 0.100000001490116, 0.400000005960464, 0.300000011920929 ],
 					"f3.fx.trigradient::sc.texture.trigradient::drawto" : [ "Forest" ],
 					"f3.in.stream_p0::stream" : [ 0 ],
 					"f3.in.stream_p1::stream" : [ 1 ],
@@ -2499,7 +2507,8 @@
 					"f3.fx.landscape::invert" : [  ],
 					"f3.fx.landscape::variance" : [  ],
 					"f3.fx.landscape::max_iter" : [  ],
-					"f3.fx.landscape::mode" : [  ]
+					"f3.fx.landscape::mode" : [  ],
+					"sc.avg.running[1]::alpha" : [ 0.5 ]
 				}
 
 			}
@@ -2508,12 +2517,12 @@
 				"id" : 10,
 				"name" : "landscape",
 				"data" : 				{
-					"tag_coordinates" : [ -1.0, -1.0, -1.0 ],
+					"tag_coordinates" : [ 0.639999985694885, 0.282000005245209, 0.127039909362793 ],
 					"tag_raw_coordinates" : [ 544, 2435, 1345 ],
 					"spot_enabled" : [ 0 ],
 					"plane_enabled" : [ 0 ],
 					"triGrad_enabled" : [ 0 ],
-					"landscape_enabled" : [  ],
+					"landscape_enabled" : [ 1 ],
 					"f3.in.units::unit-count" : [ 15 ],
 					"f3.in.stream::stream" : [ 0 ],
 					"f3.in.stream[1]::stream" : [ 0 ],
@@ -2526,13 +2535,13 @@
 					"f3.vidplayer::rate" : [ 1.0 ],
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
-					"f3.fx.color-videoSample::u272009183" : [ 0 ],
-					"f3.prev.plane::prev" : [ "landscape-preview" ],
+					"f3.fx.color-videoSample::u868003975" : [ 0 ],
+					"f3.prev.plane::prev" : [ "visualizer" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.587, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
 					"f3.fx.cnoise::dim" : [ 100, 100, 0 ],
 					"f3.fx.cnoise::offset" : [ 0.0, 0.0 ],
-					"f3.fx.cnoise::z" : [ 133.919999999950704 ],
+					"f3.fx.cnoise::z" : [ 1606.330000011852235 ],
 					"f3.fx.cnoise::timestep" : [ 0.005 ],
 					"f3.pozyx.serial::serial_device" : [ "usbmodem1421" ],
 					"f3.pozyx.serial::tag_id" : [ "6E17" ],
@@ -2626,11 +2635,11 @@
 					"Texture Mixing::f3.mix.textures[6]::g_xfade" : [ 0.0 ],
 					"Texture Mixing::f3.mix.textures[6]::b_xfade" : [ 0.0 ],
 					"Texture Mixing::f3.mix.textures[6]::h_xfade" : [ 0.0 ],
-					"f3.mix.final::left_tex" : [ "triGradient" ],
+					"f3.mix.final::left_tex" : [ "landscape" ],
 					"f3.mix.final::right_tex" : [ "mix-7" ],
-					"f3.mix.final::r_op" : [ 1 ],
-					"f3.mix.final::g_op" : [ 1 ],
-					"f3.mix.final::b_op" : [ 1 ],
+					"f3.mix.final::r_op" : [ 0 ],
+					"f3.mix.final::g_op" : [ 0 ],
+					"f3.mix.final::b_op" : [ 0 ],
 					"f3.mix.final::h_op" : [ 0 ],
 					"f3.mix.final::r_xfade" : [ 1000.0 ],
 					"f3.mix.final::g_xfade" : [ 1000.0 ],
@@ -2638,8 +2647,8 @@
 					"f3.mix.final::h_xfade" : [ 0.0 ],
 					"f3.artnet.matrix::light_count" : [ 15.0 ],
 					"f3.height.scale-slide::height_scale" : [ 0.07, 0.9 ],
-					"f3.height.scale-slide::slide_down" : [ 20.0 ],
-					"f3.height.scale-slide::slide_up" : [ 20.0 ],
+					"f3.height.scale-slide::slide_down" : [ 10.0 ],
+					"f3.height.scale-slide::slide_up" : [ 10.0 ],
 					"f3.artnet.out::blackout" : [ 0 ],
 					"f3.artnet.out::num_channels" : [ 512 ],
 					"f3.artnet.out::enabled" : [ 1 ],
@@ -2741,10 +2750,10 @@
 					"f3.manual.board::f3.unit.manual[15]::unit_num" : [ 30 ],
 					"f3.manual.board::f3.unit.manual[15]::color" : [ 0.0, 1.0, 0.0, 1.0, 0.333333, 1.0, 0.501961 ],
 					"f3.manual.board::f3.unit.manual[15]::height" : [ 1000.0 ],
-					"f3.fx.height-wave[1]::angle" : [ 3.14159 ],
-					"f3.fx.height-wave[1]::amp" : [ 0.5 ],
-					"f3.fx.height-wave[1]::thresh" : [ 0.15 ],
-					"f3.fx.height-wave[1]::timestep" : [ 0.5 ],
+					"f3.fx.height-wave[1]::angle" : [ -0.246441794896444 ],
+					"f3.fx.height-wave[1]::amp" : [ 0.214770539530686 ],
+					"f3.fx.height-wave[1]::thresh" : [ 0.214770539530686 ],
+					"f3.fx.height-wave[1]::timestep" : [ 0.045489818669856 ],
 					"f3.fx.height-wave[1]::pos" : [ 0.5, 0.5 ],
 					"f3.fx.height-wave[1]::period" : [ 1.0 ],
 					"f3.angles.scale::max_val" : [ 180.0, 90.0, 180.0 ],
@@ -2770,14 +2779,15 @@
 					"f3.fx.trigradient::sc.texture.trigradient::p2" : [ 1.0, 1.0, 0.8 ],
 					"f3.fx.trigradient::sc.texture.trigradient::drawto" : [ "Forest" ],
 					"f3.in.stream_p0::stream" : [ 0 ],
-					"f3.in.stream_p1::stream" : [ 1 ],
-					"f3.in.stream_p2::stream" : [ 2 ],
-					"patcher::simultate_angles" : [  ],
-					"sc.avg.vecrunning::alpha" : [  ],
+					"f3.in.stream_p1::stream" : [ 0 ],
+					"f3.in.stream_p2::stream" : [ 0 ],
+					"patcher::simultate_angles" : [ 0 ],
+					"sc.avg.vecrunning::alpha" : [ 0.5 ],
 					"f3.fx.landscape::invert" : [ 1.0 ],
 					"f3.fx.landscape::variance" : [ 0.1 ],
 					"f3.fx.landscape::max_iter" : [ 5.0 ],
-					"f3.fx.landscape::mode" : [ "sum" ]
+					"f3.fx.landscape::mode" : [ "avg" ],
+					"sc.avg.running[1]::alpha" : [ 0.5 ]
 				}
 
 			}
