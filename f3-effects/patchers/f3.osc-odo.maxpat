@@ -145,7 +145,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 488.0, 323.0, 30.0, 30.0 ]
+					"patching_rect" : [ 523.5625, 306.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -169,7 +169,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 225.0, 164.0, 103.5, 22.0 ],
-					"text" : "9.729307"
+					"text" : "9.315672"
 				}
 
 			}
@@ -627,7 +627,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 379.375, 67.0, 187.25, 22.0 ],
-					"text" : "961.49884"
+					"text" : "967.735535"
 				}
 
 			}
@@ -684,13 +684,11 @@
 					"fontface" : 0,
 					"fontsize" : 12.0,
 					"id" : "obj-48",
-					"linecount" : 7,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 964.125, 243.0, 327.25, 116.0 ],
-					"text" : "/devices/pressures : \"961.5317993164062\",\n/devices/rotations : \"312.5574951171875 0.5969535112380981 0.35134145617485046\",\n/devices/accelerations : \"0.05973803997039795 -0.09699952602386475 9.756755828857422\",\n/devices/uuids : \"5d69d1474929dfec\""
+					"patching_rect" : [ 964.125, 243.0, 327.25, 34.0 ]
 				}
 
 			}
@@ -732,7 +730,7 @@
 					"patching_rect" : [ 555.5625, 340.0, 180.875, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 185.0, 186.875, 19.0 ],
-					"text" : "313.276489 0.588511 0.372206",
+					"text" : "301.455017 -1.311043 -4.630512",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -849,7 +847,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 550.0, 372.0, 173.5, 20.0 ],
+					"patching_rect" : [ 555.5625, 362.0, 173.5, 20.0 ],
 					"text" : "roll, azimuth/yaw, pitch (?) out"
 				}
 
@@ -1477,8 +1475,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 770.625, 265.0, 154.0, 22.0 ],
-					"text" : "scale 0. 360. 0. 6.28318"
+					"patching_rect" : [ 770.625, 265.0, 141.0, 22.0 ],
+					"text" : "scale 0. 360. 0. -6.28318"
 				}
 
 			}
@@ -1743,7 +1741,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 228.5, 648.0, 100.0, 22.0 ],
-					"text" : "zmap 0. 7. 0. 1.5"
+					"text" : "zmap 0. 7. 0. 2.5"
 				}
 
 			}
