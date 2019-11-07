@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 590.0, 97.0, 953.0, 702.0 ],
+		"rect" : [ 627.0, 251.0, 953.0, 702.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -88,14 +88,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 627.0, 89.5, 257.0, 35.0 ],
+					"patching_rect" : [ 627.0, 89.5, 240.0, 35.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ -180.0, -90.0, -180.0 ],
+						"initial" : [ 0.0, -180.0, -90.0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr min_val @initial -180. -90. -180. @bindto _dummy::min_values",
+					"text" : "pattr min_val @initial 0. -180. -90. @bindto _dummy::min_values",
 					"varname" : "min_val"
 				}
 
@@ -110,12 +110,12 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 627.0, 52.5, 248.0, 35.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 180.0, 90.0, 180.0 ],
+						"initial" : [ 360.0, 180.0, 90.0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr max_val @initial 180. 90. 180. @bindto _dummy::max_values",
+					"text" : "pattr max_val @initial 360. 180. 90. @bindto _dummy::max_values",
 					"varname" : "max_val"
 				}
 
@@ -436,7 +436,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-29",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -670,7 +670,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -695,7 +695,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1060,7 +1060,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }

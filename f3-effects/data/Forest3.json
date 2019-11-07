@@ -7,7 +7,6 @@
 				"name" : "reset",
 				"data" : 				{
 					"tag_coordinates" : [ 0.0, 0.0, 0.0 ],
-					"tag_raw_coordinates" : [ 544, 2435, 1345 ],
 					"spot_enabled" : [  ],
 					"plane_enabled" : [ 0 ],
 					"triGrad_enabled" : [  ],
@@ -24,16 +23,14 @@
 					"f3.vidplayer::rate" : [ 1.0 ],
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
-					"f3.fx.color-videoSample::u730004128" : [  ],
+					"f3.fx.color-videoSample::u224004043" : [ 0 ],
 					"f3.prev.plane::prev" : [ "visualizer" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.587, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
 					"f3.fx.cnoise::dim" : [ 100, 100, 0 ],
 					"f3.fx.cnoise::offset" : [ 0.0, 0.0 ],
-					"f3.fx.cnoise::z" : [ 5.629999999999902 ],
+					"f3.fx.cnoise::z" : [ 39.465000000001737 ],
 					"f3.fx.cnoise::timestep" : [ 0.005 ],
-					"f3.pozyx.serial::serial_device" : [ "usbmodem1421" ],
-					"f3.pozyx.serial::tag_id" : [ "6E17" ],
 					"Texture Mixing::f3.mix.textures::left_tex" : [ "cnoise" ],
 					"Texture Mixing::f3.mix.textures::right_tex" : [ "height-spot" ],
 					"Texture Mixing::f3.mix.textures::r_op" : [ 1 ],
@@ -267,17 +264,15 @@
 					"f3.fx.trigradient::sc.texture.trigradient::p1" : [  ],
 					"f3.fx.trigradient::sc.texture.trigradient::p2" : [  ],
 					"f3.fx.trigradient::sc.texture.trigradient::drawto" : [  ],
-					"f3.in.stream_p0::stream" : [  ],
-					"f3.in.stream_p1::stream" : [  ],
-					"f3.in.stream_p2::stream" : [  ],
 					"patcher::simultate_angles" : [  ],
-					"sc.avg.vecrunning::alpha" : [  ],
 					"f3.fx.landscape::invert" : [  ],
 					"f3.fx.landscape::variance" : [  ],
 					"f3.fx.landscape::max_iter" : [  ],
 					"f3.fx.landscape::mode" : [  ],
-					"sc.avg.running[1]::alpha" : [  ],
-					"sc.avg.running[2]::alpha" : [  ]
+					"patcher[1]::tag_raw_coordinates" : [  ],
+					"patcher[1]::f3.pozyx.serial::serial_device" : [  ],
+					"patcher[1]::f3.pozyx.serial::tag_id" : [  ],
+					"sc.avg.running::alpha" : [  ]
 				}
 
 			}
@@ -287,7 +282,6 @@
 				"name" : "plane flat rot",
 				"data" : 				{
 					"tag_coordinates" : [ 0.665000021457672, 0.270999997854233, 0.0 ],
-					"tag_raw_coordinates" : [ 544, 2435, 1345 ],
 					"spot_enabled" : [ 0 ],
 					"plane_enabled" : [ 0 ],
 					"triGrad_enabled" : [ 0 ],
@@ -304,16 +298,14 @@
 					"f3.vidplayer::rate" : [ 1.0 ],
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
-					"f3.fx.color-videoSample::u730004128" : [ 0 ],
+					"f3.fx.color-videoSample::u224004043" : [ 0 ],
 					"f3.prev.plane::prev" : [ "visualizer" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.3, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
 					"f3.fx.cnoise::dim" : [ 100, 100, 0 ],
 					"f3.fx.cnoise::offset" : [ 0.0, 0.0 ],
-					"f3.fx.cnoise::z" : [ 26.039999999999104 ],
+					"f3.fx.cnoise::z" : [ 43.390000000003745 ],
 					"f3.fx.cnoise::timestep" : [ 0.005 ],
-					"f3.pozyx.serial::serial_device" : [ "usbmodem1421" ],
-					"f3.pozyx.serial::tag_id" : [ "6E17" ],
 					"Texture Mixing::f3.mix.textures::left_tex" : [ "cnoise" ],
 					"Texture Mixing::f3.mix.textures::right_tex" : [ "height-spot" ],
 					"Texture Mixing::f3.mix.textures::r_op" : [ 1 ],
@@ -547,17 +539,15 @@
 					"f3.fx.trigradient::sc.texture.trigradient::p1" : [ 0.827, -0.07, -0.99 ],
 					"f3.fx.trigradient::sc.texture.trigradient::p2" : [ 1.0, 1.24, 0.937 ],
 					"f3.fx.trigradient::sc.texture.trigradient::drawto" : [ "Forest" ],
-					"f3.in.stream_p0::stream" : [ 0 ],
-					"f3.in.stream_p1::stream" : [ 0 ],
-					"f3.in.stream_p2::stream" : [ 0 ],
 					"patcher::simultate_angles" : [ 0 ],
-					"sc.avg.vecrunning::alpha" : [ 0.5 ],
 					"f3.fx.landscape::invert" : [ 1.0 ],
 					"f3.fx.landscape::variance" : [ 0.2 ],
 					"f3.fx.landscape::max_iter" : [ 5.0 ],
 					"f3.fx.landscape::mode" : [ "sum" ],
-					"sc.avg.running[1]::alpha" : [ 0.300000011920929 ],
-					"sc.avg.running[2]::alpha" : [ 0.200000002980232 ]
+					"patcher[1]::tag_raw_coordinates" : [  ],
+					"patcher[1]::f3.pozyx.serial::serial_device" : [  ],
+					"patcher[1]::f3.pozyx.serial::tag_id" : [  ],
+					"sc.avg.running::alpha" : [  ]
 				}
 
 			}
@@ -567,7 +557,6 @@
 				"name" : "dome",
 				"data" : 				{
 					"tag_coordinates" : [ 0.462000012397766, 0.526000022888184, 0.0 ],
-					"tag_raw_coordinates" : [ 544, 2435, 1345 ],
 					"spot_enabled" : [ 1 ],
 					"plane_enabled" : [  ],
 					"triGrad_enabled" : [  ],
@@ -584,7 +573,7 @@
 					"f3.vidplayer::rate" : [ 1.0 ],
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
-					"f3.fx.color-videoSample::u730004128" : [  ],
+					"f3.fx.color-videoSample::u224004043" : [  ],
 					"f3.prev.plane::prev" : [ "visualizer" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.587, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
@@ -592,8 +581,6 @@
 					"f3.fx.cnoise::offset" : [ 0.0, 0.0 ],
 					"f3.fx.cnoise::z" : [ 13.915000000000775 ],
 					"f3.fx.cnoise::timestep" : [ 0.005 ],
-					"f3.pozyx.serial::serial_device" : [ "usbmodem1421" ],
-					"f3.pozyx.serial::tag_id" : [ "6E17" ],
 					"Texture Mixing::f3.mix.textures::left_tex" : [ "cnoise" ],
 					"Texture Mixing::f3.mix.textures::right_tex" : [ "height-spot" ],
 					"Texture Mixing::f3.mix.textures::r_op" : [ 1 ],
@@ -827,17 +814,15 @@
 					"f3.fx.trigradient::sc.texture.trigradient::p1" : [  ],
 					"f3.fx.trigradient::sc.texture.trigradient::p2" : [  ],
 					"f3.fx.trigradient::sc.texture.trigradient::drawto" : [  ],
-					"f3.in.stream_p0::stream" : [  ],
-					"f3.in.stream_p1::stream" : [  ],
-					"f3.in.stream_p2::stream" : [  ],
 					"patcher::simultate_angles" : [  ],
-					"sc.avg.vecrunning::alpha" : [  ],
 					"f3.fx.landscape::invert" : [  ],
 					"f3.fx.landscape::variance" : [  ],
 					"f3.fx.landscape::max_iter" : [  ],
 					"f3.fx.landscape::mode" : [  ],
-					"sc.avg.running[1]::alpha" : [  ],
-					"sc.avg.running[2]::alpha" : [  ]
+					"patcher[1]::tag_raw_coordinates" : [  ],
+					"patcher[1]::f3.pozyx.serial::serial_device" : [  ],
+					"patcher[1]::f3.pozyx.serial::tag_id" : [  ],
+					"sc.avg.running::alpha" : [  ]
 				}
 
 			}
@@ -847,7 +832,6 @@
 				"name" : "cnoise with spot lower",
 				"data" : 				{
 					"tag_coordinates" : [ 0.259091, 0.498043, 22.0 ],
-					"tag_raw_coordinates" : [ 2055, 2791, 22 ],
 					"spot_enabled" : [ 1 ],
 					"plane_enabled" : [  ],
 					"triGrad_enabled" : [  ],
@@ -864,7 +848,7 @@
 					"f3.vidplayer::rate" : [ 1.0 ],
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
-					"f3.fx.color-videoSample::u730004128" : [  ],
+					"f3.fx.color-videoSample::u224004043" : [  ],
 					"f3.prev.plane::prev" : [ "visualizer" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.587, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
@@ -872,8 +856,6 @@
 					"f3.fx.cnoise::offset" : [ 0.0, 0.0 ],
 					"f3.fx.cnoise::z" : [ 280.749999999817192 ],
 					"f3.fx.cnoise::timestep" : [ 0.005 ],
-					"f3.pozyx.serial::serial_device" : [ "usbmodem1421" ],
-					"f3.pozyx.serial::tag_id" : [ "6E17" ],
 					"Texture Mixing::f3.mix.textures::left_tex" : [ "cnoise" ],
 					"Texture Mixing::f3.mix.textures::right_tex" : [ "height-spot" ],
 					"Texture Mixing::f3.mix.textures::r_op" : [ 1 ],
@@ -1107,27 +1089,24 @@
 					"f3.fx.trigradient::sc.texture.trigradient::p1" : [  ],
 					"f3.fx.trigradient::sc.texture.trigradient::p2" : [  ],
 					"f3.fx.trigradient::sc.texture.trigradient::drawto" : [  ],
-					"f3.in.stream_p0::stream" : [  ],
-					"f3.in.stream_p1::stream" : [  ],
-					"f3.in.stream_p2::stream" : [  ],
 					"patcher::simultate_angles" : [  ],
-					"sc.avg.vecrunning::alpha" : [  ],
 					"f3.fx.landscape::invert" : [  ],
 					"f3.fx.landscape::variance" : [  ],
 					"f3.fx.landscape::max_iter" : [  ],
 					"f3.fx.landscape::mode" : [  ],
-					"sc.avg.running[1]::alpha" : [  ],
-					"sc.avg.running[2]::alpha" : [  ]
+					"patcher[1]::tag_raw_coordinates" : [  ],
+					"patcher[1]::f3.pozyx.serial::serial_device" : [  ],
+					"patcher[1]::f3.pozyx.serial::tag_id" : [  ],
+					"sc.avg.running::alpha" : [  ]
 				}
 
 			}
 ,
 			"5" : 			{
 				"id" : 5,
-				"name" : "plane flat rot",
+				"name" : "plane flat rot int",
 				"data" : 				{
 					"tag_coordinates" : [ 0.228000000119209, 0.73199999332428, 0.0 ],
-					"tag_raw_coordinates" : [ 544, 2435, 1345 ],
 					"spot_enabled" : [ 0 ],
 					"plane_enabled" : [ 1 ],
 					"triGrad_enabled" : [ 0 ],
@@ -1144,7 +1123,7 @@
 					"f3.vidplayer::rate" : [ 1.0 ],
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
-					"f3.fx.color-videoSample::u730004128" : [  ],
+					"f3.fx.color-videoSample::u224004043" : [  ],
 					"f3.prev.plane::prev" : [ "visualizer" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.3, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
@@ -1152,8 +1131,6 @@
 					"f3.fx.cnoise::offset" : [ 0.0, 0.0 ],
 					"f3.fx.cnoise::z" : [ 31.589999999998 ],
 					"f3.fx.cnoise::timestep" : [ 0.005 ],
-					"f3.pozyx.serial::serial_device" : [ "usbmodem1421" ],
-					"f3.pozyx.serial::tag_id" : [ "6E17" ],
 					"Texture Mixing::f3.mix.textures::left_tex" : [ "cnoise" ],
 					"Texture Mixing::f3.mix.textures::right_tex" : [ "height-spot" ],
 					"Texture Mixing::f3.mix.textures::r_op" : [ 1 ],
@@ -1387,17 +1364,15 @@
 					"f3.fx.trigradient::sc.texture.trigradient::p1" : [ 0.827, -0.07, -0.99 ],
 					"f3.fx.trigradient::sc.texture.trigradient::p2" : [ 1.0, 1.24, 0.937 ],
 					"f3.fx.trigradient::sc.texture.trigradient::drawto" : [ "Forest" ],
-					"f3.in.stream_p0::stream" : [ 0 ],
-					"f3.in.stream_p1::stream" : [ 0 ],
-					"f3.in.stream_p2::stream" : [ 0 ],
 					"patcher::simultate_angles" : [ 0 ],
-					"sc.avg.vecrunning::alpha" : [ 0.5 ],
 					"f3.fx.landscape::invert" : [ 1.0 ],
 					"f3.fx.landscape::variance" : [ 0.2 ],
 					"f3.fx.landscape::max_iter" : [ 5.0 ],
 					"f3.fx.landscape::mode" : [ "sum" ],
-					"sc.avg.running[1]::alpha" : [ 0.300000011920929 ],
-					"sc.avg.running[2]::alpha" : [ 0.200000002980232 ]
+					"patcher[1]::tag_raw_coordinates" : [  ],
+					"patcher[1]::f3.pozyx.serial::serial_device" : [  ],
+					"patcher[1]::f3.pozyx.serial::tag_id" : [  ],
+					"sc.avg.running::alpha" : [  ]
 				}
 
 			}
@@ -1407,7 +1382,6 @@
 				"name" : "color top pos",
 				"data" : 				{
 					"tag_coordinates" : [ -1.0, -1.0, -1.0 ],
-					"tag_raw_coordinates" : [ 544, 2435, 1345 ],
 					"spot_enabled" : [  ],
 					"plane_enabled" : [  ],
 					"triGrad_enabled" : [  ],
@@ -1424,7 +1398,7 @@
 					"f3.vidplayer::rate" : [ 1.0 ],
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
-					"f3.fx.color-videoSample::u730004128" : [  ],
+					"f3.fx.color-videoSample::u224004043" : [  ],
 					"f3.prev.plane::prev" : [ "visualizer" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.587, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
@@ -1432,8 +1406,6 @@
 					"f3.fx.cnoise::offset" : [ 0.0, 0.0 ],
 					"f3.fx.cnoise::z" : [ 438.554993000000024 ],
 					"f3.fx.cnoise::timestep" : [ 0.005 ],
-					"f3.pozyx.serial::serial_device" : [ "usbmodem1421" ],
-					"f3.pozyx.serial::tag_id" : [ "6E17" ],
 					"Texture Mixing::f3.mix.textures::left_tex" : [ "cnoise" ],
 					"Texture Mixing::f3.mix.textures::right_tex" : [ "height-spot" ],
 					"Texture Mixing::f3.mix.textures::r_op" : [ 1 ],
@@ -1667,17 +1639,15 @@
 					"f3.fx.trigradient::sc.texture.trigradient::p1" : [  ],
 					"f3.fx.trigradient::sc.texture.trigradient::p2" : [  ],
 					"f3.fx.trigradient::sc.texture.trigradient::drawto" : [  ],
-					"f3.in.stream_p0::stream" : [  ],
-					"f3.in.stream_p1::stream" : [  ],
-					"f3.in.stream_p2::stream" : [  ],
 					"patcher::simultate_angles" : [  ],
-					"sc.avg.vecrunning::alpha" : [  ],
 					"f3.fx.landscape::invert" : [  ],
 					"f3.fx.landscape::variance" : [  ],
 					"f3.fx.landscape::max_iter" : [  ],
 					"f3.fx.landscape::mode" : [  ],
-					"sc.avg.running[1]::alpha" : [  ],
-					"sc.avg.running[2]::alpha" : [  ]
+					"patcher[1]::tag_raw_coordinates" : [  ],
+					"patcher[1]::f3.pozyx.serial::serial_device" : [  ],
+					"patcher[1]::f3.pozyx.serial::tag_id" : [  ],
+					"sc.avg.running::alpha" : [  ]
 				}
 
 			}
@@ -1687,7 +1657,6 @@
 				"name" : "syphon",
 				"data" : 				{
 					"tag_coordinates" : [ 0.926999986171722, 0.24099999666214, 0.00000006472257 ],
-					"tag_raw_coordinates" : [ 544, 2435, 1345 ],
 					"spot_enabled" : [ 0 ],
 					"plane_enabled" : [ 0 ],
 					"triGrad_enabled" : [ 1 ],
@@ -1704,7 +1673,7 @@
 					"f3.vidplayer::rate" : [ 1.0 ],
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
-					"f3.fx.color-videoSample::u730004128" : [  ],
+					"f3.fx.color-videoSample::u224004043" : [  ],
 					"f3.prev.plane::prev" : [ "visualizer" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.587, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
@@ -1712,8 +1681,6 @@
 					"f3.fx.cnoise::offset" : [ 0.0, 0.0 ],
 					"f3.fx.cnoise::z" : [ 37.475000000000719 ],
 					"f3.fx.cnoise::timestep" : [ 0.005 ],
-					"f3.pozyx.serial::serial_device" : [ "usbmodem1421" ],
-					"f3.pozyx.serial::tag_id" : [ "6E17" ],
 					"Texture Mixing::f3.mix.textures::left_tex" : [ "cnoise" ],
 					"Texture Mixing::f3.mix.textures::right_tex" : [ "height-spot" ],
 					"Texture Mixing::f3.mix.textures::r_op" : [ 1 ],
@@ -1947,17 +1914,15 @@
 					"f3.fx.trigradient::sc.texture.trigradient::p1" : [ 0.300000011920929, 0.800000011920929, 0.300000011920929 ],
 					"f3.fx.trigradient::sc.texture.trigradient::p2" : [ 0.100000001490116, 0.400000005960464, 0.300000011920929 ],
 					"f3.fx.trigradient::sc.texture.trigradient::drawto" : [ "Forest" ],
-					"f3.in.stream_p0::stream" : [ 0 ],
-					"f3.in.stream_p1::stream" : [ 1 ],
-					"f3.in.stream_p2::stream" : [ 2 ],
 					"patcher::simultate_angles" : [  ],
-					"sc.avg.vecrunning::alpha" : [  ],
 					"f3.fx.landscape::invert" : [  ],
 					"f3.fx.landscape::variance" : [  ],
 					"f3.fx.landscape::max_iter" : [  ],
 					"f3.fx.landscape::mode" : [  ],
-					"sc.avg.running[1]::alpha" : [ 0.5 ],
-					"sc.avg.running[2]::alpha" : [  ]
+					"patcher[1]::tag_raw_coordinates" : [  ],
+					"patcher[1]::f3.pozyx.serial::serial_device" : [  ],
+					"patcher[1]::f3.pozyx.serial::tag_id" : [  ],
+					"sc.avg.running::alpha" : [  ]
 				}
 
 			}
@@ -1967,7 +1932,6 @@
 				"name" : "wave",
 				"data" : 				{
 					"tag_coordinates" : [ 0.324000000953674, 0.921999990940094, 0.207447439432144 ],
-					"tag_raw_coordinates" : [ 544, 2435, 1345 ],
 					"spot_enabled" : [ 1 ],
 					"plane_enabled" : [ 0 ],
 					"triGrad_enabled" : [  ],
@@ -1984,7 +1948,7 @@
 					"f3.vidplayer::rate" : [ 1.0 ],
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
-					"f3.fx.color-videoSample::u730004128" : [  ],
+					"f3.fx.color-videoSample::u224004043" : [  ],
 					"f3.prev.plane::prev" : [ "wave-invert-preview" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.587, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 15.0, 15.0 ],
@@ -1992,8 +1956,6 @@
 					"f3.fx.cnoise::offset" : [ 0.0, 0.0 ],
 					"f3.fx.cnoise::z" : [ 201.429999999889304 ],
 					"f3.fx.cnoise::timestep" : [ 0.005 ],
-					"f3.pozyx.serial::serial_device" : [ "usbmodem1421" ],
-					"f3.pozyx.serial::tag_id" : [ "6E17" ],
 					"Texture Mixing::f3.mix.textures::left_tex" : [ "cnoise" ],
 					"Texture Mixing::f3.mix.textures::right_tex" : [ "height-spot" ],
 					"Texture Mixing::f3.mix.textures::r_op" : [ 1 ],
@@ -2227,17 +2189,15 @@
 					"f3.fx.trigradient::sc.texture.trigradient::p1" : [ 0.324000000953674, 0.921999990940094, 0.207447439432144 ],
 					"f3.fx.trigradient::sc.texture.trigradient::p2" : [ 0.324000000953674, 0.921999990940094, 0.207447439432144 ],
 					"f3.fx.trigradient::sc.texture.trigradient::drawto" : [  ],
-					"f3.in.stream_p0::stream" : [  ],
-					"f3.in.stream_p1::stream" : [  ],
-					"f3.in.stream_p2::stream" : [  ],
 					"patcher::simultate_angles" : [  ],
-					"sc.avg.vecrunning::alpha" : [  ],
 					"f3.fx.landscape::invert" : [  ],
 					"f3.fx.landscape::variance" : [  ],
 					"f3.fx.landscape::max_iter" : [  ],
 					"f3.fx.landscape::mode" : [  ],
-					"sc.avg.running[1]::alpha" : [  ],
-					"sc.avg.running[2]::alpha" : [  ]
+					"patcher[1]::tag_raw_coordinates" : [  ],
+					"patcher[1]::f3.pozyx.serial::serial_device" : [  ],
+					"patcher[1]::f3.pozyx.serial::tag_id" : [  ],
+					"sc.avg.running::alpha" : [  ]
 				}
 
 			}
@@ -2247,7 +2207,6 @@
 				"name" : "triGradient",
 				"data" : 				{
 					"tag_coordinates" : [ 0.926999986171722, 0.24099999666214, 0.00000006472257 ],
-					"tag_raw_coordinates" : [ 544, 2435, 1345 ],
 					"spot_enabled" : [ 0 ],
 					"plane_enabled" : [ 0 ],
 					"triGrad_enabled" : [ 1 ],
@@ -2264,7 +2223,7 @@
 					"f3.vidplayer::rate" : [ 1.0 ],
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
-					"f3.fx.color-videoSample::u730004128" : [  ],
+					"f3.fx.color-videoSample::u224004043" : [  ],
 					"f3.prev.plane::prev" : [ "visualizer" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.587, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
@@ -2272,8 +2231,6 @@
 					"f3.fx.cnoise::offset" : [ 0.0, 0.0 ],
 					"f3.fx.cnoise::z" : [ 86.554999999993768 ],
 					"f3.fx.cnoise::timestep" : [ 0.005 ],
-					"f3.pozyx.serial::serial_device" : [ "usbmodem1421" ],
-					"f3.pozyx.serial::tag_id" : [ "6E17" ],
 					"Texture Mixing::f3.mix.textures::left_tex" : [ "cnoise" ],
 					"Texture Mixing::f3.mix.textures::right_tex" : [ "height-spot" ],
 					"Texture Mixing::f3.mix.textures::r_op" : [ 1 ],
@@ -2507,17 +2464,15 @@
 					"f3.fx.trigradient::sc.texture.trigradient::p1" : [ 0.300000011920929, 0.800000011920929, 0.300000011920929 ],
 					"f3.fx.trigradient::sc.texture.trigradient::p2" : [ 0.100000001490116, 0.400000005960464, 0.300000011920929 ],
 					"f3.fx.trigradient::sc.texture.trigradient::drawto" : [ "Forest" ],
-					"f3.in.stream_p0::stream" : [ 0 ],
-					"f3.in.stream_p1::stream" : [ 1 ],
-					"f3.in.stream_p2::stream" : [ 2 ],
 					"patcher::simultate_angles" : [  ],
-					"sc.avg.vecrunning::alpha" : [  ],
 					"f3.fx.landscape::invert" : [  ],
 					"f3.fx.landscape::variance" : [  ],
 					"f3.fx.landscape::max_iter" : [  ],
 					"f3.fx.landscape::mode" : [  ],
-					"sc.avg.running[1]::alpha" : [ 0.5 ],
-					"sc.avg.running[2]::alpha" : [  ]
+					"patcher[1]::tag_raw_coordinates" : [  ],
+					"patcher[1]::f3.pozyx.serial::serial_device" : [  ],
+					"patcher[1]::f3.pozyx.serial::tag_id" : [  ],
+					"sc.avg.running::alpha" : [  ]
 				}
 
 			}
@@ -2527,7 +2482,6 @@
 				"name" : "landscape",
 				"data" : 				{
 					"tag_coordinates" : [ 0.29899999499321, 1.0, 0.138663172721863 ],
-					"tag_raw_coordinates" : [ 544, 2435, 1345 ],
 					"spot_enabled" : [ 0 ],
 					"plane_enabled" : [ 0 ],
 					"triGrad_enabled" : [ 0 ],
@@ -2544,7 +2498,7 @@
 					"f3.vidplayer::rate" : [ 1.0 ],
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
-					"f3.fx.color-videoSample::u730004128" : [  ],
+					"f3.fx.color-videoSample::u224004043" : [  ],
 					"f3.prev.plane::prev" : [ "visualizer" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.587, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
@@ -2552,8 +2506,6 @@
 					"f3.fx.cnoise::offset" : [ 0.0, 0.0 ],
 					"f3.fx.cnoise::z" : [ 389.419999999718357 ],
 					"f3.fx.cnoise::timestep" : [ 0.005 ],
-					"f3.pozyx.serial::serial_device" : [ "usbmodem1421" ],
-					"f3.pozyx.serial::tag_id" : [ "6E17" ],
 					"Texture Mixing::f3.mix.textures::left_tex" : [ "cnoise" ],
 					"Texture Mixing::f3.mix.textures::right_tex" : [ "height-spot" ],
 					"Texture Mixing::f3.mix.textures::r_op" : [ 1 ],
@@ -2787,17 +2739,15 @@
 					"f3.fx.trigradient::sc.texture.trigradient::p1" : [ 1.0, 0.0, 0.8 ],
 					"f3.fx.trigradient::sc.texture.trigradient::p2" : [ 1.0, 1.0, 0.8 ],
 					"f3.fx.trigradient::sc.texture.trigradient::drawto" : [ "Forest" ],
-					"f3.in.stream_p0::stream" : [ 0 ],
-					"f3.in.stream_p1::stream" : [ 0 ],
-					"f3.in.stream_p2::stream" : [ 0 ],
 					"patcher::simultate_angles" : [ 0 ],
-					"sc.avg.vecrunning::alpha" : [ 0.5 ],
 					"f3.fx.landscape::invert" : [ 1.0 ],
 					"f3.fx.landscape::variance" : [ 0.2 ],
 					"f3.fx.landscape::max_iter" : [ 5.0 ],
 					"f3.fx.landscape::mode" : [ "sum" ],
-					"sc.avg.running[1]::alpha" : [ 0.5 ],
-					"sc.avg.running[2]::alpha" : [  ]
+					"patcher[1]::tag_raw_coordinates" : [  ],
+					"patcher[1]::f3.pozyx.serial::serial_device" : [  ],
+					"patcher[1]::f3.pozyx.serial::tag_id" : [  ],
+					"sc.avg.running::alpha" : [  ]
 				}
 
 			}

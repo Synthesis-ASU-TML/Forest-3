@@ -1,9 +1,9 @@
 {
 	"name" : "f3-effects",
 	"version" : 1,
-	"creationdate" : 2082819114,
-	"modificationdate" : 3653391615,
-	"viewrect" : [ 130.0, 455.0, 300.0, 500.0 ],
+	"creationdate" : 2082818993,
+	"modificationdate" : 3655905504,
+	"viewrect" : [ 134.0, 294.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -135,11 +135,6 @@
 				"kind" : "patcher"
 			}
 ,
-			"f3.pozyx.serial.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"f3.mix.textures.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -223,6 +218,25 @@
 				"local" : 1
 			}
 ,
+			"sc.texture.trigradient.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"f3.fx.landscape.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"f3.pozyx.serial.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"sc.avg.vecrunning.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
 			"sc.matrix.camera.simple.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -238,7 +252,7 @@
 				"local" : 1
 			}
 ,
-			"f3.fx.landscape.maxpat" : 			{
+			"f3.osc-sensors.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -254,21 +268,6 @@
 		}
 ,
 		"code" : 		{
-			"f3.landscape.avg.jxs" : 			{
-				"kind" : "shader",
-				"local" : 1
-			}
-,
-			"f3.landscape.max.jxs" : 			{
-				"kind" : "shader",
-				"local" : 1
-			}
-,
-			"f3.landscape.sum.jxs" : 			{
-				"kind" : "shader",
-				"local" : 1
-			}
-,
 			"f3.fxcombine.genjit" : 			{
 				"kind" : "genjit",
 				"local" : 1
@@ -286,6 +285,21 @@
 ,
 			"cwjr.trigradient.genjit" : 			{
 				"kind" : "genjit",
+				"local" : 1
+			}
+,
+			"f3.landscape.avg.jxs" : 			{
+				"kind" : "shader",
+				"local" : 1
+			}
+,
+			"f3.landscape.max.jxs" : 			{
+				"kind" : "shader",
+				"local" : 1
+			}
+,
+			"f3.landscape.sum.jxs" : 			{
+				"kind" : "shader",
 				"local" : 1
 			}
 ,
@@ -345,6 +359,29 @@
 		}
 ,
 		"externals" : 		{
+			"sadam.tcpClient.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"imp.artnet.controller.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"o.route.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"jit.gl.syphonclient.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"mubu.xmm.mxo" : 			{
+				"kind" : "object"
+			}
 
 		}
 
