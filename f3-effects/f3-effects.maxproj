@@ -1,8 +1,8 @@
 {
 	"name" : "f3-effects",
 	"version" : 1,
-	"creationdate" : 2082818993,
-	"modificationdate" : 3655905504,
+	"creationdate" : 2082818872,
+	"modificationdate" : 3656681167,
 	"viewrect" : [ 134.0, 294.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -233,7 +233,16 @@
 				"local" : 1
 			}
 ,
+			"f3.osc-sensors.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"sc.avg.vecrunning.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"sc.texture.xfade.maxpat" : 			{
 				"kind" : "patcher"
 			}
 ,
@@ -248,11 +257,6 @@
 			}
 ,
 			"Unit_Grid_Generator.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"f3.osc-sensors.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -286,6 +290,10 @@
 			"cwjr.trigradient.genjit" : 			{
 				"kind" : "genjit",
 				"local" : 1
+			}
+,
+			"bypass_dummy.genjit" : 			{
+				"kind" : "genjit"
 			}
 ,
 			"f3.landscape.avg.jxs" : 			{
