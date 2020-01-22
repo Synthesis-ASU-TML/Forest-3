@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 395.0, 79.0, 1322.0, 937.0 ],
+		"rect" : [ 324.0, 79.0, 1322.0, 937.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -4573,7 +4573,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 122.0, 249.916626000000008, 91.0, 22.0 ],
-									"text" : "2021.68806"
+									"text" : "2010.292091"
 								}
 
 							}
@@ -4931,7 +4931,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 848.0, 249.0, 30.0, 49.0 ],
-					"text" : "recall 11"
+					"text" : "recall 1"
 				}
 
 			}
@@ -8642,12 +8642,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-14",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 176.0, 558.0, 183.0, 35.0 ],
+					"patching_rect" : [ 176.0, 558.0, 222.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0.0, 0.0, 0.0 ],
 						"parameter_enable" : 0,
@@ -11137,9 +11136,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-81::obj-34" : [ "live.tab", "live.tab", 0 ],
 			"obj-42::obj-10" : [ "loop-range", "loop-range", 0 ],
 			"obj-48::obj-10" : [ "loop-range[1]", "loop-range", 0 ],
+			"obj-81::obj-34" : [ "live.tab", "live.tab", 0 ],
 			"parameterbanks" : 			{
 
 			}
