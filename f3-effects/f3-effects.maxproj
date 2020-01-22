@@ -1,9 +1,9 @@
 {
 	"name" : "f3-effects",
 	"version" : 1,
-	"creationdate" : 2082818872,
-	"modificationdate" : 3656681167,
-	"viewrect" : [ 134.0, 294.0, 300.0, 500.0 ],
+	"creationdate" : 2082818751,
+	"modificationdate" : 3662533695,
+	"viewrect" : [ 134.0, 293.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -257,6 +257,11 @@
 			}
 ,
 			"Unit_Grid_Generator.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"f3.fx.lines_with_mesh.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

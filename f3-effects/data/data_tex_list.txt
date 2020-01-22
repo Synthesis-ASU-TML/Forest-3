@@ -13,4 +13,5 @@ syphon-height
 syphon-color
 triGradient
 landscape
+line
 manual-board

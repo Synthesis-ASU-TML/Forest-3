@@ -11,6 +11,7 @@ wave
 syphon-color
 syphon-height
 triGradient
+line
 manual-board
 visualizer
 height-spot-preview
@@ -28,6 +29,7 @@ syphon-color-preview
 syphon-height-preview
 landscape-preview
 triGradient-preview
+line-preview
 mix-1
 mix-2
 mix-3
