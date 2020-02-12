@@ -21,11 +21,11 @@
 					"f3.fx.height-plane::rot_angles" : [ 4.297999918250165, -0.30089089438341, 0.15515885838971 ],
 					"f3.vidplayer::vid-range" : [ 0.0, 1000.0 ],
 					"f3.vidplayer::file" : [ "bball.mov" ],
-					"f3.vidplayer::rate" : [ 1.0 ],
+					"f3.vidplayer::rate" : [ 0.0 ],
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
 					"f3.vidplayer::vid-pos" : [  ],
-					"f3.fx.color-videoSample::u998006300" : [  ],
+					"f3.fx.color-videoSample::u009005087" : [ 0 ],
 					"f3.prev.plane::prev" : [ "visualizer" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.587, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
@@ -140,7 +140,7 @@
 					"f3.artnet.out::blackout" : [ 0 ],
 					"f3.artnet.out::num_channels" : [ 512 ],
 					"f3.artnet.out::enabled" : [ 1 ],
-					"f3.artnet.out::unicast_ip" : [ "255.255.255.255" ],
+					"f3.artnet.out::unicast_ip" : [ "192.168.1.255" ],
 					"f3.fx.color-displace::color" : [ 0.0, 0.0, 0.422963, 1.0 ],
 					"f3.fx.color-displace::tex_name" : [ "inverse-signed-noise" ],
 					"f3.fx.color-brcosa::texture" : [ "blackout" ],
@@ -251,16 +251,16 @@
 					"f3.fx.brownian::min_displacement" : [  ],
 					"clocker::slide_up_value" : [  ],
 					"clocker::transition_time" : [  ],
-					"sc.texture.syphon.input::drawto" : [  ],
-					"sc.texture.syphon.input::servername" : [  ],
-					"sc.texture.syphon.input::appname" : [  ],
+					"sc.texture.syphon.input::drawto" : [ "" ],
+					"sc.texture.syphon.input::servername" : [ "" ],
+					"sc.texture.syphon.input::appname" : [ "" ],
 					"f3.fx.syphon::height_src" : [  ],
 					"f3.fx.syphon::color_src" : [  ],
-					"f3.fx.syphon::sc.texture.roi::start_pos" : [  ],
-					"f3.fx.syphon::sc.texture.roi::src_dim" : [  ],
+					"f3.fx.syphon::sc.texture.roi::start_pos" : [ 0.0, 0.0 ],
+					"f3.fx.syphon::sc.texture.roi::src_dim" : [ 0.5, 1.0 ],
 					"f3.fx.syphon::sc.texture.roi::drawto" : [  ],
-					"f3.fx.syphon::sc.texture.roi[1]::start_pos" : [  ],
-					"f3.fx.syphon::sc.texture.roi[1]::src_dim" : [  ],
+					"f3.fx.syphon::sc.texture.roi[1]::start_pos" : [ 0.5, 0.0 ],
+					"f3.fx.syphon::sc.texture.roi[1]::src_dim" : [ 0.5, 1.0 ],
 					"f3.fx.syphon::sc.texture.roi[1]::drawto" : [  ],
 					"f3.fx.trigradient::sc.texture.trigradient::p0" : [  ],
 					"f3.fx.trigradient::sc.texture.trigradient::p1" : [  ],
@@ -275,15 +275,24 @@
 					"patcher[1]::f3.pozyx.serial::serial_device" : [  ],
 					"patcher[1]::f3.pozyx.serial::tag_id" : [  ],
 					"f3.osc-sensors::port" : [  ],
-					"sc.avg.running::alpha" : [  ],
+					"sc.avg.running::alpha" : [ 0.100000001490116 ],
 					"f3.vidplayer[1]::vid-range" : [  ],
 					"f3.vidplayer[1]::file" : [  ],
-					"f3.vidplayer[1]::rate" : [  ],
+					"f3.vidplayer[1]::rate" : [ 0.0 ],
 					"f3.vidplayer[1]::drawto" : [  ],
 					"f3.vidplayer[1]::output_texture" : [  ],
 					"f3.vidplayer[1]::vid-pos" : [  ],
 					"f3.texture.xfade::bypass" : [  ],
-					"f3.texture.xfade::xfade" : [  ]
+					"f3.texture.xfade::xfade" : [  ],
+					"dmx.bank_lights::channels" : [ 1, 3, 5, 7, 9 ],
+					"dmx.bank_lights::values" : [ 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"dmx.bank_lights::bankName" : [ "DMX-Bank" ],
+					"sc.dmx.out[1]::autopass" : [ 1 ],
+					"sc.dmx.out[1]::dataInterval" : [ 20.0, "ms" ],
+					"sc.dmx.out[1]::dmxIP" : [ "2.1.0.5" ],
+					"sc.dmx.out[1]::preview" : [ 0 ],
+					"sc.dmx.in::stream" : [ "dmxIn" ],
+					"f3.in.roi[1]::matrix_5x5" : [  ]
 				}
 
 			}
@@ -311,7 +320,7 @@
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
 					"f3.vidplayer::vid-pos" : [  ],
-					"f3.fx.color-videoSample::u998006300" : [  ],
+					"f3.fx.color-videoSample::u009005087" : [  ],
 					"f3.prev.plane::prev" : [ "visualizer" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.3, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
@@ -569,7 +578,16 @@
 					"f3.vidplayer[1]::output_texture" : [  ],
 					"f3.vidplayer[1]::vid-pos" : [  ],
 					"f3.texture.xfade::bypass" : [  ],
-					"f3.texture.xfade::xfade" : [  ]
+					"f3.texture.xfade::xfade" : [  ],
+					"dmx.bank_lights::channels" : [  ],
+					"dmx.bank_lights::values" : [  ],
+					"dmx.bank_lights::bankName" : [  ],
+					"sc.dmx.out[1]::autopass" : [  ],
+					"sc.dmx.out[1]::dataInterval" : [  ],
+					"sc.dmx.out[1]::dmxIP" : [  ],
+					"sc.dmx.out[1]::preview" : [  ],
+					"sc.dmx.in::stream" : [  ],
+					"f3.in.roi[1]::matrix_5x5" : [  ]
 				}
 
 			}
@@ -597,7 +615,7 @@
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
 					"f3.vidplayer::vid-pos" : [  ],
-					"f3.fx.color-videoSample::u998006300" : [  ],
+					"f3.fx.color-videoSample::u009005087" : [  ],
 					"f3.prev.plane::prev" : [ "visualizer" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.587, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
@@ -855,7 +873,16 @@
 					"f3.vidplayer[1]::output_texture" : [  ],
 					"f3.vidplayer[1]::vid-pos" : [  ],
 					"f3.texture.xfade::bypass" : [  ],
-					"f3.texture.xfade::xfade" : [  ]
+					"f3.texture.xfade::xfade" : [  ],
+					"dmx.bank_lights::channels" : [  ],
+					"dmx.bank_lights::values" : [  ],
+					"dmx.bank_lights::bankName" : [  ],
+					"sc.dmx.out[1]::autopass" : [  ],
+					"sc.dmx.out[1]::dataInterval" : [  ],
+					"sc.dmx.out[1]::dmxIP" : [  ],
+					"sc.dmx.out[1]::preview" : [  ],
+					"sc.dmx.in::stream" : [  ],
+					"f3.in.roi[1]::matrix_5x5" : [  ]
 				}
 
 			}
@@ -883,7 +910,7 @@
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
 					"f3.vidplayer::vid-pos" : [  ],
-					"f3.fx.color-videoSample::u998006300" : [  ],
+					"f3.fx.color-videoSample::u009005087" : [  ],
 					"f3.prev.plane::prev" : [ "visualizer" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.587, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
@@ -1141,7 +1168,16 @@
 					"f3.vidplayer[1]::output_texture" : [  ],
 					"f3.vidplayer[1]::vid-pos" : [  ],
 					"f3.texture.xfade::bypass" : [  ],
-					"f3.texture.xfade::xfade" : [  ]
+					"f3.texture.xfade::xfade" : [  ],
+					"dmx.bank_lights::channels" : [  ],
+					"dmx.bank_lights::values" : [  ],
+					"dmx.bank_lights::bankName" : [  ],
+					"sc.dmx.out[1]::autopass" : [  ],
+					"sc.dmx.out[1]::dataInterval" : [  ],
+					"sc.dmx.out[1]::dmxIP" : [  ],
+					"sc.dmx.out[1]::preview" : [  ],
+					"sc.dmx.in::stream" : [  ],
+					"f3.in.roi[1]::matrix_5x5" : [  ]
 				}
 
 			}
@@ -1169,7 +1205,7 @@
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
 					"f3.vidplayer::vid-pos" : [  ],
-					"f3.fx.color-videoSample::u998006300" : [  ],
+					"f3.fx.color-videoSample::u009005087" : [  ],
 					"f3.prev.plane::prev" : [ "visualizer" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.3, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
@@ -1427,7 +1463,16 @@
 					"f3.vidplayer[1]::output_texture" : [  ],
 					"f3.vidplayer[1]::vid-pos" : [  ],
 					"f3.texture.xfade::bypass" : [  ],
-					"f3.texture.xfade::xfade" : [  ]
+					"f3.texture.xfade::xfade" : [  ],
+					"dmx.bank_lights::channels" : [  ],
+					"dmx.bank_lights::values" : [  ],
+					"dmx.bank_lights::bankName" : [  ],
+					"sc.dmx.out[1]::autopass" : [  ],
+					"sc.dmx.out[1]::dataInterval" : [  ],
+					"sc.dmx.out[1]::dmxIP" : [  ],
+					"sc.dmx.out[1]::preview" : [  ],
+					"sc.dmx.in::stream" : [  ],
+					"f3.in.roi[1]::matrix_5x5" : [  ]
 				}
 
 			}
@@ -1455,7 +1500,7 @@
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
 					"f3.vidplayer::vid-pos" : [  ],
-					"f3.fx.color-videoSample::u998006300" : [  ],
+					"f3.fx.color-videoSample::u009005087" : [  ],
 					"f3.prev.plane::prev" : [ "visualizer" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.587, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
@@ -1713,7 +1758,16 @@
 					"f3.vidplayer[1]::output_texture" : [  ],
 					"f3.vidplayer[1]::vid-pos" : [  ],
 					"f3.texture.xfade::bypass" : [  ],
-					"f3.texture.xfade::xfade" : [  ]
+					"f3.texture.xfade::xfade" : [  ],
+					"dmx.bank_lights::channels" : [  ],
+					"dmx.bank_lights::values" : [  ],
+					"dmx.bank_lights::bankName" : [  ],
+					"sc.dmx.out[1]::autopass" : [  ],
+					"sc.dmx.out[1]::dataInterval" : [  ],
+					"sc.dmx.out[1]::dmxIP" : [  ],
+					"sc.dmx.out[1]::preview" : [  ],
+					"sc.dmx.in::stream" : [  ],
+					"f3.in.roi[1]::matrix_5x5" : [  ]
 				}
 
 			}
@@ -1741,7 +1795,7 @@
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
 					"f3.vidplayer::vid-pos" : [  ],
-					"f3.fx.color-videoSample::u998006300" : [  ],
+					"f3.fx.color-videoSample::u009005087" : [  ],
 					"f3.prev.plane::prev" : [ "visualizer" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.587, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
@@ -1999,7 +2053,16 @@
 					"f3.vidplayer[1]::output_texture" : [  ],
 					"f3.vidplayer[1]::vid-pos" : [  ],
 					"f3.texture.xfade::bypass" : [  ],
-					"f3.texture.xfade::xfade" : [  ]
+					"f3.texture.xfade::xfade" : [  ],
+					"dmx.bank_lights::channels" : [  ],
+					"dmx.bank_lights::values" : [  ],
+					"dmx.bank_lights::bankName" : [  ],
+					"sc.dmx.out[1]::autopass" : [  ],
+					"sc.dmx.out[1]::dataInterval" : [  ],
+					"sc.dmx.out[1]::dmxIP" : [  ],
+					"sc.dmx.out[1]::preview" : [  ],
+					"sc.dmx.in::stream" : [  ],
+					"f3.in.roi[1]::matrix_5x5" : [  ]
 				}
 
 			}
@@ -2027,7 +2090,7 @@
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
 					"f3.vidplayer::vid-pos" : [  ],
-					"f3.fx.color-videoSample::u998006300" : [  ],
+					"f3.fx.color-videoSample::u009005087" : [  ],
 					"f3.prev.plane::prev" : [ "wave-invert-preview" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.587, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 15.0, 15.0 ],
@@ -2285,7 +2348,16 @@
 					"f3.vidplayer[1]::output_texture" : [  ],
 					"f3.vidplayer[1]::vid-pos" : [  ],
 					"f3.texture.xfade::bypass" : [  ],
-					"f3.texture.xfade::xfade" : [  ]
+					"f3.texture.xfade::xfade" : [  ],
+					"dmx.bank_lights::channels" : [  ],
+					"dmx.bank_lights::values" : [  ],
+					"dmx.bank_lights::bankName" : [  ],
+					"sc.dmx.out[1]::autopass" : [  ],
+					"sc.dmx.out[1]::dataInterval" : [  ],
+					"sc.dmx.out[1]::dmxIP" : [  ],
+					"sc.dmx.out[1]::preview" : [  ],
+					"sc.dmx.in::stream" : [  ],
+					"f3.in.roi[1]::matrix_5x5" : [  ]
 				}
 
 			}
@@ -2313,7 +2385,7 @@
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
 					"f3.vidplayer::vid-pos" : [  ],
-					"f3.fx.color-videoSample::u998006300" : [  ],
+					"f3.fx.color-videoSample::u009005087" : [  ],
 					"f3.prev.plane::prev" : [ "visualizer" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.587, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
@@ -2571,7 +2643,16 @@
 					"f3.vidplayer[1]::output_texture" : [  ],
 					"f3.vidplayer[1]::vid-pos" : [  ],
 					"f3.texture.xfade::bypass" : [  ],
-					"f3.texture.xfade::xfade" : [  ]
+					"f3.texture.xfade::xfade" : [  ],
+					"dmx.bank_lights::channels" : [  ],
+					"dmx.bank_lights::values" : [  ],
+					"dmx.bank_lights::bankName" : [  ],
+					"sc.dmx.out[1]::autopass" : [  ],
+					"sc.dmx.out[1]::dataInterval" : [  ],
+					"sc.dmx.out[1]::dmxIP" : [  ],
+					"sc.dmx.out[1]::preview" : [  ],
+					"sc.dmx.in::stream" : [  ],
+					"f3.in.roi[1]::matrix_5x5" : [  ]
 				}
 
 			}
@@ -2599,7 +2680,7 @@
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
 					"f3.vidplayer::vid-pos" : [  ],
-					"f3.fx.color-videoSample::u998006300" : [  ],
+					"f3.fx.color-videoSample::u009005087" : [  ],
 					"f3.prev.plane::prev" : [ "visualizer" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.587, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
@@ -2857,7 +2938,16 @@
 					"f3.vidplayer[1]::output_texture" : [  ],
 					"f3.vidplayer[1]::vid-pos" : [  ],
 					"f3.texture.xfade::bypass" : [  ],
-					"f3.texture.xfade::xfade" : [  ]
+					"f3.texture.xfade::xfade" : [  ],
+					"dmx.bank_lights::channels" : [  ],
+					"dmx.bank_lights::values" : [  ],
+					"dmx.bank_lights::bankName" : [  ],
+					"sc.dmx.out[1]::autopass" : [  ],
+					"sc.dmx.out[1]::dataInterval" : [  ],
+					"sc.dmx.out[1]::dmxIP" : [  ],
+					"sc.dmx.out[1]::preview" : [  ],
+					"sc.dmx.in::stream" : [  ],
+					"f3.in.roi[1]::matrix_5x5" : [  ]
 				}
 
 			}
@@ -2885,7 +2975,7 @@
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
 					"f3.vidplayer::vid-pos" : [  ],
-					"f3.fx.color-videoSample::u998006300" : [  ],
+					"f3.fx.color-videoSample::u009005087" : [  ],
 					"f3.prev.plane::prev" : [ "color-video-preview" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.587, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
@@ -3143,7 +3233,16 @@
 					"f3.vidplayer[1]::output_texture" : [ 0 ],
 					"f3.vidplayer[1]::vid-pos" : [  ],
 					"f3.texture.xfade::bypass" : [ 0.0 ],
-					"f3.texture.xfade::xfade" : [ 1.0 ]
+					"f3.texture.xfade::xfade" : [ 1.0 ],
+					"dmx.bank_lights::channels" : [  ],
+					"dmx.bank_lights::values" : [  ],
+					"dmx.bank_lights::bankName" : [  ],
+					"sc.dmx.out[1]::autopass" : [  ],
+					"sc.dmx.out[1]::dataInterval" : [  ],
+					"sc.dmx.out[1]::dmxIP" : [  ],
+					"sc.dmx.out[1]::preview" : [  ],
+					"sc.dmx.in::stream" : [  ],
+					"f3.in.roi[1]::matrix_5x5" : [  ]
 				}
 
 			}
@@ -3171,7 +3270,7 @@
 					"f3.vidplayer::drawto" : [ "Forest" ],
 					"f3.vidplayer::output_texture" : [ 0 ],
 					"f3.vidplayer::vid-pos" : [ 0.0 ],
-					"f3.fx.color-videoSample::u998006300" : [ 0 ],
+					"f3.fx.color-videoSample::u009005087" : [  ],
 					"f3.prev.plane::prev" : [ "line" ],
 					"f3.fx.height-greyscale::luma_scale" : [ 0.299, 0.587, 0.114, 0.0 ],
 					"f3.fx.cnoise::scale" : [ 10.0, 10.0 ],
@@ -3429,7 +3528,16 @@
 					"f3.vidplayer[1]::output_texture" : [  ],
 					"f3.vidplayer[1]::vid-pos" : [ 0.0 ],
 					"f3.texture.xfade::bypass" : [  ],
-					"f3.texture.xfade::xfade" : [  ]
+					"f3.texture.xfade::xfade" : [  ],
+					"dmx.bank_lights::channels" : [  ],
+					"dmx.bank_lights::values" : [  ],
+					"dmx.bank_lights::bankName" : [  ],
+					"sc.dmx.out[1]::autopass" : [  ],
+					"sc.dmx.out[1]::dataInterval" : [  ],
+					"sc.dmx.out[1]::dmxIP" : [  ],
+					"sc.dmx.out[1]::preview" : [  ],
+					"sc.dmx.in::stream" : [  ],
+					"f3.in.roi[1]::matrix_5x5" : [  ]
 				}
 
 			}
