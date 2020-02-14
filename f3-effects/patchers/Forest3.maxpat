@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 523.0, 82.0, 1537.0, 934.0 ],
+		"rect" : [ 469.0, 82.0, 1388.0, 934.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -122,7 +122,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 2010.0, 298.0, 223.0, 177.0 ],
-					"varname" : "sc.dmx.out[1]",
+					"varname" : "sc.dmx.out",
 					"viewvisibility" : 1
 				}
 
@@ -231,7 +231,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 107.0, 1266.0, 50.0, 62.0 ],
-					"text" : "jit_matrix u483005352"
+					"text" : "jit_matrix u450014231"
 				}
 
 			}
@@ -405,7 +405,7 @@
 					"outlettype" : [ "jit_gl_texture", "" ],
 					"patching_rect" : [ 1580.0, 939.0, 202.0, 92.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1073.5, 421.0, 202.0, 92.0 ],
+					"presentation_rect" : [ 1097.834961000000021, 235.0, 202.0, 92.0 ],
 					"varname" : "f3.texture.xfade",
 					"viewvisibility" : 1
 				}
@@ -4773,7 +4773,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 122.0, 249.916626000000008, 91.0, 22.0 ],
-									"text" : "2005.26867"
+									"text" : "2004.33444"
 								}
 
 							}
@@ -5131,7 +5131,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 848.0, 249.0, 30.0, 49.0 ],
-					"text" : "recall 12"
+					"text" : "recall 1"
 				}
 
 			}
@@ -9407,10 +9407,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 823.5, 211.0, 119.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 708, 124, 1327, 726 ],
+						"client_rect" : [ 4, 45, 358, 173 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 520, 127, 1294, 1016 ]
+						"storage_rect" : [ 583, 79, 1287, 530 ]
 					}
 ,
 					"text" : "pattrstorage Forest3",
