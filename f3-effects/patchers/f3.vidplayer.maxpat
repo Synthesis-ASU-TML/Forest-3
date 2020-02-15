@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 386.0, 215.0, 884.0, 614.0 ],
+		"rect" : [ 737.0, 133.0, 884.0, 614.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -182,7 +182,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 333.0, 201.0, 24.0, 22.0 ],
+					"patching_rect" : [ 378.0, 148.0, 24.0, 22.0 ],
 					"text" : "t b"
 				}
 
@@ -194,7 +194,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 333.0, 172.0, 68.0, 22.0 ],
+					"patching_rect" : [ 378.0, 119.0, 68.0, 22.0 ],
 					"text" : "route bang"
 				}
 
@@ -208,7 +208,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 333.0, 132.0, 30.0, 30.0 ]
+					"patching_rect" : [ 378.0, 79.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -318,8 +318,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 154.0, 210.0, 22.0 ],
-					"text" : "countdown.mov dozer.mov traffic.mov"
+					"patching_rect" : [ 105.0, 154.0, 258.0, 22.0 ],
+					"text" : "countdown.mov dozer.mov traffic.mov test.mov"
 				}
 
 			}
@@ -573,12 +573,12 @@
 					"presentation_rect" : [ 6.0, 71.0, 211.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 0.0, 1000.0 ],
+							"parameter_shortname" : "loop-range",
 							"parameter_type" : 3,
 							"parameter_longname" : "loop-range",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0.0, 1000.0 ],
-							"parameter_shortname" : "loop-range"
+							"parameter_invisible" : 1
 						}
 
 					}
