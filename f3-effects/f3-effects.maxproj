@@ -1,8 +1,8 @@
 {
 	"name" : "f3-effects",
 	"version" : 1,
-	"creationdate" : 2082818751,
-	"modificationdate" : 3662533695,
+	"creationdate" : 2082818630,
+	"modificationdate" : 3665482138,
 	"viewrect" : [ 134.0, 293.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -246,6 +246,43 @@
 				"kind" : "patcher"
 			}
 ,
+			"f3.fx.lines_with_mesh.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"sc.dmx.bank.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"sc.dmx.out.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"sc.dmx.in.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"f3.matrix.5x5.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"sense.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"z.calib.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"switch.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"sc.matrix.camera.simple.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -257,11 +294,6 @@
 			}
 ,
 			"Unit_Grid_Generator.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"f3.fx.lines_with_mesh.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

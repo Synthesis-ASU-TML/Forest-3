@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 136.0, 82.0, 1152.0, 934.0 ],
+		"rect" : [ 416.0, 92.0, 1152.0, 934.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -157,7 +157,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 25.5, 12.0, 175.0, 280.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 31.499999999999972, 16.0, 248.0, 314.0 ],
+					"presentation_rect" : [ 31.499999999999972, 16.0, 243.839843999999999, 314.0 ],
 					"varname" : "f3.in.roi[1]",
 					"viewvisibility" : 1
 				}
@@ -4857,7 +4857,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 122.0, 249.916626000000008, 91.0, 22.0 ],
-									"text" : "2010.59524"
+									"text" : "2003.381961"
 								}
 
 							}
@@ -5215,7 +5215,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 848.0, 249.0, 30.0, 49.0 ],
-					"text" : "recall 7"
+					"text" : "recall 1"
 				}
 
 			}
@@ -9491,10 +9491,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 823.5, 211.0, 119.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 79, 358, 207 ],
+						"client_rect" : [ 4, 45, 358, 173 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 79, 1287, 530 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage Forest3",
@@ -11427,9 +11427,9 @@
  ],
 		"parameters" : 		{
 			"obj-48::obj-10" : [ "loop-range[1]", "loop-range", 0 ],
-			"obj-81::obj-34" : [ "live.tab", "live.tab", 0 ],
-			"obj-42::obj-10" : [ "loop-range", "loop-range", 0 ],
 			"obj-39::obj-10" : [ "loop-range[2]", "loop-range", 0 ],
+			"obj-42::obj-10" : [ "loop-range", "loop-range", 0 ],
+			"obj-81::obj-34" : [ "live.tab", "live.tab", 0 ],
 			"parameterbanks" : 			{
 
 			}
