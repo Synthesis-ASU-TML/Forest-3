@@ -2,7 +2,7 @@
 	<description> Default Slab </description>
 	<param name="tex0" type="int" default="0" />
 	<param name="tex1" type="int" default="1" />
-	<param name="max_iter" type="float" default="3" />
+	<param name="max_iter" type="float" default="6" />
 	<param name="variance" type="float" default="0.1" />
 	<language name="glsl" version="1.0">
 		<bind param="tex0" program="fp" />
@@ -29,7 +29,7 @@ varying vec2 texcoord;
 varying vec2 texdim0;
 varying vec2 texdim1;
 uniform sampler2DRect tex0;
-uniform sampler2DRect tex1;
+uniform sampler2D tex1;
 uniform float max_iter;
 uniform float variance;
 
@@ -43,21 +43,40 @@ void main(void)
 	
 	float max = -10.0;
 	
-	float i = 0.0;
+	vec4 phone_pos0 = texture2D(tex1, vec2(0.0, 0));
+	float dist0 = length(uv.xy - phone_pos0.xy);
+	float gauss0 = (1.0 / (pow(2.0 * PI * variance, 0.5))) * exp(-1.0 * (dist0 / (2.0 * variance)));
+	float mtemp0 = (gauss0 * phone_pos0.z);//gauss * phone_pos.z;
+	max = (mtemp0 > max) ? mtemp0 : max;
 	
-	while(i < loop_size) {
-		vec4 phone_pos = texture2DRect(tex1, vec2(i, 0));
-		float dist = length(uv.xy - phone_pos.xy);
-		float gauss = (1.0 / (pow(2.0 * PI * variance, 0.5))) * exp(-1.0 * (dist / (2.0 * variance)));
-		float mtemp = (gauss * phone_pos.z);//gauss * phone_pos.z;
-		max = (mtemp > max) ? mtemp : max;
-		i = i + 1.0;
-	}
+	vec4 phone_pos1 = texture2D(tex1, vec2(0.3, 0));
+	float dist1 = length(uv.xy - phone_pos1.xy);
+	float gauss1 = (1.0 / (pow(2.0 * PI * variance, 0.5))) * exp(-1.0 * (dist1 / (2.0 * variance)));
+	float mtemp1 = (gauss1 * phone_pos1.z);//gauss * phone_pos.z;
+	max = (mtemp1 > max) ? mtemp1 : max;
+	
+	vec4 phone_pos2 = texture2D(tex1, vec2(0.575, 0));
+	float dist2 = length(uv.xy - phone_pos2.xy);
+	float gauss2 = (1.0 / (pow(2.0 * PI * variance, 0.5))) * exp(-1.0 * (dist2 / (2.0 * variance)));
+	float mtemp2 = (gauss2 * phone_pos2.z);//gauss * phone_pos.z;
+	max = (mtemp2 > max) ? mtemp2 : max;
+	
+	vec4 phone_pos3 = texture2D(tex1, vec2(0.75, 0));
+	float dist3 = length(uv.xy - phone_pos3.xy);
+	float gauss3 = (1.0 / (pow(2.0 * PI * variance, 0.5))) * exp(-1.0 * (dist3 / (2.0 * variance)));
+	float mtemp3 = (gauss3 * phone_pos3.z);//gauss * phone_pos.z;
+	max = (mtemp3 > max) ? mtemp3 : max;
+	
+	vec4 phone_pos4 = texture2D(tex1, vec2(1.0, 0));
+	float dist4 = length(uv.xy - phone_pos4.xy);
+	float gauss4 = (1.0 / (pow(2.0 * PI * variance, 0.5))) * exp(-1.0 * (dist4 / (2.0 * variance)));
+	float mtemp4 = (gauss4 * phone_pos4.z);//gauss * phone_pos.z;
+	max = (mtemp4 > max) ? mtemp4 : max;
 	
 	max = (max <= 1.0) ? max : 1.0;
 	max = (max >= 0.0) ? max : 0.0;
 	
-	gl_FragColor = vec4(max);
+	gl_FragColor = vec4(max, max, max, max);
 }
 ]]>
 		</program>
