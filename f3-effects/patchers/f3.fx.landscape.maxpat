@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 5,
+			"minor" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 102.0, 79.0, 639.0, 666.0 ],
+		"rect" : [ 518.0, 124.0, 652.0, 707.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-58",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 585.0, 254.0, 125.0, 22.0 ],
+					"text" : "plane -1, colwidth 125"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-81",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -47,18 +59,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 4.0, 150.0, 20.0 ],
 					"text" : "f3.fx.landscape"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-72",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 168.0, 419.0, 53.0, 22.0 ],
-					"text" : "jit.matrix"
 				}
 
 			}
@@ -73,8 +73,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 5,
+							"minor" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -107,7 +107,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -279,6 +278,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-4",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -611,7 +611,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-54",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -634,7 +634,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-51",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -949,8 +949,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 5,
+							"minor" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1187,11 +1187,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-31",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_gl_texture" ],
 					"patching_rect" : [ 529.0, 38.0, 30.0, 30.0 ]
 				}
 
@@ -1200,7 +1200,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-30",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1216,8 +1216,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 60.0, 309.0, 201.0, 22.0 ],
-					"text" : "jit.gl.slab @file f3.landscape.sum.jxs"
+					"patching_rect" : [ 60.0, 309.0, 279.0, 22.0 ],
+					"text" : "jit.gl.slab @file f3.landscape.sum.jxs @type float32"
 				}
 
 			}
@@ -1228,8 +1228,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 278.0, 273.0, 70.0, 22.0 ],
-					"text" : "jit.gl.texture"
+					"patching_rect" : [ 331.0, 285.0, 145.0, 22.0 ],
+					"text" : "jit.gl.texture @rectangle 0"
 				}
 
 			}
@@ -1240,8 +1240,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 60.0, 273.0, 207.0, 22.0 ],
-					"text" : "jit.gl.texture @dim 200 200 @adapt 0"
+					"patching_rect" : [ 54.0, 263.0, 353.0, 22.0 ],
+					"text" : "jit.gl.texture @dim 200 200 @adapt 0 @type float32 @filter none"
 				}
 
 			}
@@ -1337,7 +1337,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 303.0, 320.5, 128.0, 128.0 ],
+					"patching_rect" : [ 307.0, 318.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 1.5, 179.0, 22.5 ],
 					"proportion" : 0.5,
@@ -1558,7 +1558,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 549.0, 225.0, 69.5, 225.0 ],
+					"midpoints" : [ 549.0, 225.0, 63.5, 225.0 ],
 					"source" : [ "obj-32", 1 ]
 				}
 
@@ -1588,15 +1588,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-29", 1 ],
-					"order" : 0,
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-72", 0 ],
-					"order" : 1,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -1696,16 +1687,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "f3.fxcombine.genjit",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/code",
-				"patcherrelativepath" : "../../f3-effects/Forest-3/f3-effects/code",
-				"type" : "gJIT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
