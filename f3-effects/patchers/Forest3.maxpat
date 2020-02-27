@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 416.0, 92.0, 1152.0, 934.0 ],
+		"rect" : [ 126.0, 166.0, 232.0, 763.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-199",
+					"linecount" : 4,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 72.0, 1543.0, 50.0, 62.0 ],
+					"text" : "jit_matrix u800012457"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
@@ -301,19 +314,6 @@
 					"outlettype" : [ "jit_gl_texture", "" ],
 					"patching_rect" : [ 125.5, 2028.5, 175.0, 22.0 ],
 					"text" : "jit.gl.texture Forest @name line"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-193",
-					"linecount" : 4,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 107.0, 1266.0, 50.0, 62.0 ],
-					"text" : "jit_matrix u321004668"
 				}
 
 			}
@@ -605,7 +605,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -729,7 +729,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1007,7 +1007,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1167,7 +1167,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1236,7 +1236,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1469,7 +1469,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1702,7 +1702,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2044,29 +2044,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-252",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 242.0, 509.0, 32.0, 22.0 ],
-					"text" : "print"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-251",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 242.0, 476.0, 73.0, 22.0 ],
-					"text" : "jit.matrixinfo"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-257",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -2300,7 +2277,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2970,7 +2947,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3423,7 +3400,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3491,7 +3468,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3939,7 +3916,8 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 610.0, 217.0, 91.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"embed" : 1
+										"embed" : 1,
+										"precision" : 6
 									}
 ,
 									"text" : "coll @embed 1"
@@ -3958,7 +3936,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4588,18 +4566,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-215",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 681.0, 433.0, 22.0, 22.0 ],
-					"text" : "0"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-206",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -4816,7 +4782,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4857,7 +4823,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 122.0, 249.916626000000008, 91.0, 22.0 ],
-									"text" : "2003.381961"
+									"text" : "2006.674243"
 								}
 
 							}
@@ -5215,7 +5181,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 848.0, 249.0, 30.0, 49.0 ],
-					"text" : "recall 1"
+					"text" : "recall 10"
 				}
 
 			}
@@ -5231,7 +5197,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5354,7 +5320,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5504,7 +5470,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6233,7 +6199,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6618,7 +6584,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6801,7 +6767,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6936,7 +6902,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7476,7 +7442,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10348,15 +10314,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-190", 0 ],
-					"order" : 1,
-					"source" : [ "obj-188", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-193", 1 ],
-					"order" : 0,
 					"source" : [ "obj-188", 0 ]
 				}
 
@@ -10485,30 +10442,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 1 ],
-					"order" : 1,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-188", 1 ],
-					"order" : 3,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-235", 1 ],
-					"order" : 4,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-251", 0 ],
 					"order" : 0,
 					"source" : [ "obj-21", 0 ]
 				}
@@ -10516,8 +10449,24 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-256", 0 ],
+					"destination" : [ "obj-188", 1 ],
 					"order" : 2,
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-235", 1 ],
+					"order" : 3,
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-256", 0 ],
+					"order" : 1,
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -10635,7 +10584,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-199", 1 ],
+					"order" : 0,
+					"source" : [ "obj-229", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-226", 0 ],
+					"order" : 1,
 					"source" : [ "obj-229", 0 ]
 				}
 
@@ -10644,15 +10602,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"midpoints" : [ 531.5, 420.0, 714.5, 420.0 ],
-					"order" : 0,
-					"source" : [ "obj-23", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-215", 1 ],
-					"order" : 1,
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -11426,10 +11375,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-48::obj-10" : [ "loop-range[1]", "loop-range", 0 ],
 			"obj-39::obj-10" : [ "loop-range[2]", "loop-range", 0 ],
 			"obj-42::obj-10" : [ "loop-range", "loop-range", 0 ],
 			"obj-81::obj-34" : [ "live.tab", "live.tab", 0 ],
+			"obj-48::obj-10" : [ "loop-range[1]", "loop-range", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -11438,112 +11387,112 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "f3.lights.calibrate.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.in.roi.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.in.units.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Forest3.json",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/data",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.in.stream.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.cal.file.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.height-spot.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fxcombine.genjit",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/code",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.height-plane.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.black.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.vidplayer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.color-videoSample.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.prev.plane.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.height-greyscale.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.cnoise.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnoise3.genjit",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/code",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gJIT",
 				"implicit" : 1
@@ -11556,245 +11505,245 @@
 			}
 , 			{
 				"name" : "f3.mix.textures.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.mix.final.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.artnet.matrix.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.height.scale-slide.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.artnet.out.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.color-displace.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.prev.vis.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.color-brcosa.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.manual.board.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.unit.manual.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.preset.menu.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.height-wave.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.angles.scale.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.brownian.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.syphon.input.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.syphon.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.roi.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.gyrosc.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.trigradient.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.trigradient.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cwjr.trigradient.genjit",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/code",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.landscape.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.pozyx.serial.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.osc-sensors.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.avg.vecrunning.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/utilities",
-				"patcherrelativepath" : "../../../../Packages/SC/patchers/utilities",
+				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/utilities",
+				"patcherrelativepath" : "../../../../../Packages/SC/patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.xfade.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bypass_dummy.genjit",
-				"bootpath" : "~/Documents/Max 8/Packages/SC/code",
-				"patcherrelativepath" : "../../../../Packages/SC/code",
+				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
+				"patcherrelativepath" : "../../../../../Packages/SC/code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.lines_with_mesh.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.dmx.bank.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/dmx/abstractions",
-				"patcherrelativepath" : "../../../../Packages/SC/patchers/dmx/abstractions",
+				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/dmx/abstractions",
+				"patcherrelativepath" : "../../../../../Packages/SC/patchers/dmx/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.dmx.out.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/dmx/abstractions",
-				"patcherrelativepath" : "../../../../Packages/SC/patchers/dmx/abstractions",
+				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/dmx/abstractions",
+				"patcherrelativepath" : "../../../../../Packages/SC/patchers/dmx/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.dmx.in.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/dmx/abstractions",
-				"patcherrelativepath" : "../../../../Packages/SC/patchers/dmx/abstractions",
+				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/dmx/abstractions",
+				"patcherrelativepath" : "../../../../../Packages/SC/patchers/dmx/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.matrix.5x5.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sense.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "z.calib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "switch.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

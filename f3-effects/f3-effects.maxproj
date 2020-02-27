@@ -1,9 +1,9 @@
 {
 	"name" : "f3-effects",
 	"version" : 1,
-	"creationdate" : 2082818630,
-	"modificationdate" : 3665482138,
-	"viewrect" : [ 134.0, 293.0, 300.0, 500.0 ],
+	"creationdate" : 2082818509,
+	"modificationdate" : 3665651418,
+	"viewrect" : [ 843.0, 130.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -343,6 +343,21 @@
 				"local" : 1
 			}
 ,
+			"cwjr.landscape.avg.jxs" : 			{
+				"kind" : "shader",
+				"local" : 1
+			}
+,
+			"cwjr.landscape.max.jxs" : 			{
+				"kind" : "shader",
+				"local" : 1
+			}
+,
+			"cwjr.landscape.sum.jxs" : 			{
+				"kind" : "shader",
+				"local" : 1
+			}
+,
 			"f3.landscape.sum.jxs" : 			{
 				"kind" : "shader",
 				"local" : 1
@@ -354,6 +369,16 @@
 			}
 ,
 			"ab.hsflow.jxs" : 			{
+				"kind" : "shader",
+				"local" : 1
+			}
+,
+			"f3.landscape.avg2.jxs" : 			{
+				"kind" : "shader",
+				"local" : 1
+			}
+,
+			"f3.landscape.sum2.jxs" : 			{
 				"kind" : "shader",
 				"local" : 1
 			}
