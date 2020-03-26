@@ -128,14 +128,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-23",
-					"items" : "Grid_15iStage.txt",
+					"items" : "Grid_26oval.txt",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 203.0, 74.0, 100.0, 22.0 ],
-					"prefix" : "chrispobo2:/Users/cz/Documents/Max 8/Projects/Forest-3/f3-effects/data/matrix/",
+					"prefix" : "chrispobo2:/Users/cz/Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/javascript/matrix/",
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 31.0, 169.0, 22.0 ]
 				}

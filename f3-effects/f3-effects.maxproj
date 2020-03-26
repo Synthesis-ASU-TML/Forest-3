@@ -1,9 +1,9 @@
 {
 	"name" : "f3-effects",
 	"version" : 1,
-	"creationdate" : 2082818509,
-	"modificationdate" : 3665651418,
-	"viewrect" : [ 843.0, 130.0, 300.0, 500.0 ],
+	"creationdate" : 2082818025,
+	"modificationdate" : 3667998271,
+	"viewrect" : [ 986.0, 117.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -208,11 +208,6 @@
 				"kind" : "patcher"
 			}
 ,
-			"f3.gyrosc.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"f3.fx.trigradient.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -228,18 +223,9 @@
 				"local" : 1
 			}
 ,
-			"f3.pozyx.serial.maxpat" : 			{
+			"f3.osc-wave-calc.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
-			}
-,
-			"f3.osc-sensors.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"sc.avg.vecrunning.maxpat" : 			{
-				"kind" : "patcher"
 			}
 ,
 			"sc.texture.xfade.maxpat" : 			{
@@ -273,7 +259,46 @@
 				"local" : 1
 			}
 ,
+			"sc.avg.vecrunning.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"f3.sndplayer.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"f3.speech.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"f3.display.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"scale_.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"f3.pozyx.serial.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"z.calib.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"f3.gyrosc.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"f3.osc-sensors.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -442,6 +467,10 @@
 			"o.route.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
+			}
+,
+			"shell.mxo" : 			{
+				"kind" : "object"
 			}
 ,
 			"jit.gl.syphonclient.mxo" : 			{
