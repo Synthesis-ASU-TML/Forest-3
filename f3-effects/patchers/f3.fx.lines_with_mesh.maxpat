@@ -390,7 +390,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 136.0, 45.0, 20.0 ],
+					"patching_rect" : [ 251.0, 140.0, 45.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 49.0, 45.0, 20.0 ],
 					"text" : "user 2"
@@ -2208,7 +2208,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 481.0, 136.0, 50.0, 22.0 ],
+					"patching_rect" : [ 402.0, 140.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 154.0, 49.0, 50.0, 22.0 ]
 				}
@@ -2223,7 +2223,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 429.0, 136.0, 50.0, 22.0 ],
+					"patching_rect" : [ 350.0, 140.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 102.0, 49.0, 50.0, 22.0 ]
 				}
@@ -2238,7 +2238,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 377.0, 136.0, 50.0, 22.0 ],
+					"patching_rect" : [ 298.0, 140.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 50.0, 49.0, 50.0, 22.0 ]
 				}

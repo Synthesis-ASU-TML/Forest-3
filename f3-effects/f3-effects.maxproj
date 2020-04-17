@@ -1,9 +1,9 @@
 {
 	"name" : "f3-effects",
 	"version" : 1,
-	"creationdate" : 2082818025,
-	"modificationdate" : 3667998271,
-	"viewrect" : [ 986.0, 117.0, 300.0, 500.0 ],
+	"creationdate" : 2082817541,
+	"modificationdate" : 3669122403,
+	"viewrect" : [ 985.0, 116.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -116,6 +116,11 @@
 				"local" : 1
 			}
 ,
+			"f3.vidplayer2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"f3.prev.plane.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -132,7 +137,8 @@
 			}
 ,
 			"thru.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"f3.mix.textures.maxpat" : 			{
@@ -205,7 +211,8 @@
 			}
 ,
 			"sc.texture.roi.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"f3.fx.trigradient.maxpat" : 			{
@@ -238,15 +245,18 @@
 			}
 ,
 			"sc.dmx.bank.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"sc.dmx.out.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"sc.dmx.in.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"f3.matrix.5x5.maxpat" : 			{
@@ -260,7 +270,8 @@
 			}
 ,
 			"sc.avg.vecrunning.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"f3.sndplayer.maxpat" : 			{
@@ -283,44 +294,94 @@
 				"local" : 1
 			}
 ,
-			"f3.pozyx.serial.maxpat" : 			{
+			"f3.simple-noise.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
+			}
+,
+			"f3.int_sndplayer.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"f3.pozyx.serial.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 ,
 			"z.calib.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 ,
 			"f3.gyrosc.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 ,
 			"f3.osc-sensors.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 ,
 			"switch.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 ,
 			"sc.matrix.camera.simple.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 ,
 			"f3.fx.height-surfce.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 ,
 			"Unit_Grid_Generator.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 
 		}
@@ -411,6 +472,11 @@
 		}
 ,
 		"data" : 		{
+			"Forest3ODO.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
 			"Forest3.json" : 			{
 				"kind" : "json",
 				"local" : 1

@@ -10,6 +10,7 @@ wave
 manual-board
 color-brcosa
 brownian
+simple-noise
 syphon-height
 syphon-color
 landscape

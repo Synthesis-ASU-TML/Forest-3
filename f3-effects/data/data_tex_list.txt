@@ -9,6 +9,7 @@ color-video
 color-brcosa
 color-displace
 brownian
+simple-noise
 syphon-height
 syphon-color
 triGradient

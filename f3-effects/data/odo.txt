@@ -1,134 +1,60 @@
-
-
-
-PLANET 1
-Hello world!
-My name is Odo.
-I lihve here on stage. 
-welcome to my body, 
-this is my body. 
-I do not lihve in a body like you, 
-I do not lihve on a planet like you,
-I am the planet, 
-I am. the planet. 
-called Odo.
-Do not think of me as a light bulb. 
-I do not need to be replaced, 
-even though living can be stressful at times.
-Hi everybody, 
-we will spend some time together, 
-so. . .
-Welcome to my planet!
-
-
-
-PLANET 2
-A man fell to the earth.
-He was a very small man,
-almost a child,
-he came from a distant planet
-hardly bigger than himself.
-Another man fell from the sky.
-He was a pilot,
-his plane crashed in the middle of the desert.
-There they met,
-the pilot and the planet-man.
-It’s very warm up there,
-said the planet-man. 
-I am thirsty. . .
-
-
-
-PANET2 WAVE GAME
+---text ODO
+---Planet1 intro
+---anim
+can you do the same, /user1?
+moving a light up and down.
+lift your arm, /user1 .
+---arm
+when the odo phone 
+displays your color,
+my body connects to you
+you see, /user1 ?
+move your arm up and down.
+I move with you.
+up and down.
+---display
+See what I can see from all of you
+on my displays.
+Hello /user4 , 
+hello /user5 ,
+wait, I can connect you both too. . .
+move apart 
+to make a connection.
+---line
+---house
+---Planet 2 little man
+You’ve heard what the pilot said.
+/user3 ,
+move your phone
+push water 
+to the center of stage!
+More, bigger. . .
+/user 5 ,
+/user 2 ,
+/user 1 ,
+/user 4 ,
+help him!
+Push more water!	
 Push water to the center of stage!
 You call that a wave?
-Should I show you what a wave is?
-This. . . .
-is ... a... wave. . .
-
-
-
-PLANET3
-In the 13th galaxy,
-solar system x dash 3,
-on planet 15 underscore 2,
-in the city X plus III,
-13th street,
-number 13,
-lihve Mr. and Mrs. Thirteen.
-The number 13 occurs very often in their lihves
-but they dont notice it.
-In 13 years they will die,
-of course on a 13th,
-13 o'clock on the dot,
-just another stupid coincidence
-without any magic.
-
-
-
-PLANET4
-In another world,
-people lihve in a cave.
-They never leave the cave,
-the world outside the cave
-are shadows and reflections to them
-with no idea about another world.
-One day one person escapes from the cave.
-He climbs out,
-for the first time he sees the world
-with his own eyes…
-
-
-
-PLANET4 GAME PLANE
-help him! Level the ground. . .
-
-
-
-PLANET5
-Things dont stay still,
-everything is turning,
-stars turn on and off.
-Maybe
-time becomes meaningless.
-Maybe
-time has just began.
-Anyway...
-We all came together,
-this is important,
-we lihve in the moment,
-we lihve now,
-lets celebrate this moment,
-lets move, breathe, lihve...
-Lets dance!
-
-
-
-PLANET6
-lets build a landscape together!
-a landscape you’ve never seen before,
-a vision,
-a landscape of this moment,
-a new planet,
-the planet of your ever beating heart.
-
-
-
-PLANET6 GAMELANDSCAPE
-Move to a location.
-pull hills and push valleys with your Odo phones. . .
-
-
-
-PLANET 6 END
-You are a part of my life now.
-You built me a planet
-of your ever beating hearts...
-I will never forget you.
-Take care.
-Good-bye...
-
-
-
-
-
+I can show you what a wave is.
+This
+...
+is a wave.
+---Planet4-cave
+help him! 
+/user x, y, z
+Level the ground for him 
+to escape the cave!
+---Planet6-data
+See
+what I have learned about you
+/user 1 ,
+/user 2 ,
+/user 3 ,
+/user 4 ,
+/user 5
+You are /emotions
+Move to an inner location on stage. 
+pull hills and push valleys with your Odo phones.
+Lets build a planet together!

@@ -24,6 +24,7 @@ wave-preview
 wave-invert-preview
 color-brcosa-preview
 brownian-preview
+simple-noise-preview
 syphon-preview
 syphon-color-preview
 syphon-height-preview
