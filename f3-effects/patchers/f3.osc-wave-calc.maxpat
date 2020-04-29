@@ -174,8 +174,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 190.75, 90.5, 47.0, 21.0 ],
-					"text" : "zl.nth 1"
+					"patching_rect" : [ 190.75, 90.5, 44.0, 21.0 ],
+					"text" : "zl.nth 3"
 				}
 
 			}
@@ -192,13 +192,13 @@
 					"bgfillcolor_type" : "color",
 					"gradient" : 1,
 					"id" : "obj-53",
-					"linecount" : 11,
+					"linecount" : 10,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 655.5625, 101.0, 82.125, 144.0 ],
-					"text" : "0.794032 0.307692 0.158537 0.202471 0.726619 0. 0.276398 0.258258 0. 0.425466 0.708709 0. 0.475155 0.114114 0.",
+					"patching_rect" : [ 655.5625, 101.0, 82.125, 131.0 ],
+					"text" : "0.626868 0.186813 0. 0.202471 0.726619 0. 0.830611 0.18705 0. 0.425466 0.708709 0. 0.475155 0.114114 0.",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 

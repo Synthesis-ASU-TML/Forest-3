@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 617.0, 151.0, 640.0, 480.0 ],
+		"rect" : [ 623.0, 151.0, 895.0, 809.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -135,7 +135,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 62.0, 265.0, 49.0, 22.0 ],
+					"patching_rect" : [ 62.0, 332.0, 49.0, 22.0 ],
 					"text" : "jit.gl.pix"
 				}
 
@@ -168,7 +168,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 94.0, 409.0, 150.0, 20.0 ],
+					"patching_rect" : [ 94.0, 476.0, 150.0, 20.0 ],
 					"text" : "Preview Texture Out"
 				}
 
@@ -179,7 +179,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 313.0, 412.0, 150.0, 20.0 ],
+					"patching_rect" : [ 313.0, 479.0, 150.0, 20.0 ],
 					"text" : "Processed Texture Out"
 				}
 
@@ -192,7 +192,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 62.0, 404.0, 30.0, 30.0 ]
+					"patching_rect" : [ 62.0, 471.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -204,7 +204,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 277.5, 404.0, 30.0, 30.0 ]
+					"patching_rect" : [ 277.5, 471.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -249,7 +249,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 62.0, 130.0, 294.0, 123.0 ],
+					"patching_rect" : [ 62.0, 130.0, 294.0, 119.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 3.0, 294.0, 123.0 ],
 					"varname" : "sc.texture.trigradient",
@@ -264,7 +264,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 277.5, 371.0, 187.0, 22.0 ],
+					"patching_rect" : [ 277.5, 438.0, 187.0, 22.0 ],
 					"text" : "jit.gl.pix @gen f3.fxcombine.genjit"
 				}
 
@@ -294,7 +294,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 370.5, 327.0, 287.0, 327.0 ],
+					"midpoints" : [ 370.5, 288.0, 287.0, 288.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -302,7 +302,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"midpoints" : [ 71.5, 299.0, 455.0, 299.0 ],
+					"midpoints" : [ 71.5, 366.0, 455.0, 366.0 ],
 					"order" : 0,
 					"source" : [ "obj-7", 0 ]
 				}
@@ -311,13 +311,20 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 71.5, 327.0, 71.5, 327.0 ],
+					"midpoints" : [ 71.5, 394.0, 71.5, 394.0 ],
 					"order" : 1,
 					"source" : [ "obj-7", 0 ]
 				}
 
 			}
  ],
+		"parameters" : 		{
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "sc.texture.trigradient.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 216.0, 193.0, 1044.0, 806.0 ],
+		"rect" : [ 216.0, 193.0, 1031.0, 806.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,25 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 309.0, 33.0, 244.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"initial" : [ 0 ],
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr speed @bindto simple-speed @initial 0",
+					"varname" : "speed"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-32",
 					"maxclass" : "newobj",
@@ -243,7 +262,7 @@
 					"patching_rect" : [ 113.0, 92.0, 76.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 273.0, 28.0, 50.0, 22.0 ],
-					"varname" : "speed"
+					"varname" : "simple-speed"
 				}
 
 			}

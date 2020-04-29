@@ -81,7 +81,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 215.0, 107.0, 50.0, 22.0 ],
+					"patching_rect" : [ 206.599999999999994, 54.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 104.0, 25.0, 50.0, 22.0 ],
 					"varname" : "scale-level-high"
@@ -97,7 +97,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 159.0, 107.0, 50.0, 22.0 ],
+					"patching_rect" : [ 150.599999999999994, 54.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.5, 25.0, 50.0, 22.0 ],
 					"varname" : "scale-level-low"
@@ -111,7 +111,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 595.5, 47.0, 250.0, 22.0 ],
+					"patching_rect" : [ 604.5, 63.0, 250.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 1.0 ],
 						"parameter_enable" : 0,
@@ -130,7 +130,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 112.0, 160.0, 90.0, 22.0 ],
+					"patching_rect" : [ 108.0, 95.0, 90.0, 22.0 ],
 					"text" : "scale 0. 1. 0. 1."
 				}
 
@@ -142,7 +142,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 112.0, 82.0, 69.0, 22.0 ],
+					"patching_rect" : [ 108.0, 20.0, 69.0, 22.0 ],
 					"text" : "r voicelevel"
 				}
 
@@ -153,7 +153,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 123.0, 29.0, 150.0, 20.0 ],
+					"patching_rect" : [ 18.0, 160.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.5, 1.75, 135.0, 20.0 ],
 					"text" : "f3.fx.color-brcosa"
@@ -757,7 +757,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"midpoints" : [ 121.5, 192.0, 217.75, 192.0, 217.75, 137.0, 314.0, 137.0 ],
+					"midpoints" : [ 117.5, 137.0, 217.75, 137.0, 217.75, 137.0, 314.0, 137.0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 

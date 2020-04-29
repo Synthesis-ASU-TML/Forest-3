@@ -324,14 +324,14 @@
 					"presentation_rect" : [ 2.0, 94.0, 140.0, 39.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ -70 ],
-							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~[1]",
-							"parameter_initial_enable" : 1
+							"parameter_initial_enable" : 1,
+							"parameter_mmax" : 6.0,
+							"parameter_initial" : [ -70 ],
+							"parameter_shortname" : "live.gain~"
 						}
 
 					}
@@ -397,7 +397,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-3",
-					"items" : [ "00_.mov", ",", "00_.wav", ",", "01_convers.wav", ",", "01_linedrone.wav", ",", "01_linelong.wav", ",", "01_linesynth.wav", ",", "01_music.wav", ",", "01_travel.wav", ",", "01_voice.wav", ",", "02_convers.wav", ",", "02_intro.wav", ",", "02_music.wav", ",", "02_travel.wav", ",", "02_voice.wav", ",", "02_wave.wav", ",", "02_wave2.wav", ",", "03_convers.wav", ",", "03_convers2.wav", ",", "03_music2.wav", ",", "03_travel.wav", ",", "03_voice2.wav", ",", "04_music.wav", ",", "04_plane.wav", ",", "04_plane1.wav", ",", "04_plane2.wav", ",", "04_plane3.wav", ",", "04_plane4.wav", ",", "04_travel.wav", ",", "04_voice.wav", ",", "05_danceloop.wav", ",", "05_danceloop2.wav", ",", "05_interact1.wav", ",", "05_interact1b.wav", ",", "05_interact2.wav", ",", "05_interact2b.wav", ",", "05_interact3.wav", ",", "05_interact3b.wav", ",", "05_interact4.wav", ",", "05_interact4b.wav", ",", "05_music.wav", ",", "05_music1.wav", ",", "05_travel.wav", ",", "05_travel2.wav", ",", "05_voice.wav", ",", "05_voice1.wav", ",", "06_music_notravel.wav", ",", "06_voice.wav", ",", "07_end.wav", ",", "bigbang.mov", ",", "color_scanloop.mp4", ",", "dance_color_loop.mov", ",", "dance_color_loop2.mov", ",", "dance_colorwheel1.mov", ",", "dance_colorwheel2.mov", ",", "fire_vert.mp4", ",", "fire_vert2.mp4", ",", "roof.png", ",", "scottland.mp4", ",", "speedstars2.mov", ",", "speeedstars.mov", ",", "spiral.mp4", ",", "spiral2.mp4", ",", "star_anim100.mp4", ",", "star_loop1.mov", ",", "star_loop2.mov", ",", "stars_anim.mp4", ",", "stars_by100.mov", ",", "stars_by200.mov", ",", "stars_by_glow300.mov", ",", "streets.mp4", ",", "test.mov", ",", "tulips.mp4", ",", "tulips3.mp4", ",", "tulips4.mp4", ",", "tv-stripes.mp4", ",", "vis_arrow.png", ",", "wave1.mp4", ",", "wave_end.mp4", ",", "wave_syphon.mp4" ],
+					"items" : [ "00_.mov", ",", "00_.wav", ",", "01_convers.wav", ",", "01_convers2.wav", ",", "01_linedrone.wav", ",", "01_linelong.wav", ",", "01_linesynth.wav", ",", "01_music.wav", ",", "01_travel.wav", ",", "01_voice.wav", ",", "02_convers.wav", ",", "02_intro.wav", ",", "02_music.wav", ",", "02_travel.wav", ",", "02_voice.wav", ",", "02_wave.wav", ",", "02_wave2.wav", ",", "02_wave3.wav", ",", "02_wave4.wav", ",", "03_convers.wav", ",", "03_convers2.wav", ",", "03_music2.wav", ",", "03_musicA.wav", ",", "03_musicB.wav", ",", "03_travel.wav", ",", "03_voice2.wav", ",", "04_music.wav", ",", "04_plane.wav", ",", "04_plane1.wav", ",", "04_plane2.wav", ",", "04_plane3.wav", ",", "04_plane4.wav", ",", "04_travel.wav", ",", "04_voice.wav", ",", "05_danceloop.wav", ",", "05_danceloop2.wav", ",", "05_interact1.wav", ",", "05_interact1b.wav", ",", "05_interact2.wav", ",", "05_interact2b.wav", ",", "05_interact3.wav", ",", "05_interact3b.wav", ",", "05_interact4.wav", ",", "05_interact4b.wav", ",", "05_music.wav", ",", "05_music1.wav", ",", "05_travel.wav", ",", "05_travel2.wav", ",", "05_travel2b.wav", ",", "05_voice.wav", ",", "05_voice1.wav", ",", "06_music_notravel.wav", ",", "06_voice.wav", ",", "07_end.wav", ",", "bigbang.mov", ",", "cloudtunnel.mp4", ",", "color_scanloop.mp4", ",", "dance_color_loop.mov", ",", "dance_color_loop2.mov", ",", "dance_colorwheel1.mov", ",", "dance_colorwheel2.mov", ",", "fire_vert.mp4", ",", "fire_vert2.mp4", ",", "roof.png", ",", "rot.mp4", ",", "rot2.mp4", ",", "rot3.mp4", ",", "rotate.mp4", ",", "scottland.mp4", ",", "speedstars2.mov", ",", "speeedstars.mov", ",", "spiral.mp4", ",", "spiral2.mp4", ",", "spiralA.mp4", ",", "spiralB.mp4", ",", "star_anim100.mp4", ",", "star_loop1.mov", ",", "star_loop2.mov", ",", "stars_anim.mp4", ",", "stars_by100.mov", ",", "stars_by200.mov", ",", "stars_by_glow300.mov", ",", "streets.mp4", ",", "test.mov", ",", "tulips.mp4", ",", "tulips3.mp4", ",", "tulips4.mp4", ",", "tv-stripes.mp4", ",", "vis_arrow.png", ",", "wave1.mp4", ",", "wave_end.mp4", ",", "wave_syphon.mp4", ",", "windmill.mp4" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -483,14 +483,14 @@
 					"presentation_rect" : [ 146.0, 94.0, 136.0, 39.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ -70 ],
-							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~",
-							"parameter_initial_enable" : 1
+							"parameter_initial_enable" : 1,
+							"parameter_mmax" : 6.0,
+							"parameter_initial" : [ -70 ],
+							"parameter_shortname" : "live.gain~"
 						}
 
 					}
@@ -591,7 +591,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-48",
-					"items" : [ "00_.mov", ",", "00_.wav", ",", "01_convers.wav", ",", "01_linedrone.wav", ",", "01_linelong.wav", ",", "01_linesynth.wav", ",", "01_music.wav", ",", "01_travel.wav", ",", "01_voice.wav", ",", "02_convers.wav", ",", "02_intro.wav", ",", "02_music.wav", ",", "02_travel.wav", ",", "02_voice.wav", ",", "02_wave.wav", ",", "02_wave2.wav", ",", "03_convers.wav", ",", "03_convers2.wav", ",", "03_music2.wav", ",", "03_travel.wav", ",", "03_voice2.wav", ",", "04_music.wav", ",", "04_plane.wav", ",", "04_plane1.wav", ",", "04_plane2.wav", ",", "04_plane3.wav", ",", "04_plane4.wav", ",", "04_travel.wav", ",", "04_voice.wav", ",", "05_danceloop.wav", ",", "05_danceloop2.wav", ",", "05_interact1.wav", ",", "05_interact1b.wav", ",", "05_interact2.wav", ",", "05_interact2b.wav", ",", "05_interact3.wav", ",", "05_interact3b.wav", ",", "05_interact4.wav", ",", "05_interact4b.wav", ",", "05_music.wav", ",", "05_music1.wav", ",", "05_travel.wav", ",", "05_travel2.wav", ",", "05_voice.wav", ",", "05_voice1.wav", ",", "06_music_notravel.wav", ",", "06_voice.wav", ",", "07_end.wav", ",", "bigbang.mov", ",", "color_scanloop.mp4", ",", "dance_color_loop.mov", ",", "dance_color_loop2.mov", ",", "dance_colorwheel1.mov", ",", "dance_colorwheel2.mov", ",", "fire_vert.mp4", ",", "fire_vert2.mp4", ",", "roof.png", ",", "scottland.mp4", ",", "speedstars2.mov", ",", "speeedstars.mov", ",", "spiral.mp4", ",", "spiral2.mp4", ",", "star_anim100.mp4", ",", "star_loop1.mov", ",", "star_loop2.mov", ",", "stars_anim.mp4", ",", "stars_by100.mov", ",", "stars_by200.mov", ",", "stars_by_glow300.mov", ",", "streets.mp4", ",", "test.mov", ",", "tulips.mp4", ",", "tulips3.mp4", ",", "tulips4.mp4", ",", "tv-stripes.mp4", ",", "vis_arrow.png", ",", "wave1.mp4", ",", "wave_end.mp4", ",", "wave_syphon.mp4" ],
+					"items" : [ "00_.mov", ",", "00_.wav", ",", "01_convers.wav", ",", "01_convers2.wav", ",", "01_linedrone.wav", ",", "01_linelong.wav", ",", "01_linesynth.wav", ",", "01_music.wav", ",", "01_travel.wav", ",", "01_voice.wav", ",", "02_convers.wav", ",", "02_intro.wav", ",", "02_music.wav", ",", "02_travel.wav", ",", "02_voice.wav", ",", "02_wave.wav", ",", "02_wave2.wav", ",", "02_wave3.wav", ",", "02_wave4.wav", ",", "03_convers.wav", ",", "03_convers2.wav", ",", "03_music2.wav", ",", "03_musicA.wav", ",", "03_musicB.wav", ",", "03_travel.wav", ",", "03_voice2.wav", ",", "04_music.wav", ",", "04_plane.wav", ",", "04_plane1.wav", ",", "04_plane2.wav", ",", "04_plane3.wav", ",", "04_plane4.wav", ",", "04_travel.wav", ",", "04_voice.wav", ",", "05_danceloop.wav", ",", "05_danceloop2.wav", ",", "05_interact1.wav", ",", "05_interact1b.wav", ",", "05_interact2.wav", ",", "05_interact2b.wav", ",", "05_interact3.wav", ",", "05_interact3b.wav", ",", "05_interact4.wav", ",", "05_interact4b.wav", ",", "05_music.wav", ",", "05_music1.wav", ",", "05_travel.wav", ",", "05_travel2.wav", ",", "05_travel2b.wav", ",", "05_voice.wav", ",", "05_voice1.wav", ",", "06_music_notravel.wav", ",", "06_voice.wav", ",", "07_end.wav", ",", "bigbang.mov", ",", "cloudtunnel.mp4", ",", "color_scanloop.mp4", ",", "dance_color_loop.mov", ",", "dance_color_loop2.mov", ",", "dance_colorwheel1.mov", ",", "dance_colorwheel2.mov", ",", "fire_vert.mp4", ",", "fire_vert2.mp4", ",", "roof.png", ",", "rot.mp4", ",", "rot2.mp4", ",", "rot3.mp4", ",", "rotate.mp4", ",", "scottland.mp4", ",", "speedstars2.mov", ",", "speeedstars.mov", ",", "spiral.mp4", ",", "spiral2.mp4", ",", "spiralA.mp4", ",", "spiralB.mp4", ",", "star_anim100.mp4", ",", "star_loop1.mov", ",", "star_loop2.mov", ",", "stars_anim.mp4", ",", "stars_by100.mov", ",", "stars_by200.mov", ",", "stars_by_glow300.mov", ",", "streets.mp4", ",", "test.mov", ",", "tulips.mp4", ",", "tulips3.mp4", ",", "tulips4.mp4", ",", "tv-stripes.mp4", ",", "vis_arrow.png", ",", "wave1.mp4", ",", "wave_end.mp4", ",", "wave_syphon.mp4", ",", "windmill.mp4" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
