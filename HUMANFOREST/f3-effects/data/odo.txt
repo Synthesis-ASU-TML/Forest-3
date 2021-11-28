@@ -1,0 +1,25 @@
+---qa
+your name please?
+---inst
+lets begin. - - - take your position - - - at your placemarkers. - - - /user1 to - R - -  - /user2 to G - - - /user3 to B - - - /user4 to O - - - /user5 to Y.
+--- arm
+lets play! can you do the same, /user1 ? - - - move your phone up and down - - slowly - - - like a remote - - - I am moving with you - - - up and down
+one by one - next is /user2 ? - - - move your phone up and down.
+now /user3 ? 
+now /user4 ?
+and /user5 ?
+---line
+hello /user4  - - - hello /user5  - - - wait - - - I can connect you - - - see the connection. 
+you can move the line up and down - - - move your phones - - slowly
+---desert
+push water! more water!
+great job - - - more - much more - - - yes - - - more more - - - give me a big wave !
+---emo
+I sense that in this room there are 29 % happy people - - - 5 % surprised - 30 % are neutral - 11 % sad - 25 % calm - 0 % disgusted - - 0 % are angry.
+---cave
+help the cave man to climb up on that plane - - - /user1 - - - /user2 - - - /user3 - - - lift the ground - - - open the sky - - - higher!
+- - - higher - - - much higher! - - - yes - - he can jump now!
+---planet data
+slowly move your phones - - - down - - for valleys - - - up - - for hills!
+
+
