@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,7 +37,6 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "",
@@ -46,7 +45,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 584.0, 474.0, 30.0, 30.0 ]
 				}
 
@@ -95,7 +94,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 311.5, 19.0, 30.0, 30.0 ]
 				}
 
@@ -181,12 +180,12 @@
 					"patching_rect" : [ 620.0, 62.0, 100.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "one", "two", "three" ],
-							"parameter_longname" : "live.tab",
-							"parameter_mmax" : 2,
 							"parameter_shortname" : "live.tab",
+							"parameter_enum" : [ "one", "two", "three" ],
 							"parameter_type" : 2,
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 0,
+							"parameter_longname" : "live.tab",
+							"parameter_mmax" : 2
 						}
 
 					}
@@ -207,7 +206,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -240,7 +239,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-18",
@@ -593,7 +591,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -626,7 +624,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-5",
@@ -748,7 +745,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "jit_gl_texture", "" ],
+					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 1128.0, 439.0, 260.0, 35.0 ],
 					"text" : "jit.movie @drawto vis-node @output_texture 1 @automatic 1 @autostart 1"
 				}
@@ -984,7 +981,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1017,7 +1014,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-2",
@@ -1138,7 +1134,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1171,7 +1167,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-6",
@@ -1262,8 +1257,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 385.0, 578.0, 227.0, 22.0 ],
-					"text" : "jit.gl.camera vis-node @position 0. 0. 2.5"
+					"patching_rect" : [ 311.5, 644.0, 225.0, 22.0 ],
+					"text" : "jit.gl.camera vis-node @position 0. 0. 1.5"
 				}
 
 			}
@@ -1386,7 +1381,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 385.0, 548.0, 248.0, 22.0 ]
+					"patching_rect" : [ 311.5, 600.0, 248.0, 22.0 ]
 				}
 
 			}
