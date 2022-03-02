@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-58",
@@ -97,7 +98,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -130,6 +131,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-2",
@@ -789,7 +791,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -822,7 +824,23 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"code" : "mod289(x) {\r\n\treturn x - floor(x*(1. / 289.)) * 289.;\r\n}\r\n\r\npermute(x) {\r\n\treturn mod289(((x*34.0)+1.0)*x);\r\n}\r\n\r\ntaylorInvSqrt(r)\n{\n  return 1.79284291400159 - 0.85373472095314 * r;\n}\n\nfade(t ) {\n  return t*t*t*(t*(t*6.0-15.0)+10.0);\n}\r\n\r\ncnoise(P) { \r\n  Pi0 = floor(P); // Integer part for indexing\n  Pi1 = Pi0 + vec(1.0, 1., 1.); // Integer part + 1\n  Pi0 = mod289(Pi0);\n  Pi1 = mod289(Pi1);\n  Pf0 = fract(P); // Fractional part for interpolation\n  Pf1 = Pf0 - vec(1.0, 1., 1.); // Fractional part - 1.0\n  ix = vec(Pi0.x, Pi1.x, Pi0.x, Pi1.x);\n  iy = vec(Pi0.y,Pi0.y , Pi1.y, Pi1.y);\n  iz0 = Pi0.zzzz;\n  iz1 = Pi1.zzzz;\n\n  ixy = permute(permute(ix) + iy);\n  ixy0 = permute(ixy + iz0);\n  ixy1 = permute(ixy + iz1);\n\n  gx0 = ixy0 * (1.0 / 7.0);\n  gy0 = fract(floor(gx0) * (1.0 / 7.0)) - 0.5;\n  gx0 = fract(gx0);\n  gz0 = vec(0.5, .5, .5, .5) - abs(gx0) - abs(gy0);\n  sz0 = step(gz0, vec(0.0, 0, 0, 0));\n  gx0 -= sz0 * (step(0.0, gx0) - 0.5);\n  gy0 -= sz0 * (step(0.0, gy0) - 0.5);\n\n  gx1 = ixy1 * (1.0 / 7.0);\n  gy1 = fract(floor(gx1) * (1.0 / 7.0)) - 0.5;\n  gx1 = fract(gx1);\n  gz1 = vec(0.5, .5, .5, .5) - abs(gx1) - abs(gy1);\n  sz1 = step(gz1, vec(0.0, 0, 0, 0));\n  gx1 -= sz1 * (step(0.0, gx1) - 0.5);\n  gy1 -= sz1 * (step(0.0, gy1) - 0.5);\n\n  g000 = vec(gx0.x,gy0.x,gz0.x);\n  g100 = vec(gx0.y,gy0.y,gz0.y);\n  g010 = vec(gx0.z,gy0.z,gz0.z);\n  g110 = vec(gx0.w,gy0.w,gz0.w);\n  g001 = vec(gx1.x,gy1.x,gz1.x);\n  g101 = vec(gx1.y,gy1.y,gz1.y);\n  g011 = vec(gx1.z,gy1.z,gz1.z);\n  g111 = vec(gx1.w,gy1.w,gz1.w);\n\n  norm0 = taylorInvSqrt(vec(dot(g000, g000), dot(g010, g010), dot(g100, g100), dot(g110, g110)));\n  g000 *= norm0.x;\n  g010 *= norm0.y;\n  g100 *= norm0.z;\n  g110 *= norm0.w;\n  norm1 = taylorInvSqrt(vec(dot(g001, g001), dot(g011, g011), dot(g101, g101), dot(g111, g111)));\n  g001 *= norm1.x;\n  g011 *= norm1.y;\n  g101 *= norm1.z;\n  g111 *= norm1.w;\n\n  n000 = dot(g000, Pf0);\n  n100 = dot(g100, vec(Pf1.x, Pf0.y,Pf0.z));\n  n010 = dot(g010, vec(Pf0.x, Pf1.y, Pf0.z));\n  n110 = dot(g110, vec(Pf1.x,Pf1.y, Pf0.z));\n  n001 = dot(g001, vec(Pf0.x, Pf0.y, Pf1.z));\n  n101 = dot(g101, vec(Pf1.x, Pf0.y, Pf1.z));\n  n011 = dot(g011, vec(Pf0.x, Pf1.y, Pf1.z));\n  n111 = dot(g111, Pf1);\n\n  fade_xyz = fade(Pf0);\n  n_z = mix(vec(n000, n100, n010, n110), vec(n001, n101, n011, n111), fade_xyz.z);\n  n_yz = mix(n_z.xy, n_z.zw, fade_xyz.y);\n  n_xyz = mix(n_yz.x, n_yz.y, fade_xyz.x); \n  return 2.2 * n_xyz;\n\n\n}\r\n\n\r\n\r\nout1 = cnoise(in1.xyz) ;",
+									"fontface" : 0,
+									"fontname" : "<Monospaced>",
+									"fontsize" : 12.0,
+									"id" : "obj-12",
+									"maxclass" : "codebox",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 25.0, 288.0, 200.0, 200.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-11",
 									"maxclass" : "newobj",
@@ -920,18 +938,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-5",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 25.0, 307.0, 52.0, 22.0 ],
-									"text" : "cnoise3"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 0,
@@ -948,7 +954,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.0, 422.0, 37.0, 22.0 ],
+									"patching_rect" : [ 25.0, 503.0, 37.0, 22.0 ],
 									"text" : "out 1"
 								}
 
@@ -970,6 +976,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-11", 0 ],
 									"source" : [ "obj-2", 0 ]
 								}
@@ -977,15 +990,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-5", 0 ],
+									"destination" : [ "obj-12", 0 ],
 									"source" : [ "obj-3", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
-									"source" : [ "obj-5", 0 ]
 								}
 
 							}
@@ -1704,17 +1710,17 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "cnoise3.genjit",
-				"bootpath" : "~/Documents/Max 8/Packages/SC/code/Noise",
-				"patcherrelativepath" : "../../../../Packages/SC/code/Noise",
-				"type" : "gJIT",
+				"name" : "thru.maxpat",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/TEL-Git/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
+				"name" : "f3.fxcombine.genjit",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/TEL-Git/Forest-3/HUMANFOREST/f3-effects/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gJIT",
 				"implicit" : 1
 			}
  ],
