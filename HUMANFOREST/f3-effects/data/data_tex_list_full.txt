@@ -17,6 +17,7 @@ landscape
 colormap
 triGradient
 line
+sinFunction
 mix-1
 mix-2
 mix-3

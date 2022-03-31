@@ -16,4 +16,5 @@ triGradient
 landscape
 colormap
 line
+sinFunction
 manual-board

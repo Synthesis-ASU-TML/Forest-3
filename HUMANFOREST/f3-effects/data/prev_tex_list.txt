@@ -12,6 +12,7 @@ syphon-color
 syphon-height
 triGradient
 line
+sinFunction
 manual-board
 visualizer
 height-spot-preview
@@ -32,6 +33,7 @@ landscape-preview
 colormap-preview
 triGradient-preview
 line-preview
+sin-preview
 mix-1
 mix-2
 mix-3
