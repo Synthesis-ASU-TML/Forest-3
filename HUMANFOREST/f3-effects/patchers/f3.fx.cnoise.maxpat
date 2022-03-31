@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 223.0, 103.0, 1047.0, 873.0 ],
+		"rect" : [ 190.0, 107.0, 1047.0, 492.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 299.4375, 21.0, 167.0, 20.0 ],
+					"patching_rect" : [ 303.9375, 42.0, 167.0, 20.0 ],
 					"text" : "average accel of all 5 users"
 				}
 
@@ -56,8 +56,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 324.4375, 93.299987999999985, 117.0, 22.0 ],
-					"text" : "scale 0. 1. 0.005 0.1"
+					"patching_rect" : [ 303.9375, 114.0, 117.0, 22.0 ],
+					"text" : "scale 0. 1. 0.01 0.05"
 				}
 
 			}
@@ -70,7 +70,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 324.4375, 46.299987999999985, 30.0, 30.0 ]
+					"patching_rect" : [ 303.9375, 67.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -98,7 +98,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -791,13 +791,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "jit.gen",
-						"rect" : [ 240.0, 363.0, 600.0, 544.0 ],
+						"rect" : [ 294.0, 164.0, 600.0, 544.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -836,7 +836,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 25.0, 288.0, 200.0, 200.0 ]
+									"patching_rect" : [ 106.0, 300.0, 200.0, 200.0 ]
 								}
 
 							}
@@ -938,6 +938,18 @@
 							}
 , 							{
 								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 386.0, 94.0, 52.0, 22.0 ],
+									"text" : "cnoise3"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 0,
@@ -954,7 +966,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.0, 503.0, 37.0, 22.0 ],
+									"patching_rect" : [ 25.0, 422.0, 37.0, 22.0 ],
 									"text" : "out 1"
 								}
 
@@ -1710,15 +1722,22 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "cnoise3.genjit",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gJIT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/TEL-Git/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fxcombine.genjit",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/TEL-Git/Forest-3/HUMANFOREST/f3-effects/code",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/f3-effects/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gJIT",
 				"implicit" : 1

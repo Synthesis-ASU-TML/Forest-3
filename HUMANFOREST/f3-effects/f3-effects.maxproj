@@ -1,9 +1,9 @@
 {
 	"name" : "f3-effects",
 	"version" : 1,
-	"creationdate" : 2082815726,
-	"modificationdate" : 3721244262,
-	"viewrect" : [ 1146.0, 95.0, 325.0, 603.0 ],
+	"creationdate" : 2082815605,
+	"modificationdate" : 3731584781,
+	"viewrect" : [ 213.0, 108.0, 325.0, 603.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -326,6 +326,11 @@
 				"local" : 1
 			}
 ,
+			"f3.fx.sinFunction.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"sc.texture.syphon.out.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -360,7 +365,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+					"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -370,7 +375,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+					"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -380,7 +385,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+					"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -390,7 +395,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+					"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -400,7 +405,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+					"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -410,7 +415,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+					"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -420,7 +425,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+					"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -430,7 +435,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+					"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 

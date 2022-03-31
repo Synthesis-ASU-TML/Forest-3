@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 0,
+			"minor" : 1,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 175.0, 79.0, 1151.0, 937.0 ],
+		"rect" : [ 34.0, 79.0, 1372.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,252 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-271",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_gl_texture", "" ],
+					"patching_rect" : [ 636.0, 1295.5, 217.0, 22.0 ],
+					"text" : "jit.gl.texture Forest @name sinFunction"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-268",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_gl_texture", "" ],
+					"patching_rect" : [ 717.0, 1261.0, 217.0, 22.0 ],
+					"text" : "jit.gl.texture Forest @name sin-preview"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-210",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_gl_texture", "jit_gl_texture" ],
+					"patching_rect" : [ 636.0, 1222.0, 100.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 552.0, 483.5, 96.0, 22.0 ],
+					"text" : "f3.fx.sinFunction",
+					"varname" : "f3.fx.sinFunction"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"bgcolor2" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"bgfillcolor_color1" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
+					"fontsize" : 9.0,
+					"gradient" : 1,
+					"id" : "obj-292",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 375.0, 458.0, 155.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 559.0, 629.5, 292.0, 19.0 ],
+					"text" : "/avgDeltas 0.037449 0.018841",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-285",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 333.679687999999942, 2057.0, 55.0, 22.0 ],
+					"text" : "pipe 100"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-277",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 314.0, 2126.0, 405.0, 22.0 ],
+					"text" : "1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-196",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 333.679687999999942, 2087.0, 34.0, 22.0 ],
+					"text" : "sel 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-48",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 247.0, 2217.0, 103.0, 22.0 ],
+					"text" : "scale 0.3 0.5 0. 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-289",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 598.0, 9.5, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 280.5, 696.328125, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-283",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 535.5, 9.5, 54.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 309.669922125000028, 700.328125, 46.0, 20.0 ],
+					"text" : "HF_!/2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-272",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 498.0, 7.5, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 359.5, 696.328125, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-267",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "sc.texture.xfade.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "jit_gl_texture", "" ],
+					"patching_rect" : [ 1176.0, 1498.0, 202.0, 92.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 955.268041670322418, 576.0, 202.0, 92.0 ],
+					"varname" : "f3.texture.xfade[1]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-259",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 909.0, 1285.0, 39.0, 22.0 ],
+					"text" : "close"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-263",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 919.0, 1257.0, 37.0, 22.0 ],
+					"text" : "open"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "@hflip", 0 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-264",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "sc.texture.camera.simple.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "jit_gl_texture", "" ],
+					"patching_rect" : [ 909.0, 1330.0, 230.0, 244.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 709.0, 372.5, 230.0, 244.0 ],
+					"varname" : "sc.texture.camera.simple[1]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-265",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "f3.vidplayer2.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 1881.0, 672.0, 225.0, 170.0 ],
+					"varname" : "f3.vidplayer-mix1[1]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -47,7 +293,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-260",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "sc.syphon",
 					"numinlets" : 0,
@@ -67,14 +312,13 @@
 					"enablevscroll" : 0,
 					"id" : "obj-266",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "sc.texture.syphon.input.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 1171.0, 1535.0, 249.0, 106.0 ],
+					"patching_rect" : [ 1169.5, 1371.0, 249.0, 106.0 ],
 					"varname" : "sc.texture.syphon.input",
 					"viewvisibility" : 1
 				}
@@ -88,7 +332,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1171.0, 1457.5, 24.0, 24.0 ],
+					"patching_rect" : [ 1169.5, 1293.5, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 12.679687999999942, 301.75, 24.0, 24.0 ]
 				}
@@ -101,7 +345,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1171.0, 1494.0, 52.0, 22.0 ],
+					"patching_rect" : [ 1169.5, 1330.0, 52.0, 22.0 ],
 					"text" : "gate 1 0"
 				}
 
@@ -113,7 +357,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1204.0, 1446.5, 97.0, 22.0 ],
+					"patching_rect" : [ 1202.5, 1282.5, 97.0, 22.0 ],
 					"text" : "r #0-renderbang"
 				}
 
@@ -140,8 +384,8 @@
 					"patching_rect" : [ 28.75, 2276.0, 50.0, 320.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 551.0, 640.5, 292.0, 59.0 ],
-					"text" : "/hf-height 0.528338 0.759094 0.718202 0.507926 0.810642 0.523241 0.461041 0.771187 0.385449 0.394669 0.343796 0.219863 0.441315 0.380429 0.610892 0.83454 0.408837 0.378185 0.773263 0.746155 0.301988 0.598951 0.687532 0.854315 0.591201 0.372809 0.446623 0.787874 0.322497 0.792366",
+					"presentation_rect" : [ 559.0, 641.5, 292.0, 59.0 ],
+					"text" : "/hf-height 0.833378 0.868265 0.688304 0.830294 0.563252 0.753496 0.730147 0.774178 0.834953 0.832023 0.514619 0.712026 0.723547 0.538572 0.638814 0.638657 0.713883 0.780887 0.735608 0.6332 0.577761 0.830395 0.658994 0.856138 0.862499 0.637097 0.898999 0.784485 0.670172 0.61177",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -580,7 +824,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-26",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.light_tracker.maxpat",
 					"numinlets" : 2,
@@ -604,8 +847,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -674,8 +917,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 1,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -876,7 +1119,7 @@
 									}
 ,
 									"text" : "pattr",
-									"varname" : "u799000735"
+									"varname" : "u770000784"
 								}
 
 							}
@@ -1016,7 +1259,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-185",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "sc.dmx_morphtime.maxpat",
 					"numinlets" : 2,
@@ -1073,7 +1315,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-212",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.fx.lines_with_mesh.maxpat",
 					"numinlets" : 3,
@@ -1121,7 +1362,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-4",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.fx.colormap.maxpat",
 					"numinlets" : 2,
@@ -1130,7 +1370,7 @@
 					"outlettype" : [ "jit_gl_texture", "jit_gl_texture" ],
 					"patching_rect" : [ 66.5, 1542.5, 292.0, 237.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 245.5, 794.71649444103241, 291.536083340644836, 238.567011117935181 ],
+					"presentation_rect" : [ 245.5, 822.71649444103241, 291.536083340644836, 238.567011117935181 ],
 					"varname" : "f3.fx.colormap",
 					"viewvisibility" : 1
 				}
@@ -1148,8 +1388,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1454,8 +1694,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 1,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1631,8 +1871,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 1,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1856,8 +2096,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 1,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2354,14 +2594,14 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 273.5, 757.0, 40.0, 22.0 ],
-					"restore" : [ 734.375 ],
+					"restore" : [ 1000.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
 					"text" : "pattr",
-					"varname" : "u088001000"
+					"varname" : "u030001049"
 				}
 
 			}
@@ -2440,7 +2680,7 @@
 					}
 ,
 					"text" : "pattr",
-					"varname" : "u448001004"
+					"varname" : "u074001053"
 				}
 
 			}
@@ -2465,7 +2705,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-253",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.int_sndplayer.maxpat",
 					"numinlets" : 4,
@@ -2542,7 +2781,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-255",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.simple-noise.maxpat",
 					"numinlets" : 2,
@@ -2635,7 +2873,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2443.330078250000042, 432.0, 97.0, 22.0 ],
+					"patching_rect" : [ 2580.330078250000042, 342.5, 97.0, 22.0 ],
 					"text" : "r #0-renderbang"
 				}
 
@@ -2649,13 +2887,12 @@
 					"enablevscroll" : 0,
 					"id" : "obj-219",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.display.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 2253.875, 468.5, 208.455078250000042, 241.5 ],
+					"patching_rect" : [ 2435.875, 382.5, 208.455078250000042, 241.5 ],
 					"varname" : "f3.display",
 					"viewvisibility" : 1
 				}
@@ -2701,7 +2938,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-193",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.sndplayer.maxpat",
 					"numinlets" : 1,
@@ -2765,7 +3001,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 40.25, 1368.0, 50.0, 62.0 ],
-					"text" : "jit_matrix u370005267"
+					"text" : "jit_matrix u974005412"
 				}
 
 			}
@@ -2800,7 +3036,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-194",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.matrix.5x5.maxpat",
 					"numinlets" : 1,
@@ -2808,7 +3043,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 296.0, 48.0, 221.0, 358.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.679687999999942, 16.25, 173.419922000000042, 268.5 ],
+					"presentation_rect" : [ 12.679687999999942, 16.0, 205.439453999999955, 268.5 ],
 					"varname" : "f3.matrix5x5",
 					"viewvisibility" : 1
 				}
@@ -2849,7 +3084,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-238",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "sc.dmx.out.maxpat",
 					"numinlets" : 1,
@@ -2871,7 +3105,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-222",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "sc.dmx.bank.maxpat",
 					"numinlets" : 1,
@@ -3022,37 +3255,14 @@
 					"enablevscroll" : 0,
 					"id" : "obj-52",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "sc.texture.xfade.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 1642.932994484901428, 899.0, 202.0, 92.0 ],
+					"patching_rect" : [ 1647.932994484901428, 877.0, 202.0, 92.0 ],
 					"varname" : "f3.texture.xfade",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-48",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "f3.vidplayer2.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 1861.0, 672.0, 227.0, 172.0 ],
-					"varname" : "f3.vidplayer-mix2",
 					"viewvisibility" : 1
 				}
 
@@ -3066,7 +3276,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-247",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.osc-wave-calc.maxpat",
 					"numinlets" : 2,
@@ -3090,8 +3299,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3251,8 +3460,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3295,7 +3504,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 49.500003231483447, 431.0, 152.0, 35.0 ],
-									"text" : "p0 0.856773 0.721102 0.734375"
+									"text" : "p0 0.188369 0.662634 0.407521"
 								}
 
 							}
@@ -3308,7 +3517,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 219.0, 385.5, 169.0, 35.0 ],
-									"text" : "p1 0.127604 0.240367 0.890625"
+									"text" : "p1 0.522571 0.246864 0.583323"
 								}
 
 							}
@@ -3320,7 +3529,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 453.0, 388.0, 182.0, 22.0 ],
-									"text" : "p2 0.947919 0.058468 0."
+									"text" : "p2 0.802085 0.656138 0.5"
 								}
 
 							}
@@ -3332,7 +3541,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 465.0, 131.0, 165.0, 22.0 ],
-									"text" : "0.947919 0.058468 0."
+									"text" : "0.802085 0.656138 0.5"
 								}
 
 							}
@@ -3345,7 +3554,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 266.5, 167.0, 150.0, 35.0 ],
-									"text" : "0.127604 0.240367 0.890625"
+									"text" : "0.522571 0.246864 0.583323"
 								}
 
 							}
@@ -3360,8 +3569,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 1,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3902,8 +4111,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"fontsize" : [ 12.059008 ],
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+													"fontsize" : [ 12.059008 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3921,8 +4130,8 @@
 , 											{
 												"name" : "rsliderGold",
 												"default" : 												{
-													"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
-													"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+													"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+													"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3978,8 +4187,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 1,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4212,8 +4421,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 1,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4446,8 +4655,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 1,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4917,8 +5126,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4936,8 +5145,8 @@
 , 							{
 								"name" : "rsliderGold",
 								"default" : 								{
-									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
-									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5061,7 +5270,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-226",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.fx.landscape.maxpat",
 					"numinlets" : 2,
@@ -5193,8 +5401,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5865,8 +6073,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5910,8 +6118,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 1,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6387,8 +6595,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 1,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6856,8 +7064,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 1,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7544,7 +7752,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-198",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.fx.trigradient.maxpat",
 					"numinlets" : 2,
@@ -7616,7 +7823,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-172",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.fx.syphon.maxpat",
 					"numinlets" : 3,
@@ -7651,8 +7857,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7694,7 +7900,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 122.0, 249.916626000000008, 91.0, 22.0 ],
-									"text" : "2007.55057"
+									"text" : "2030.102026"
 								}
 
 							}
@@ -8066,8 +8272,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8190,8 +8396,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8341,8 +8547,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8500,7 +8706,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-329",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.fx.brownian.maxpat",
 					"numinlets" : 2,
@@ -8559,7 +8764,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-182",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.angles.scale.maxpat",
 					"numinlets" : 2,
@@ -8759,7 +8963,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-163",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.fx.height-wave.maxpat",
 					"numinlets" : 2,
@@ -9043,7 +9246,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-118",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.preset.menu.maxpat",
 					"numinlets" : 2,
@@ -9069,8 +9271,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9393,7 +9595,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 2250.0, 945.0, 269.0, 22.0 ],
+					"patching_rect" : [ 2306.602539125000021, 970.0, 269.0, 22.0 ],
 					"text" : "jit.gl.texture Forest @name color-brcosa-preview"
 				}
 
@@ -9405,7 +9607,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 2100.0, 914.0, 224.0, 22.0 ],
+					"patching_rect" : [ 2156.602539125000021, 939.0, 224.0, 22.0 ],
 					"text" : "jit.gl.texture Forest @name color-brcosa"
 				}
 
@@ -9420,14 +9622,13 @@
 					"enablevscroll" : 0,
 					"id" : "obj-115",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.fx.color-brcosa.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture", "jit_gl_texture" ],
-					"patching_rect" : [ 2100.0, 828.0, 162.0, 75.0 ],
+					"patching_rect" : [ 2156.602539125000021, 853.0, 162.0, 75.0 ],
 					"varname" : "f3.fx.color-brcosa",
 					"viewvisibility" : 1
 				}
@@ -9456,8 +9657,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9640,8 +9841,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9776,8 +9977,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10025,7 +10226,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 1176.0, 899.0, 233.0, 22.0 ],
+					"patching_rect" : [ 1051.0, 877.0, 233.0, 22.0 ],
 					"text" : "jit.gl.texture Forest @name color-displace"
 				}
 
@@ -10040,16 +10241,15 @@
 					"enablevscroll" : 0,
 					"id" : "obj-72",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.fx.color-displace.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture", "jit_gl_texture" ],
-					"patching_rect" : [ 1176.0, 813.0, 251.0, 80.0 ],
+					"patching_rect" : [ 1042.0, 789.0, 251.0, 80.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 698.330077999999958, 478.5, 251.0, 80.0 ],
+					"presentation_rect" : [ 944.330077999999958, 367.5, 251.0, 80.0 ],
 					"varname" : "f3.fx.color-displace",
 					"viewvisibility" : 1
 				}
@@ -10064,7 +10264,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-68",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.artnet.out.maxpat",
 					"numinlets" : 2,
@@ -10112,16 +10311,15 @@
 					"enablevscroll" : 0,
 					"id" : "obj-70",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.height.scale-slide.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 459.0, 1707.0, 274.0, 82.0 ],
+					"patching_rect" : [ 447.0, 1724.0, 274.0, 82.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 245.5, 708.0, 274.0, 79.0 ],
+					"presentation_rect" : [ 245.5, 729.25, 274.0, 79.0 ],
 					"varname" : "f3.height.scale-slide",
 					"viewvisibility" : 1
 				}
@@ -10136,7 +10334,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-69",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.artnet.matrix.maxpat",
 					"numinlets" : 2,
@@ -10281,7 +10478,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-56",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.mix.final.maxpat",
 					"numinlets" : 2,
@@ -10322,14 +10518,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 714.0, 404.0, 938.0, 649.0 ],
+						"rect" : [ 761.0, 460.0, 938.0, 649.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -10995,7 +11191,6 @@
 									"enablevscroll" : 0,
 									"id" : "obj-9",
 									"lockeddragscroll" : 0,
-									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "f3.mix.textures.maxpat",
 									"numinlets" : 2,
@@ -11020,7 +11215,6 @@
 									"enablevscroll" : 0,
 									"id" : "obj-10",
 									"lockeddragscroll" : 0,
-									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "f3.mix.textures.maxpat",
 									"numinlets" : 2,
@@ -11045,7 +11239,6 @@
 									"enablevscroll" : 0,
 									"id" : "obj-11",
 									"lockeddragscroll" : 0,
-									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "f3.mix.textures.maxpat",
 									"numinlets" : 2,
@@ -11070,7 +11263,6 @@
 									"enablevscroll" : 0,
 									"id" : "obj-6",
 									"lockeddragscroll" : 0,
-									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "f3.mix.textures.maxpat",
 									"numinlets" : 2,
@@ -11095,7 +11287,6 @@
 									"enablevscroll" : 0,
 									"id" : "obj-7",
 									"lockeddragscroll" : 0,
-									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "f3.mix.textures.maxpat",
 									"numinlets" : 2,
@@ -11120,7 +11311,6 @@
 									"enablevscroll" : 0,
 									"id" : "obj-8",
 									"lockeddragscroll" : 0,
-									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "f3.mix.textures.maxpat",
 									"numinlets" : 2,
@@ -11145,7 +11335,6 @@
 									"enablevscroll" : 0,
 									"id" : "obj-5",
 									"lockeddragscroll" : 0,
-									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "f3.mix.textures.maxpat",
 									"numinlets" : 2,
@@ -11170,7 +11359,6 @@
 									"enablevscroll" : 0,
 									"id" : "obj-4",
 									"lockeddragscroll" : 0,
-									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "f3.mix.textures.maxpat",
 									"numinlets" : 2,
@@ -11195,7 +11383,6 @@
 									"enablevscroll" : 0,
 									"id" : "obj-3",
 									"lockeddragscroll" : 0,
-									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "f3.mix.textures.maxpat",
 									"numinlets" : 2,
@@ -11713,14 +11900,13 @@
 					"enablevscroll" : 0,
 					"id" : "obj-46",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.fx.cnoise.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture", "jit_gl_texture", "jit_gl_texture" ],
-					"patching_rect" : [ 1361.0, 1880.0, 284.0, 180.0 ],
+					"patching_rect" : [ 1361.0, 1879.0, 284.0, 180.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 545.5, 911.0, 284.0, 169.0 ],
 					"varname" : "f3.fx.cnoise",
@@ -11781,7 +11967,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-61",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.fx.height-greyscale.maxpat",
 					"numinlets" : 3,
@@ -11790,7 +11975,7 @@
 					"outlettype" : [ "jit_gl_texture", "jit_gl_texture" ],
 					"patching_rect" : [ 1773.0, 1055.0, 300.0, 55.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 698.330077999999958, 419.5, 300.0, 55.0 ],
+					"presentation_rect" : [ 944.330077999999958, 508.75, 300.0, 55.0 ],
 					"varname" : "f3.fx.height-greyscale",
 					"viewvisibility" : 1
 				}
@@ -11806,7 +11991,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-60",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.prev.plane.maxpat",
 					"numinlets" : 0,
@@ -11902,7 +12086,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-42",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.vidplayer2.maxpat",
 					"numinlets" : 2,
@@ -11961,7 +12144,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-37",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.fx.height-plane.maxpat",
 					"numinlets" : 2,
@@ -11970,7 +12152,7 @@
 					"outlettype" : [ "jit_gl_texture", "jit_gl_texture" ],
 					"patching_rect" : [ 1181.0, 1034.5, 299.0, 56.252577781677246 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 698.330077999999958, 367.0, 298.597933292388916, 55.5 ],
+					"presentation_rect" : [ 944.330077999999958, 449.5, 298.597933292388916, 55.5 ],
 					"varname" : "f3.fx.height-plane",
 					"viewvisibility" : 1
 				}
@@ -12009,7 +12191,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-33",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.fx.height-spot.maxpat",
 					"numinlets" : 2,
@@ -12148,7 +12329,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-25",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.cal.file.maxpat",
 					"numinlets" : 1,
@@ -12219,7 +12399,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-19",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.in.stream.maxpat",
 					"numinlets" : 2,
@@ -12241,7 +12420,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-18",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.in.stream.maxpat",
 					"numinlets" : 2,
@@ -12349,7 +12527,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 828.5, 233.0, 119.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 45, 358, 173 ],
+						"client_rect" : [ 1057, 45, 1440, 407 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -12369,7 +12547,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-7",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.in.units.maxpat",
 					"numinlets" : 3,
@@ -12393,7 +12570,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-6",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.in.roi.maxpat",
 					"numinlets" : 2,
@@ -12494,14 +12670,13 @@
 					"enablevscroll" : 0,
 					"id" : "obj-76",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.lights.calibrate.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 427.0, 2057.0, 259.0, 219.0 ],
+					"patching_rect" : [ 591.0, 2081.0, 259.0, 219.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -12515,7 +12690,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-239",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.speech.maxpat",
 					"numinlets" : 1,
@@ -12602,7 +12776,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 565.5, 64.0, 23.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.189453999999898, 15.0, 230.490234000000044, 1078.5 ],
+					"presentation_rect" : [ 12.679687999999942, 16.0, 230.490234000000044, 1073.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0
 				}
@@ -13257,6 +13431,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-277", 0 ],
+					"source" : [ "obj-196", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-207", 1 ],
 					"source" : [ "obj-197", 0 ]
 				}
@@ -13361,6 +13542,20 @@
 					"destination" : [ "obj-256", 0 ],
 					"order" : 1,
 					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-268", 0 ],
+					"source" : [ "obj-210", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-271", 0 ],
+					"source" : [ "obj-210", 0 ]
 				}
 
 			}
@@ -13690,6 +13885,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-264", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-259", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-261", 0 ],
 					"source" : [ "obj-26", 0 ]
 				}
@@ -13711,9 +13914,38 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-264", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-263", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-267", 0 ],
+					"source" : [ "obj-264", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-52", 1 ],
+					"source" : [ "obj-265", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-267", 1 ],
+					"source" : [ "obj-266", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-169", 0 ],
 					"order" : 0,
-					"source" : [ "obj-266", 0 ]
+					"source" : [ "obj-267", 0 ]
 				}
 
 			}
@@ -13721,7 +13953,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-172", 1 ],
 					"order" : 1,
-					"source" : [ "obj-266", 0 ]
+					"source" : [ "obj-267", 0 ]
 				}
 
 			}
@@ -13734,7 +13966,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-275", 0 ],
+					"destination" : [ "obj-48", 0 ],
 					"source" : [ "obj-273", 0 ]
 				}
 
@@ -13752,6 +13984,13 @@
 					"destination" : [ "obj-276", 0 ],
 					"order" : 0,
 					"source" : [ "obj-275", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-275", 0 ],
+					"source" : [ "obj-277", 0 ]
 				}
 
 			}
@@ -13792,6 +14031,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-196", 0 ],
+					"source" : [ "obj-285", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-291", 2 ],
 					"source" : [ "obj-286", 0 ]
 				}
@@ -13800,15 +14046,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-209", 0 ],
-					"order" : 0,
-					"source" : [ "obj-287", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-46", 1 ],
-					"order" : 1,
 					"source" : [ "obj-287", 0 ]
 				}
 
@@ -13823,7 +14060,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-115", 1 ],
-					"order" : 14,
+					"order" : 15,
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -13831,7 +14068,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-163", 1 ],
-					"order" : 9,
+					"order" : 10,
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -13839,7 +14076,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-172", 2 ],
-					"order" : 12,
+					"order" : 13,
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -13847,7 +14084,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-198", 1 ],
-					"order" : 7,
+					"order" : 8,
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-210", 0 ],
+					"order" : 3,
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -13855,7 +14100,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-212", 2 ],
-					"order" : 11,
+					"order" : 12,
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -13863,7 +14108,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-226", 1 ],
-					"order" : 13,
+					"order" : 14,
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -13879,22 +14124,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-329", 1 ],
-					"order" : 4,
-					"source" : [ "obj-29", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-33", 1 ],
-					"order" : 10,
-					"source" : [ "obj-29", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-37", 1 ],
 					"order" : 5,
 					"source" : [ "obj-29", 0 ]
 				}
@@ -13902,8 +14131,24 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
+					"destination" : [ "obj-33", 1 ],
+					"order" : 11,
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 1 ],
 					"order" : 6,
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 1 ],
+					"order" : 7,
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -13927,7 +14172,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-46", 0 ],
-					"order" : 16,
+					"order" : 17,
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -13935,7 +14180,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-61", 1 ],
-					"order" : 15,
+					"order" : 16,
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -13943,7 +14188,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-72", 1 ],
-					"order" : 8,
+					"order" : 9,
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -13951,7 +14196,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-93", 0 ],
-					"order" : 3,
+					"order" : 4,
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -14088,7 +14333,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-285", 0 ],
+					"order" : 0,
+					"source" : [ "obj-313", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-311", 0 ],
+					"order" : 1,
 					"source" : [ "obj-313", 0 ]
 				}
 
@@ -14208,7 +14462,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-42", 1 ],
+					"destination" : [ "obj-265", 1 ],
 					"order" : 1,
 					"source" : [ "obj-43", 0 ]
 				}
@@ -14216,7 +14470,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-48", 1 ],
+					"destination" : [ "obj-42", 1 ],
 					"order" : 0,
 					"source" : [ "obj-43", 0 ]
 				}
@@ -14268,7 +14522,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-52", 1 ],
+					"destination" : [ "obj-275", 0 ],
 					"source" : [ "obj-48", 0 ]
 				}
 
@@ -14615,8 +14869,8 @@
 			"obj-253::obj-5" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-253::obj-53" : [ "live.gain~[4]", "live.gain~", 0 ],
 			"obj-253::obj-69" : [ "live.gain~[7]", "live.gain~", 0 ],
+			"obj-265::obj-10" : [ "loop-range[1]", "loop-range", 0 ],
 			"obj-42::obj-10" : [ "loop-range", "loop-range", 0 ],
-			"obj-48::obj-10" : [ "loop-range[1]", "loop-range", 0 ],
 			"obj-4::obj-9::obj-26" : [ "_mode[4]", "_mode", 0 ],
 			"obj-4::obj-9::obj-60" : [ "number[13]", "number", 0 ],
 			"obj-81::obj-34" : [ "live.tab", "live.tab", 0 ],
@@ -14644,412 +14898,458 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "f3.speech.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.lights.calibrate.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.in.roi.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.in.units.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Forest3.json",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/data",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.in.stream.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.cal.file.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.height-spot.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fxcombine.genjit",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/code",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.height-plane.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.black.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.vidplayer2.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.color-videoSample.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.prev.plane.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.height-greyscale.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.cnoise.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "cnoise3.genjit",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gJIT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "f3.mix.textures.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.mix.final.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.artnet.matrix.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.height.scale-slide.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.artnet.out.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.color-displace.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.prev.vis.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.color-brcosa.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.manual.board.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.unit.manual.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.preset.menu.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.height-wave.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.angles.scale.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.brownian.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.syphon.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.roi.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.trigradient.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.trigradient.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cwjr.trigradient.genjit",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/code",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.landscape.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.osc-wave-calc.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.xfade.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bypass_dummy.genjit",
-				"bootpath" : "~/Documents/Max 8/Packages/SC/code",
-				"patcherrelativepath" : "../../../../../Packages/SC/code",
+				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
+				"patcherrelativepath" : "../../../../../../Packages/SC/code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.dmx.bank.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.dmx.out.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.dmx.in.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.matrix.5x5.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sense.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.avg.vecrunning.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.sndplayer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.display.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scale_.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.simple-noise.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.int_sndplayer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.colormap.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.colormap.segmented.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.lines_with_mesh.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.dmx_morphtime.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.light_tracker.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "light_tracker.txt",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/data",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.syphon.input.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sc.texture.camera.simple.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../Packages/SC/patchers/video/texture",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hflip.genjit",
+				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
+				"patcherrelativepath" : "../../../../../../Packages/SC/code",
+				"type" : "gJIT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.fx.sinFunction.maxpat",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sc.avg.vecwindow.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/utilities",
+				"patcherrelativepath" : "../../../../../../Packages/SC/patchers/utilities",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sc.avg.window.maxpat",
+				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "shell.mxo",
 				"type" : "iLaX"
 			}
 , 			{
