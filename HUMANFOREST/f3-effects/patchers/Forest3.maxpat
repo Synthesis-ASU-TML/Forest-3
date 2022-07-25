@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 6,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1372.0, 787.0 ],
+		"rect" : [ 618.0, 87.0, 1372.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-295",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 554.0, 386.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 547.0, 373.5, 150.0, 20.0 ],
+					"text" : "Toggle For Control Inputs"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-271",
 					"maxclass" : "newobj",
@@ -201,6 +214,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-267",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "sc.texture.xfade.maxpat",
 					"numinlets" : 2,
@@ -249,6 +263,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-264",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "sc.texture.camera.simple.maxpat",
 					"numinlets" : 1,
@@ -272,6 +287,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-265",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.vidplayer2.maxpat",
 					"numinlets" : 2,
@@ -293,6 +309,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-260",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "sc.syphon",
 					"numinlets" : 0,
@@ -312,6 +329,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-266",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "sc.texture.syphon.input.maxpat",
 					"numinlets" : 1,
@@ -824,6 +842,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-26",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.light_tracker.maxpat",
 					"numinlets" : 2,
@@ -847,8 +866,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 6,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -917,8 +936,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 6,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1259,6 +1278,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-185",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "sc.dmx_morphtime.maxpat",
 					"numinlets" : 2,
@@ -1315,6 +1335,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-212",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.fx.lines_with_mesh.maxpat",
 					"numinlets" : 3,
@@ -1362,6 +1383,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-4",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.fx.colormap.maxpat",
 					"numinlets" : 2,
@@ -1388,8 +1410,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 6,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1694,8 +1716,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 6,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1871,8 +1893,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 6,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2096,8 +2118,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 6,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2705,6 +2727,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-253",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.int_sndplayer.maxpat",
 					"numinlets" : 4,
@@ -2781,6 +2804,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-255",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.simple-noise.maxpat",
 					"numinlets" : 2,
@@ -2887,6 +2911,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-219",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.display.maxpat",
 					"numinlets" : 3,
@@ -2938,6 +2963,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-193",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.sndplayer.maxpat",
 					"numinlets" : 1,
@@ -3036,6 +3062,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-194",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.matrix.5x5.maxpat",
 					"numinlets" : 1,
@@ -3084,6 +3111,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-238",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "sc.dmx.out.maxpat",
 					"numinlets" : 1,
@@ -3105,6 +3133,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-222",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "sc.dmx.bank.maxpat",
 					"numinlets" : 1,
@@ -3255,6 +3284,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-52",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "sc.texture.xfade.maxpat",
 					"numinlets" : 2,
@@ -3276,6 +3306,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-247",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.osc-wave-calc.maxpat",
 					"numinlets" : 2,
@@ -3299,8 +3330,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 6,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3460,8 +3491,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 6,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3498,26 +3529,24 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 49.500003231483447, 431.0, 152.0, 35.0 ],
-									"text" : "p0 0.188369 0.662634 0.407521"
+									"text" : "p0 0.759551 0.207885 1."
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-11",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 219.0, 385.5, 169.0, 35.0 ],
-									"text" : "p1 0.522571 0.246864 0.583323"
+									"text" : "p1 0.583335 0.617159 0.625"
 								}
 
 							}
@@ -3529,7 +3558,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 453.0, 388.0, 182.0, 22.0 ],
-									"text" : "p2 0.802085 0.656138 0.5"
+									"text" : "p2 0.249133 0.116935 0."
 								}
 
 							}
@@ -3541,20 +3570,19 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 465.0, 131.0, 165.0, 22.0 ],
-									"text" : "0.802085 0.656138 0.5"
+									"text" : "0.249133 0.116935 0."
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-8",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 266.5, 167.0, 150.0, 35.0 ],
-									"text" : "0.522571 0.246864 0.583323"
+									"text" : "0.583335 0.617159 0.625"
 								}
 
 							}
@@ -3569,8 +3597,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 6,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4040,13 +4068,13 @@
 												"name" : "AudioStatus_Menu",
 												"default" : 												{
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 														"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "color"
 													}
 
 												}
@@ -4187,8 +4215,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 6,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4421,8 +4449,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 6,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4655,8 +4683,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 6,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5055,13 +5083,13 @@
 								"name" : "AudioStatus_Menu",
 								"default" : 								{
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
 
 								}
@@ -5270,6 +5298,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-226",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.fx.landscape.maxpat",
 					"numinlets" : 2,
@@ -5401,8 +5430,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 6,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6073,8 +6102,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 6,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6118,8 +6147,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 6,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6595,8 +6624,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 6,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7064,8 +7093,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 6,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7752,6 +7781,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-198",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.fx.trigradient.maxpat",
 					"numinlets" : 2,
@@ -7823,6 +7853,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-172",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.fx.syphon.maxpat",
 					"numinlets" : 3,
@@ -7857,8 +7888,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 6,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7900,7 +7931,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 122.0, 249.916626000000008, 91.0, 22.0 ],
-									"text" : "2030.102026"
+									"text" : "2010."
 								}
 
 							}
@@ -8257,7 +8288,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 828.5, 275.0, 108.0, 22.0 ],
-					"text" : "recall 1"
+					"text" : "recall 3"
 				}
 
 			}
@@ -8272,8 +8303,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 6,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8396,8 +8427,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 6,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8547,8 +8578,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 6,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8706,6 +8737,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-329",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.fx.brownian.maxpat",
 					"numinlets" : 2,
@@ -8764,6 +8796,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-182",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.angles.scale.maxpat",
 					"numinlets" : 2,
@@ -8963,6 +8996,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-163",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.fx.height-wave.maxpat",
 					"numinlets" : 2,
@@ -9228,8 +9262,8 @@
 					"id" : "obj-119",
 					"maxclass" : "preset",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "preset", "int", "preset", "int" ],
+					"numoutlets" : 5,
+					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 1151.0, 224.0, 100.0, 40.0 ],
 					"pattrstorage" : "Forest3",
 					"presentation" : 1,
@@ -9246,6 +9280,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-118",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.preset.menu.maxpat",
 					"numinlets" : 2,
@@ -9271,8 +9306,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 6,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9622,6 +9657,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-115",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.fx.color-brcosa.maxpat",
 					"numinlets" : 2,
@@ -9657,8 +9693,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 6,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9841,8 +9877,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 6,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9977,8 +10013,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 6,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10241,6 +10277,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-72",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.fx.color-displace.maxpat",
 					"numinlets" : 2,
@@ -10264,6 +10301,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-68",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.artnet.out.maxpat",
 					"numinlets" : 2,
@@ -10311,6 +10349,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-70",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.height.scale-slide.maxpat",
 					"numinlets" : 2,
@@ -10334,6 +10373,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-69",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.artnet.matrix.maxpat",
 					"numinlets" : 2,
@@ -10478,6 +10518,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-56",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.mix.final.maxpat",
 					"numinlets" : 2,
@@ -10518,8 +10559,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 6,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -11191,6 +11232,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-9",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "f3.mix.textures.maxpat",
 									"numinlets" : 2,
@@ -11215,6 +11257,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-10",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "f3.mix.textures.maxpat",
 									"numinlets" : 2,
@@ -11239,6 +11282,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-11",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "f3.mix.textures.maxpat",
 									"numinlets" : 2,
@@ -11263,6 +11307,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-6",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "f3.mix.textures.maxpat",
 									"numinlets" : 2,
@@ -11287,6 +11332,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-7",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "f3.mix.textures.maxpat",
 									"numinlets" : 2,
@@ -11311,6 +11357,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-8",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "f3.mix.textures.maxpat",
 									"numinlets" : 2,
@@ -11335,6 +11382,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-5",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "f3.mix.textures.maxpat",
 									"numinlets" : 2,
@@ -11359,6 +11407,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-4",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "f3.mix.textures.maxpat",
 									"numinlets" : 2,
@@ -11383,6 +11432,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-3",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "f3.mix.textures.maxpat",
 									"numinlets" : 2,
@@ -11900,6 +11950,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-46",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.fx.cnoise.maxpat",
 					"numinlets" : 2,
@@ -11967,6 +12018,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-61",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.fx.height-greyscale.maxpat",
 					"numinlets" : 3,
@@ -11991,6 +12043,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-60",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.prev.plane.maxpat",
 					"numinlets" : 0,
@@ -12086,6 +12139,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-42",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.vidplayer2.maxpat",
 					"numinlets" : 2,
@@ -12144,6 +12198,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-37",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.fx.height-plane.maxpat",
 					"numinlets" : 2,
@@ -12191,6 +12246,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-33",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.fx.height-spot.maxpat",
 					"numinlets" : 2,
@@ -12329,6 +12385,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-25",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.cal.file.maxpat",
 					"numinlets" : 1,
@@ -12399,6 +12456,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-19",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.in.stream.maxpat",
 					"numinlets" : 2,
@@ -12420,6 +12478,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-18",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.in.stream.maxpat",
 					"numinlets" : 2,
@@ -12547,6 +12606,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-7",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.in.units.maxpat",
 					"numinlets" : 3,
@@ -12570,6 +12630,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-6",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.in.roi.maxpat",
 					"numinlets" : 2,
@@ -12645,6 +12706,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 758.0, 70.0, 225.0, 22.0 ]
 				}
 
@@ -12670,6 +12732,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-76",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.lights.calibrate.maxpat",
 					"numinlets" : 2,
@@ -12690,6 +12753,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-239",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "f3.speech.maxpat",
 					"numinlets" : 1,
@@ -14897,460 +14961,333 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "f3.speech.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.lights.calibrate.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.in.roi.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.in.units.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "Forest3.json",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/data",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "f3.in.stream.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.cal.file.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.fx.height-spot.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.fxcombine.genjit",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/code",
-				"patcherrelativepath" : "../code",
+				"name" : "bypass_dummy.genjit",
+				"bootpath" : "/Volumes/Development/Max 8/Max 8/Packages/SC/code",
+				"patcherrelativepath" : "../../../../../Max 8/Max 8/Packages/SC/code",
 				"type" : "gJIT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.fx.height-plane.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.fx.black.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.vidplayer2.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.fx.color-videoSample.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.prev.plane.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.fx.height-greyscale.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.fx.cnoise.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnoise3.genjit",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/code",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "f3.mix.textures.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
+				"name" : "cwjr.trigradient.genjit",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "f3.mix.final.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"name" : "f3.angles.scale.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.artnet.matrix.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.height.scale-slide.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.artnet.out.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "f3.fx.color-displace.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.prev.vis.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.fx.color-brcosa.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.manual.board.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.unit.manual.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.preset.menu.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.fx.height-wave.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.angles.scale.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.fx.brownian.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.fx.syphon.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sc.texture.roi.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.fx.trigradient.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sc.texture.trigradient.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cwjr.trigradient.genjit",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gJIT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.fx.landscape.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.osc-wave-calc.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sc.texture.xfade.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bypass_dummy.genjit",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
-				"patcherrelativepath" : "../../../../../../Packages/SC/code",
-				"type" : "gJIT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sc.dmx.bank.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sc.dmx.out.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sc.dmx.in.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.matrix.5x5.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sense.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sc.avg.vecrunning.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.sndplayer.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"name" : "f3.cal.file.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.display.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "scale_.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"name" : "f3.fx.black.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "f3.simple-noise.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"name" : "f3.fx.brownian.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "f3.int_sndplayer.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"name" : "f3.fx.cnoise.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.fx.color-brcosa.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.fx.color-displace.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.fx.color-videoSample.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.colormap.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sc.texture.colormap.segmented.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"name" : "f3.fx.height-greyscale.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.fx.height-plane.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.fx.height-spot.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.fx.height-wave.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.fx.landscape.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.lines_with_mesh.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sc.dmx_morphtime.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"name" : "f3.fx.sinFunction.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.fx.syphon.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.fx.trigradient.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.fxcombine.genjit",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gJIT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.height.scale-slide.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.in.roi.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.in.stream.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.in.units.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.int_sndplayer.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.light_tracker.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "light_tracker.txt",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sc.texture.syphon.input.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"name" : "f3.lights.calibrate.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sc.texture.camera.simple.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../Packages/SC/patchers/video/texture",
+				"name" : "f3.manual.board.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.matrix.5x5.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.mix.final.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.mix.textures.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.osc-wave-calc.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.preset.menu.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.prev.plane.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.prev.vis.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.simple-noise.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.sndplayer.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.speech.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.unit.manual.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.vidplayer2.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hflip.genjit",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
-				"patcherrelativepath" : "../../../../../../Packages/SC/code",
+				"bootpath" : "/Volumes/Development/Max 8/Max 8/Packages/SC/code",
+				"patcherrelativepath" : "../../../../../Max 8/Max 8/Packages/SC/code",
 				"type" : "gJIT",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "f3.fx.sinFunction.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sc.avg.vecwindow.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/utilities",
-				"patcherrelativepath" : "../../../../../../Packages/SC/patchers/utilities",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sc.avg.window.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/f3-effects/Forest-3/HUMANFOREST/f3-effects/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "shell.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "imp.artnet.controller.mxo",
@@ -15359,6 +15296,129 @@
 , 			{
 				"name" : "jit.gl.syphonclient.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "light_tracker.txt",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/data",
+				"patcherrelativepath" : "../data",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "sc.avg.vecrunning.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sc.avg.vecwindow.maxpat",
+				"bootpath" : "/Volumes/Development/Max 8/Max 8/Packages/SC/patchers/utilities",
+				"patcherrelativepath" : "../../../../../Max 8/Max 8/Packages/SC/patchers/utilities",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sc.avg.window.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sc.dmx.bank.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sc.dmx.in.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sc.dmx.out.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sc.dmx_morphtime.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sc.texture.camera.simple.maxpat",
+				"bootpath" : "/Volumes/Development/Max 8/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../Max 8/Max 8/Packages/SC/patchers/video/texture",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sc.texture.colormap.segmented.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sc.texture.roi.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sc.texture.syphon.input.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sc.texture.trigradient.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sc.texture.xfade.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "scale_.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sense.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "/Volumes/Development/Max Packages/Forest-3/HUMANFOREST/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ],
 		"autosave" : 0
